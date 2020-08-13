@@ -1,0 +1,73 @@
+{
+    "name":"LUCIUS PRETORIAN",
+    "jsonName":"lucius_pretorian",
+    "scale":8,
+    "scaleName":"IMMENSUS",
+    "points":290,
+    
+    "command":4,
+    "ballisticSkill":3,
+    "speedNormal":6,
+    "speedBoosted":9,
+    "weaponSkill":4,
+    "manoeuvreNormal":2,
+    "manoeuvreBoosted":3,
+    "servitorClades":4,
+    
+    "armMountName":"REAVER ARM",
+    "carapaceMountName":"REAVER CARAPACE",
+    
+    "plasmaReactorPoints":6,
+    "plasmaReactorPinColors":["green", "green", "yellow", "yellow", "orange", "red"],
+    "voidShieldPoints":5,
+    "voidShieldModifiers":["3+", "3+", "4+", "4+", "X"],
+    "voidShieldPinColors":["green", "yellow", "yellow", "orange", "red"],
+    
+    "headPoints":6,
+    "headHitModifiers":["", "", "", "+1", "+2", "+3"],
+    "headHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "headDirectHitMin":11,
+    "headDirectHitMax":13,
+    "headDevastatingHitMin":14,
+    "headDevastatingHitMax":16,
+    "headCriticalHit":17,
+    "headCriticalPoints":3,
+    "headCriticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
+    "headCriticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"],
+    
+    "bodyPoints":7,
+    "bodyHitModifiers":["", "", "", "+1", "+1", "+2", "+3"],
+    "bodyHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "bodyDirectHitMin":10,
+    "bodyDirectHitMax":12,
+    "bodyDevastatingHitMin":13,
+    "bodyDevastatingHitMax":14,
+    "bodyCriticalHit":15,
+    "bodyCriticalPoints":3,
+    "bodyCriticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
+    "bodyCriticalBoonsRefs":["Reactor Leak", "VSG Burnout"],
+    
+    "legsPoints":7,
+    "legsHitModifiers":["", "", "", "+1", "+2", "+3", "+3"],
+    "legsHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "legsDirectHitMin":11,
+    "legsDirectHitMax":12,
+    "legsDevastatingHitMin":13,
+    "legsDevastatingHitMax":14,
+    "legsCriticalHit":15,
+    "legsCriticalPoints":3,
+    "legsCriticalBoons":["Stabilisers Damaged", "Stabilisers Damaged\nLocomotors Seized", "Immobilised"],
+    "legsCriticalBoonsRefs":["Stabilisers Damaged", "Locomotors Seized", "Immobilised"],
+    
+    "customTraits":"WILL TO SURVIVE: Add 1 to all Repair rolls made by this Titan.",
+    
+    "hasLeftArmWeapon":true,
+    "hasRightArmWeapon":true,
+    "hasCarapaceWeapon":true,
+    
+    "leftWeaponFixed":null,
+    "carapaceWeaponFixed":null,
+    "rightWeaponFixed":null
+}
+
+

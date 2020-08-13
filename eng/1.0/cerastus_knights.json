@@ -1,0 +1,101 @@
+{
+    "name":"CERASTUS KNIGHT BANNER",
+    "jsonName":"cerastus_knights",
+    "scale":4,
+    "scaleName":"GRANDIS",
+    "points":0,
+    
+    "command":5,
+    "ballisticSkill":4,
+    "speedNormal":12,
+    "weaponSkill":3,
+    "structurePoints":5,
+    "structurePinColors":["green", "green", "orange", "orange", "red"],
+    
+    "directHitMin":9,
+    "directHitMax":12,
+    "devastatingHitMin":13,
+    "devastatingHitMax":15,
+    "criticalHit":16,
+    
+    "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Cerastus Knights are not affected by Difficult terrain or Dangerous terrain.\n\nKNIGHT-LANCER ION GAUNTLET SHIELD: If the Banner contains one or more Cerastus Knight-Lancer, improve the Banner's Ion Shield save roll by 1.",
+    
+    "weaponsRequirements":"CERASTUS WEAPON",
+    "availableModels":[
+        {
+            "name":"Cerastus Knight Scion Martial",
+            "cost":60,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[
+                {
+                    "name":"Cerastus Knight Acheron",
+                    "enabled":false,
+                    "cost":25
+                },
+                {
+                    "name":"Cerastus Knight Castigator",
+                    "enabled":false,
+                    "cost":20
+                },
+                {
+                    "name":"Cerastus Knight Lancer",
+                    "enabled":false,
+                    "cost":20
+                }
+            ]
+        }
+    ],
+    "includedModels":[
+        {
+            "name":"Cerastus Knight Lord Scion",
+            "cost":70,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[
+                {
+                    "name":"Cerastus Knight Acheron",
+                    "enabled":false,
+                    "cost":25
+                },
+                {
+                    "name":"Cerastus Knight Castigator",
+                    "enabled":false,
+                    "cost":20
+                },
+                {
+                    "name":"Cerastus Knight Lancer",
+                    "enabled":false,
+                    "cost":20
+                }
+            ]
+        },
+        {
+            "name":"Cerastus Knight Scion Martial",
+            "cost":60,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[
+                {
+                    "name":"Cerastus Knight Acheron",
+                    "enabled":false,
+                    "cost":25
+                },
+                {
+                    "name":"Cerastus Knight Castigator",
+                    "enabled":false,
+                    "cost":20
+                },
+                {
+                    "name":"Cerastus Knight Lancer",
+                    "enabled":false,
+                    "cost":20
+                }
+            ]
+        }
+    ]
+}
+

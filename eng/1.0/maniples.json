@@ -1,0 +1,52 @@
+[
+    {
+        "name":"None (detached units group)",
+        "ref":"None",
+        "mandatory":[],
+        "optional":[],
+        "traits":[],
+        "units":[]
+    },
+    {
+        "name":"Axiom",
+        "ref":"Axiom",
+        "mandatory":["warlord", "reaver", "warhound"],
+        "optional":["reaver", "warhound"],
+        "traits":[
+            {
+                "name":"Might of the Omnissiah",
+                "ref":"Might of the Omnissiah",
+                "description":"If a Titan from this maniple fails a Command check when an order is issued to it in the Issue Orders step of the Strategy phase, orders can still be issued to the rest of the Titans in this maniple. Command checks must still be made for each."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Myrmidon",
+        "ref":"Myrmidon",
+        "mandatory":["warlord", "warlord", "reaver"],
+        "optional":["reaver", "warhound"],
+        "traits":[
+            {
+                "name":"Overwhelming Firepower",
+                "ref":"Overwhelming Firepower",
+                "description":"When issuiung a First Fire or Split Fire order to Titans from this maniple, the Command check will always succeed on a roll of 2+, regardless of modifiers."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Venator Light",
+        "ref":"Venator Light",
+        "mandatory":["reaver", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Opportunistic Strike",
+                "ref":"Opportunistic Strike",
+                "description":"If an enemy unit's shields are collapse by an attack made by a Warhound Titan from this maniple, the Reaver Titan in this maniple can immediately make an attack against it with one of it's weapons, following the Combat sequence. This means that the Reaver can potentially attack several times in the same phase, as well as attacking normally when it is activated. However, if the Reaver is prevented from attacking in the Combat phase - it has Striding Speed or Shutdown orders, for example - it cannot make these bonus attacks."
+            }
+        ],
+        "units":[]
+    }
+]

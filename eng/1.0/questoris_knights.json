@@ -1,0 +1,106 @@
+{
+    "name":"QUESTORIS KNIGHT BANNER",
+    "jsonName":"questoris_knights",
+    "scale":3,
+    "scaleName":"GRANDIS",
+    "points":0,
+    
+    "command":6,
+    "ballisticSkill":4,
+    "speedNormal":10,
+    "weaponSkill":3,
+    "structurePoints":4,
+    "structurePinColors":["green", "orange", "orange", "red"],
+    
+    "directHitMin":9,
+    "directHitMax":12,
+    "devastatingHitMin":13,
+    "devastatingHitMax":15,
+    "criticalHit":16,
+    
+    "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Questoris Knights are not affected by Difficult terrain or Dangerous terrain.\n\nMELTAGUN: When the Banner is activated in the Combat phase, each Knight with a meltagun upgrade can target an enemy unit within 3\". That unit suffers a Strength 8 hit.",
+    
+    "weaponsRequirements":"QUESTORIS WEAPON",
+    "availableModels":[
+        {
+            "name":"Questoris Knight Scion Martial",
+            "cost":35,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"MELTAGUN",
+                    "enabled":false,
+                    "cost":15
+                },
+                {
+                    "name":"STORMSPEAR ROCKET POD",
+                    "enabled":false,
+                    "cost":15
+                }
+            ]
+        }
+    ],
+    "includedModels":[
+        {
+            "name":"Questoris Knight Lord Scion",
+            "cost":50,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"MELTAGUN",
+                    "enabled":false,
+                    "cost":15
+                },
+                {
+                    "name":"STORMSPEAR ROCKET POD",
+                    "enabled":false,
+                    "cost":15
+                }
+            ]
+        },
+        {
+            "name":"Questoris Knight Scion Martial",
+            "cost":35,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"MELTAGUN",
+                    "enabled":false,
+                    "cost":15
+                },
+                {
+                    "name":"STORMSPEAR ROCKET POD",
+                    "enabled":false,
+                    "cost":15
+                }
+            ]
+        },
+        {
+            "name":"Questoris Knight Scion Martial",
+            "cost":35,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"MELTAGUN",
+                    "enabled":false,
+                    "cost":15
+                },
+                {
+                    "name":"STORMSPEAR ROCKET POD",
+                    "enabled":false,
+                    "cost":15
+                }
+            ]
+        }
+    ]
+}
+
+

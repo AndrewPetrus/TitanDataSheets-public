@@ -1,0 +1,127 @@
+[
+    {
+        "name":"Barrage",
+        "ref":"Barrage",
+        "description":"Barrage weapons can fire indirectly at a target to which they do not have line of sight, as long as the target is still within range and arc. Firing indirectly confers a -2 modifier on the Hit roll."
+    },
+    {
+        "name":"Blast",
+        "ref":"Blast",
+        "description":"Before rolling To Hit with a Blast weapon, place the 3\" Blast marker or 5\" Blast marker (determined by the number in brackets) so that its central hole is completely over the target model's base and within line of sight of the attacking weapon, and no part of the marker is touching any friendly models. Then, check to see whether the central hole is within range and arc. If it is not within arc, the shot is wasted and has no effect. If it is not within range, do not roll To Hit. Instead, draw an imaginary 1\" wide line between the chosen target and the attacking unit, placing the central hole of the Blast marker along this line a number of inches away from the attacking unit equal to the weapon’s Long range characteristic – each shot scatters as follows:\n\nOnce the marker has been placed, roll To Hit as normal. If the roll is successful, the marker is not moved; otherwise, roll the Scatter dice and move the Blast marker D10\" in the direction that is shown - if a Hit is rolled, use the small arrow to determine the direction of scatter. Note that the Blast marker can scatter out of the Titan's line of sight, or out of the weapon's range or arc - this represents the shot ricocheting or blasting clear through intervening terrain. The centre of the firing Titan's base should still be used as a reference point to determine which of the target's arcs is hit.\n\nWhether or not the marker moves, each model that is touched by the marker is hit once. If the central hole of the Blast marker is fully over a model's base, that model is hit twice.\n\nIf a Blast weapon has a Dice value of 2 or more, make each Hit roll separately (scattering any missed shots individually). If more than one model is hit, the attacking player chooses the order in which to resolve them. Blast weapons cannot make Targeted Attacks."
+    },
+    {
+        "name":"Carapace",
+        "ref":"Carapace",
+        "description":"Some Titans carry weapons high up on their carapace - usually long range support weapons with the firepower to level a hab-block in moments. Carapace weapons cannot target units that are within a number of inches equal to the firing unit's Scale, unless the target is at least the same Scale as the attacker. For example, a Reaver (Scale 8) cannot attack units within 8\" with its carapace weapon, unless the target unit is of at least Scale 8."
+    },
+    {
+        "name":"Concussive",
+        "ref":"Concussive",
+        "description":"Some munitions produce a concussive blast that can cause even the largest Titan to stagger. If an attack from a Concussive weapon scores any hits on a Titan that are not deflected by its shields, roll a D6. On a 1-2, the target pivots 45° to the left; on a 3-4, it moves D3\" directly away from the attacking unit without changing its facing; on a 5-6, it pivots 45° to the right. If the Titan suffers Catastrophic Damage as a result of the hit, roll to see if the Titan is turned or moved before rolling on the Catastrophic Damage table. In the Advanced Rules, a Knight Banner that suffers any Direct, Devastating or Critical Hits from a Concussive weapon is automatically Shaken instead (see Rulebook page 47)."
+    },
+    {
+        "name":"Draining",
+        "ref":"Draining",
+        "description":"Draining weapons put a great strain on the plasma reactor of the Titan that fires them. Before attacking with a Draining weapon, the Titan's reactor must be pushed. A unit that does not have a plasma reactor cannot use a Draining weapon. Some weapons have (Draining) after another trait - this means that they do not have the trait by default, but if they push the plasma reactor before attacking with the weapon, it gains that trait for the duration of the attack."
+    },
+    {
+        "name":"Shieldbane",
+        "ref":"Shieldbane",
+        "description":"These weapons are capable of tearing clean through even the largest void shields. Any Shield saves made against Shieldbane weapons have a -1 modifier."
+    },
+    {
+        "name":"Rapid",
+        "ref":"Rapid",
+        "description":"Rapid weapons spit an overpowering stream of shots, saturating the target with weapons fire. For each Hit roll of 6 when attacking with a Rapid weapon, it causes 2 hits rather than 1. If a roll of 6 To Hit was required, this rule has no effect."
+    },
+    {
+        "name":"Firestorm",
+        "ref":"Firestorm",
+        "description":"Firestorm weapons unleash gouts of blazing promethium or some other volatile fuel. Instead of rolling To Hit with a Firestorm weapon, place the Flame template so that the narrowest part is touching the end of the firing weapon and the centre of the wide end is within the weapon's firing arc. It cannot be placed so that it is touching any friendly units. The closest model to the firing unit that is touched by the template suffers a number ofhits equal to the weapon's Dice value; each other model that is touched by the template (except the firing model!) suffers one hit. Note that it is not necessary to make the Hit rolls - these hits are automatic. Firestorm weapons cannot make Targeted Attacks."
+    },
+    {
+        "name":"Fusion",
+        "ref":"Fusion",
+        "description":"Fusion weapons generate beams of incredible heat which cause even the thickest armour to run like wax at close quarters. If the target of a Fusion weapon is within Short range, roll a D10 rather than a D6 for the Armour roll"
+    },
+    {
+        "name":"Limited",
+        "ref":"Limited",
+        "description":"Some weapons are so enormous or power-hungry that a Titan can only carry enough ammunition for a few shots. A Limited weapon can only be used a number of times equal to the number in brackets - after this it is expended and cannot be used to make any more attacks for the rest of the battle."
+    },
+    {
+        "name":"Maximal Fire",
+        "ref":"Maximal Fire",
+        "description":"Some weapons, especially those such as plasma weaponry, can draw additional power from the Titan's reactor to increase their destructive potential. Before making a Hit roll with a weapon with this trait, the controlling player can declare that it will fire on Maximal Fire mode. If they do so, the weapon's Strength is increased by 2. However, for each Hit roll of a 1 (before any modifiers or re-rolls), increase the Titan's Reactor level by 1."
+    },
+    {
+        "name":"Melee",
+        "ref":"Melee",
+        "description":"Titans are sometimes fitted with massive claws, fists or chainblades, allowing the Princeps to take matters into their own hands at close quarters. When attacking with a Melee weapon, the controlling player can always choose the target location (as though they were making a Targeted Attack, but without the To Hit modifier)."
+    },
+    {
+        "name":"Ordnance",
+        "ref":"Ordnance",
+        "description":"Ordnance weapons fire high calibre explosive shells which can cause significant damage to an unshielded target. When attacking with an Ordnance weapon, Armour rolls of 1 can be re-rolled."
+    },
+    {
+        "name":"Paired",
+        "ref":"Paired",
+        "description":"Sometimes, a Titan will carry a pair of weapons, slaved to fire together at the same target. Check the line of sight from each ofthe weapons separately; if only one has line ofsight, the weapon's Dice value is halved. If the target is obscured from the point of view of only one weapon (see Rulebook page 33), half of the dice rolled suffer the To Hit modifier for an obscured target."
+    },
+    {
+        "name":"Quake",
+        "ref":"Quake",
+        "description":"Quake weapons strike their target with such force that the very ground ruptures and shakes. If a unit is hit by a Quake cannon and the hit is not deflected by its shields, it is caught in the seismic blastwave. Until the end of the following Movement phase, the target's default and boosted Speed values are halved (rounding down)."
+    },
+    {
+        "name":"Rending",
+        "ref":"Rending",
+        "description":"Rending weapons have the potential to cause horrific damage if they strike true. If the Armour roll for a Rending weapon is 6, roll a D3 and add it to the result."
+    },
+    {
+        "name":"Voidbreaker",
+        "ref":"Voidbreaker",
+        "description":"Although Voidbreaker weapons are unlikely to cause any physical damage to a target, this does not matter - their purpose is the disruption of void shields, pure and simple. If a Voidbreaker weapon hits a target with active void shields, the target's controlling player must make a number of additional saves as shown by the number in brackets after the trait."
+    },
+    {
+        "name":"Vortex",
+        "ref":"Vortex",
+        "description":"Vortex weapons make use of bewildering technology to open an unstable warp rift at the target point. They follow use all of the rules for Blast weapons, but use the 3\" Vortex template instead. Each model that is touched by the template suffers D6 Strength 10 hits, bypassing void shields.\n\n After resolving the attack, leave the Vortex template where it is. In the End phase of each turn, the template is moved D6\" in a random direction, hitting anything it touches as it moves. If a Hit is rolled, the template is removed instead."
+    },
+    {
+        "name":"Warp",
+        "ref":"Warp",
+        "description":"Warp weapons, most famously warp missiles, are fired in realspace but translate to the Warp for the majority of their flight, only returning to reality as they reach their target. If an attack made by a Warp weapon hits it's target, make a Location roll (or choose a location if making a Targeted Attack). Then, regardless of whether the target is shielded, roll a D6. On a result of 1,the target location loses 1 Structure point. On a result of 2-3, the target location loses D3 Structure points. On a result of 4-6, the target location suffers Critical Damage.\nIf the target location is a weapon, on a 1-3 the weapon is disabled. If the weapon is already disabled, it detonates. On a 4-6 the weapon is disabled and the Body loses 1 Structure point. If the weapon is already disabled, it detonates and the Body loses 1 Structure point."
+    },
+    {
+        "name":"Beam",
+        "ref":"Beam",
+        "description":"When resolving an attack from a Beam weapon, do not roll To Hit. Instead, pick a target and draw an imaginary straight line1mm wide from the weapon up to its maximum range; the line must cross the base of the target at the point closest to the firing model. The closest unit to the firing unit whose base is under the line suffers a number of hits equal to the weapon's Dice value. If that unit is destroyed, the next closet unit suffers a number of hits equal to the weapon's Dice value minus the number in brackets after the trait, to a minimum of 0. Continue these steps until a unit is not destroyed, there are no units left underneath the line, or the weapon's Dice value has been reduced too. Beam weapons can only make Targeted Attacks against the closest unit - randomly determine the location for any subsequent unit hit by a Beam weapon.\nFor the purposes of determining the closest unit that is hit, any piece of terrain underneath the line counts as a unit. If a piece of terrain underneath the line is the closest 'unit', the Beam carries on as if it had destroyed an enemy unit, i.e., reduce the Dice value and resolve hits against the next unit down the line. If using the Destroying Terrain special rule (see page 52 of the rulebook), the terrain takes hits as normal however the beam carries on after resolving these even ifthe building is not destroyed, reducing the Dice value as if it had destroyed an enemy unit."
+    },
+    {
+        "name":"Impale",
+        "ref":"Impale",
+        "description":"After resolving an attack from an Impale weapon against a Titan, do not make an Armour roll. Instead, roll a D6 if the attack hit, adding the Strength of the weapon. If resolving an attack from an Impale weapon as part of a Coordinated Strike, resolve the attacks of all contributing Titans first, making a note ofhow many attacks from Impale weapons successfully hit. Then roll a D6, adding the Strength value of the Impale weapon, using the highest Strength value of all contributing weapons, and apply a +1 modifier for each Impale weapon beyond the first that successfully hit. If the total of the roll is equal to the target unit's Scale, roll a D6. On a 1-3, the target unit turns 90° to its right. On a 4-6, the target unit turns 90° to its left. If the total of the roll is higher than the target unit's Scale, the target unit turns as described above and then immediately suffers D3+r Devastating Hits to its Legs. If the target unit suffers Catastrophic Damage as a result of this attack, do not roll on the Catastrophic Damage table - the target unit automatically suffers the Laid Low result instead. If the total of the roll is lower than the target unit's Scale, or a natural I is rolled, each unit contributing to the attack immediately suffers a Devastating Hit to their Legs and a S7 hit against any Impale weapons that successfully hit as part of the Coordinated Strike.\nAttacks made by Impale weapons bypass void shields."
+    },
+    {
+        "name":"Psi",
+        "ref":"Psi",
+        "description":"When resolving an attack from a Psi weapon, any hits that are caused bypass void shields. Psi weapons can be affected by certain special rules, such as The Emperor's Mercy result from the Psi-Titan Psychic Manifestation table. In addition, when resolving an attack from a Psi weapon against a Corrupted Titan or Corrupted Knight, increase the Strength ofthe weapon by 2."
+    },
+    {
+        "name":"Shock",
+        "ref":"Shock",
+        "description":"If an attack from a Shock weapon causes a Direct, Devastating or Critical Hit on a Titan, roll a D6. On a 4+, the Titan is immediately issued a Shutdown Order, replacing any order it already has. Any Shutdown Order received due to an attack from a Shock weapon is removed during the End phase of the round it was issued."
+    },
+    {
+        "name":"Specialised",
+        "ref":"Specialised",
+        "description":"A specialised weapon relies upon expendable or delicate machinery, making it difficult to repair during battle. Unless otherwise stated, a disabled Speciahsed weapon cannot be repaired."
+    },
+    {
+        "name":"Taxing",
+        "ref":"Taxing",
+        "description":"After resolving the effects of an attack with a Taxing weapon, roll a Reactor dice for the Titan and apply the result as normal. If the Reactor roll shows the Machine Spirit symbol, the Titan's Machine Spirit is not Awakened. Instead, roll on the Psychic Manifestation table."
+    }
+]

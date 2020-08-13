@@ -1,0 +1,114 @@
+[
+    {
+        "name":"Detached units",
+        "ref":"None",
+        "maniples":[],
+        "units":[],
+        "traits":[],
+        "wargear":[],
+        "personalTraits":[],
+        "stratagems":[]
+    },
+    {
+        "name":"Legio Gryphonicus",
+        "ref":"Legio Gryphonicus",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Lust for Glory",
+                "ref":"Lust for Glory",
+                "description":"After both sides have deployed, a player commanding a Legio Gryphonicus battlegroup can declare that any of their Titans will claim an enemy Titan as a target. Declare out loud which Titan is making the claim and their intended target, and write both down. If a Titan attacks its intended target, the controlling player can re-roll Hit rolls of 1, and add 1 to the result of any Armour rolls. However, if another Titan attacks the intended target then the claim is forfeit and this rule no longer applies."
+            },
+            {
+                "name":"Mainstay of the Titan Legion",
+                "ref":"Mainstay of the Titan Legion",
+                "description":"When assembling a Legio Gryphonicus maniple, players can select up to one Reaver Titan in place of a Warlord Titan or Warhound Titan."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Enhanced Auspex Relays",
+                "ref":"Enhanced Auspex Relays",
+                "description":"Any Legio Gryphonicus Warhound can be equipped with enhanced auspex relays at a cost of +10 points. Whenever a Legio Gryphonicus Titan makes an attack, it can measure the distance to any targets that are within 12\" of a friendly Warhound equipped with enhanced auspex relays before declaring its target."
+            },
+            {
+                "name":"Gravatus Plating",
+                "ref":"Gravatus Plating",
+                "description":"A Legio Gryphonicus Reaver that is chosen as part of a maniple in place of a Warlord Titan (as per the Mainstay of the Titan Legion, rule above) can be fitted with gravatus plating at a cost of +20 points. This increases the Armour value of the Reaver's body and legs by I point each, but subtracts 1 from its default and boosted Speed characteristics"
+            },
+            {
+                "name":"Motive Sub-reactors",
+                "ref":"Motive Sub-reactors",
+                "description":"A Legio Gryphonicus Reaver which is chosen as part of a maniple in place of a Warhound Titan (as per the Mainstay of the Titan Legion found on rulebook page 89) can be fitted with motive sub-reactors at a cost of +25 points. This allows the Reaver to use its boosted Speed and Manoeuvre characteristics without pushing its reactor. However, each time the Titan suffers a Critical Hit to its Legs, roll a D6. On a result of 3 or less, its Reactor level is increased by 1."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Reckless Maverick",
+                "ref":"Reckless Maverick",
+                "description":"Once per battle, the Princeps Seniores' Titan can be activated a second time in the Movement phase or Combat phase. After doing so, advance the Titan's Reactor level three times."
+            },
+            {
+                "name":"Master Duelist",
+                "ref":"Master Duelist",
+                "description":"Failed Hit rolls for the Princeps Seniores' Titan can be re-rolled when it is making attacks against a target which is within 8\"."
+            },
+            {
+                "name":"Hunter without Equal",
+                "ref":"Hunter without Equal",
+                "description":"Re-roll any failed Hit rolls, not just Hit rolls of 1, when the Princeps Seniores' Titan attacks a target it has claimed (see the Lust for Glory rule on rulebook page 89)."
+            }
+        ],
+        "stratagems":[]
+    },
+    {
+        "name":"Legio Tempestus",
+        "ref":"Legio Tempestus",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Glory in Death",
+                "ref":"Glory in Death",
+                "description":"Before making a Catastrophic Damage roll for a Legio Tempestus Titan, make a Command check for it. If the test is passed, the Titan can immediately attack with one of its weapons (following the Combat Sequence) or with all of its weapons if the test is passed by 3 or more."
+            },
+            {
+                "name":"Fury of the Machine",
+                "ref":"Fury of the Machine",
+                "description":"When making an Awakened Machine Spirit roll for a Legio Tempestus Titan, re-roll any results of 1, 2 or 3. If the re-roll is a 1, 2 or 3, the result stands."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Chasmata Pattern Laser Destructors",
+                "ref":"Chasmata Pattern Laser Destructors",
+                "description":"This enhanced technology, based on archaeotech found near the Titan Legion's fortress on Mars, adds 3\" to the weapon's Short range and 6\" to its Long range."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Adamantium Resolve",
+                "ref":"Adamantium Resolve",
+                "description":"Once per battle, at any point, the controlling player can remove Shutdown orders from the Princeps Seniores' Titan, even as the Shutdown order is issued, effectively cancelling it."
+            },
+            {
+                "name":"Storm-born",
+                "ref":"Storm-born",
+                "description":"When a Titan in the Princeps Seniores' maniple that has Charge orders moves in the Movement phase, it uses its boosted Speed value without having to push its reactor."
+            },
+            {
+                "name":"Defiant Warrior",
+                "ref":"Defiant Warrior",
+                "description":"If the Princeps Seniores' Titan's void shields have collapsed, Hit rolls of 1 for its attacks can be re-rolled."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Combat Drop (3)",
+                "ref":"Combat Drop",
+                "description":"When a player chooses this Stratagem, they must secretly write down the name of one of their Titans which has a Scale of 6 or lower. Play this Stratagem at the start of deployment to set that unit to one side and state that it is being held in orbit (it is not deployed with the rest of the battlegroup). Declare (and write down) a round between rounds 2-4 - this is the round in which its dropship is aiming to deploy the Titan to the battlefield.\nAt the beginning of the Movement phase of the chosen round, roll a D10. If the result is lower than the Titan's Scale, it arrives. Otherwise the Titan is delayed and will arrive at the start of the following Movement phase instead.\nWhen the Titan arrives, place it anywhere on the battlefield that is not within 1\" of another model or terrain feature, then scatter it D6\". Once it has been scattered, roll a D3. On a 1-2, it makes a 45° turn to the left. On a 3-4, it stays where it is, and on a 5-6, it makes a 45° turn to the right. If the Titan scatters or turns into any terrain, it stops before moving into it and then suffers D6 Strength 9 hits.\nA Titan that arrives from orbit cannot be activated in any of the phases of the current round, as it is deploying from its dropship. It can, however, be targeted by attacks as normal."
+            }
+        ]
+    }
+]

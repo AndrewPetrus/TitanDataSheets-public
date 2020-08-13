@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Damage Effects",
+        "ref":"Damage Effects",
+        "description":"If the damage result is not high enough to cause a Direct Hit, it causes a Superficial Hit with no effect."
+    },
+    {
+        "name":"Direct Hit",
+        "ref":"Direct Hit",
+        "description":"When a location suffers a Direct Hit, it loses a Structure point. If it has none left to lose, it suffers Critical Damage instead."
+    },
+    {
+        "name":"Devastating Hit",
+        "ref":"Devastating Hit",
+        "description":"When a location suffers a Devastating Hit, it loses two Structure points. If the location does not have two Structure points remaining, it loses any Structure points it has left and then suffers Critical Damage."
+    },
+    {
+        "name":"Critical Hit",
+        "ref":"Critical Hit",
+        "description":"When a location suffers a Critical Hit, it suffers Critical Damage then loses two Structure points. If the location does not have two Structure points remaining, it loses any Structure points it has left and then suffers Critical Damage again."
+    }
+]

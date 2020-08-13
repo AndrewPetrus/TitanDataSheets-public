@@ -1,0 +1,42 @@
+[
+    {
+        "name":"MIU Feedback",
+        "ref":"MIU Feedback",
+        "description":"The mind impulse unit has been hit, disrupting the crew's link to the manifold. Any Command checks made for the Titan have a -2 modifier."
+    },
+    {
+        "name":"Moderati Wounded",
+        "ref":"Moderati Wounded",
+        "description":"The moderati overseeing the gunnery crews has been hit. Any Hit rolls made for the Titan's attacks have a -1 modifier."
+    },
+    {
+        "name":"Princeps Wounded",
+        "ref":"Princeps Wounded",
+        "description":"The attack has grievously wounded the Princeps, who is at risk of passing out. At the start of each Strategy phase, roll a D6. On a result of 1, the Titan takes Shutdown orders. In addition, the Titan automatically fails any Command checks it makes."
+    },
+    {
+        "name":"Reactor Leak (X)",
+        "ref":"Reactor Leak",
+        "description":"The Titan's reactor containment fields are failing. In each End phase, advance the Titan's Reactor Status marker a number of times as shown in the brackets."
+    },
+    {
+        "name":"VSG Burnout",
+        "ref":"VSG Burnout",
+        "description":"The Titan's void shield generators have burned out - its void shields collapse immediately. The Titan cannot use 'Raise Shields' Repair Actions until this damage has been repaired."
+    },
+    {
+        "name":"Stabilisers Damaged",
+        "ref":"Stabilisers Damaged",
+        "description":"The Titan staggers as its stabilisers struggle to keep it upright. In each End phase, roll a D6 for the Titan. On a 1-3, it turns 45° to the left. On a 4-6, it turns 45° to the right."
+    },
+    {
+        "name":"Locomotors Seized",
+        "ref":"Locomotors Seized",
+        "description":"Massive gears within the Titan's legs grind as it tries to move. The Titan's Speed and Manoeuvre characteristics (both the normal and boosted values) are halved, rounding down. If this reduces a normal value too, the Titan must push the reactor to use the boosted value if it wishes to move/turn."
+    },
+    {
+        "name":"Immobilised",
+        "ref":"Immobilised",
+        "description":"The Titan's legs and torso are frozen in place. It cannot move or make any turns."
+    },
+]
