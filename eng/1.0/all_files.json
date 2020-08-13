@@ -1,0 +1,32 @@
+{
+    "version":"1.0",
+    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.0/",
+    "files":[
+        "acastus_knights.json",
+        "belator_magno.json",
+        "cerastus_knights.json",
+        "damage_effects.json",
+        "dawn_of_enlightenment.json",
+        "hammer_of_tyrants.json",
+        "hits.json",
+        "iben_faruk.json",
+        "ignis_ferrus.json",
+        "iracundos.json",
+        "legions.json",
+        "lucius_pretorian.json",
+        "maniples.json",
+        "mantellum_fulmen.json",
+        "meta.json",
+        "nemesis.json",
+        "penumbral_reaper.json",
+        "profiles.json",
+        "questoris_knights.json",
+        "reaver.json",
+        "vestiti_ferrus.json",
+        "warhound.json",
+        "warlord_sinister.json",
+        "warlord.json",
+        "weapon_traits.json",
+        "weapons.json"
+    ]
+}
