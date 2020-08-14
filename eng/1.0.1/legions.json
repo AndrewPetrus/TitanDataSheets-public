@@ -112,7 +112,7 @@
         ]
     },
     {
-        "name":"Legio Crucius (Warmongers)",
+        "name":"Legio Crucius",
         "ref":"Legio Crucius",
         "maniples":[],
         "units":[],
@@ -158,5 +158,53 @@
             }
         ],
         "stratagems":[]
+    },
+    {
+        "name":"Legio Fortidus",
+        "ref":"Legio Fortidus",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Children of Mars",
+                "ref":"Children of Mars",
+                "description":"Legio Fortidus Titans never suffer penalties to their Command checks and may ignore effects that force them to re-roll successful Command checks. Knight Banners bonded to Legio Fortidus may re-roll Command checks to avoid becoming Shaken provided they are within line ofsight ofat least one Legio Fortidus Battle Titan."
+            },
+            {
+                "name":"Lost Sons",
+                "ref":"Lost Sons",
+                "description":"A Legio Fortidus battlegroup may alter one of the mandatory Titan components of any or all of its maniples. Note that for the purposes of the maniple's rules, the replacement Titan still counts as the Titan type it replaced (i.e., ifa Legio Fortidus Venator maniple replaced one of che maniple's mandatory Warhound Titans with a Reaver Titan, the replacement Reaver Titan would still count as a Warhound for the Opportunistic Strike special rule and so not gain extra attacks against a Titan whose shields had been collapsed by a Warhound)."
+            }
+        ],
+        "wargear":[],
+        "personalTraits":[
+            {
+                "name":"Broken by Treachery",
+                "ref":"Broken by Treachery",
+                "description":"When targeting a Titan with a Scale equal or larger than the Princeps' own Titan, you may re-roll the dice for its first attack roll of the game. Note that in the case of weapons with multiple arrack dice, all of the dice must be re-rolled or none of them."
+            },
+            {
+                "name":"Immortal of Mars",
+                "ref":"Immortal of Mars",
+                "description":"The Princeps counts the effects of Critical Damage to their Titan's Head as one level lower than it is (i.e., Moderati Wounded and Princeps Wounded counts a Moderati Wounded and MIU Feedback, while Moderati Wounded and MIU Feedback counts only as MIU Feedback, while MIU Feedback alone is ignored)."
+            },
+            {
+                "name":"Soldier of the Crusade",
+                "ref":"Soldier of the Crusade",
+                "description":"The presence of the Princeps adds one additional Stratagem point co their battlegroup that may be used before the battle co purchase Stratagems."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"For the Red Planet (2)",
+                "ref":"For the Red Planet",
+                "description":"This Stratagem can be purchased by any Legio Fortidus player. The Dauntless player may reveal this Stratagem when activating a Titan. Until the beginning of the following game round, the Titan ignores the damage effects of Critical Damage to its Head, Body or Legs, as chosen by the player when the Stratagem is revealed."
+            },
+            {
+                "name":"Red Skies (1)",
+                "ref":"Red Skies",
+                "description":"This Stratagem can be purchased by any Legio Fortidus player. The Dauntless player may reveal this Stratagem when one of their Titans suffers a Magazine Detonation or Catastrophic Meltdown result on the Catastrophic Damage table (see page 36 of the Adeptus Titanicus rulebook). When resolving the Catastrophic Damage effects, add 5 to the Titan's Scale."
+            }
+        ]
     }
 ]
