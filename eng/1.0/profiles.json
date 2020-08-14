@@ -1,21 +1,25 @@
 [
     {
         "categoryName":"Titans",
+        "unitType":"titans",
         "jsonFileNames":["warlord", "reaver", "warhound", "nemesis", "warlord_sinister"],
         "profileNames":["Warlord", "Reaver", "Warhound", "Nemesis Warbringer", "Warlord-Sinister"]
     },
     {
         "categoryName":"Knight banners",
+        "unitType":"knights",
         "jsonFileNames":["acastus_knights", "cerastus_knights", "questoris_knights"],
         "profileNames":["Acastus knights", "Cerastus knights", "Questoris knights"]
     },
     {
         "categoryName":"Titans of Legend (loyalists)",
+        "unitType":"legendary_titans",
         "jsonFileNames":["lucius_pretorian", "ignis_ferrus", "dawn_of_enlightenment", "iracundos", "belator_magno"],
         "profileNames":["Lucius Pretorian", "Ignis Ferrus", "Dawn of Enlightenment", "Iracundos", "Belator Magno"]
     },
     {
         "categoryName":"Titans of Legend (traitors)",
+        "unitType":"legendary_titans",
         "jsonFileNames":["iben_faruk", "hammer_of_tyrants", "penumbral_reaper", "mantellum_fulmen", "vestiti_ferrus"],
         "profileNames":["Iben Faruk", "Hammer of Tyrants", "Penumbral Reaper", "Mantellum Fulmen", "Vestiti Ferrus"]
     }
