@@ -110,5 +110,53 @@
                 "description":"When a player chooses this Stratagem, they must secretly write down the name of one of their Titans which has a Scale of 6 or lower. Play this Stratagem at the start of deployment to set that unit to one side and state that it is being held in orbit (it is not deployed with the rest of the battlegroup). Declare (and write down) a round between rounds 2-4 - this is the round in which its dropship is aiming to deploy the Titan to the battlefield.\nAt the beginning of the Movement phase of the chosen round, roll a D10. If the result is lower than the Titan's Scale, it arrives. Otherwise the Titan is delayed and will arrive at the start of the following Movement phase instead.\nWhen the Titan arrives, place it anywhere on the battlefield that is not within 1\" of another model or terrain feature, then scatter it D6\". Once it has been scattered, roll a D3. On a 1-2, it makes a 45° turn to the left. On a 3-4, it stays where it is, and on a 5-6, it makes a 45° turn to the right. If the Titan scatters or turns into any terrain, it stops before moving into it and then suffers D6 Strength 9 hits.\nA Titan that arrives from orbit cannot be activated in any of the phases of the current round, as it is deploying from its dropship. It can, however, be targeted by attacks as normal."
             }
         ]
+    },
+    {
+        "name":"Legio Crucius (Warmongers)",
+        "ref":"Legio Crucius",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Forgeborn",
+                "ref":"Forgeborn",
+                "description":"In the first and second rounds of the game, when a Legio Crucius Titan makes a Repair roll, either in the Damage Control phase or as a result of being issued an Emergency Repair Order, it may re-roll any dice results of 1."
+            },
+            {
+                "name":"Pride of Ryza",
+                "ref":"Pride of Ryza",
+                "description":"During the Damage Control phase, or when making Repair rolls as part of an Emergency Repair Order, when a Legio Crucius Titan uses a dice result of 6 to Vent Plasma, decrease the Titan's Reactor level by 2 rather than 1."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Terminus Override Mechanisms",
+                "ref":"Terminus Override Mechanisms",
+                "description":"Any Legio Crucius Titan may be equipped with a terminus override mechanism for +30 points. The first time a Legio Crucius Titan with a terminus override mechanism would be required to roll on the Reactor Overload table (see page 43 of the Adeptus Titanicus rulebook), instead of rolling, give the Titan a Shutdown order instead. Once triggered in this manner, a terminus override mechanism has no further effect on the game."
+            },
+            {
+                "name":"Bi-folded Power Containment",
+                "ref":"Bi-folded Power Containment",
+                "description":"Any Legio Crucius Titan may be equipped with a bi-folded power containment system for +30 points. When firing a weapon with the Draining trait (see page 39 of the Adeptus Titanicus rulebook), a Titan equipped with a bi-folded power containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Collegia Lord",
+                "ref":"Collegia Lord",
+                "description":"When making a Command Check for the Princeps Seniores' Titan, if a 9 or 1O is rolled they may issue Orders to any or all of the Titans in their maniple (provided that they do not already have an Order) without the need to make Command checks for them."
+            },
+            {
+                "name":"Mechanicum Born",
+                "ref":"Mechanicum Born",
+                "description":"Once in each Damage Control phase, you can re-roll one of the Repair dice for the Princeps Seniores' Titan, though you must accept the second result, even if it is worse."
+            },
+            {
+                "name":"Black Banner",
+                "ref":"Black Banner",
+                "description":"If the Princeps' battlegroup does not have a Tertiary Objective (as part of a Stratagem or Mission), it gains the Salvation of Crucius Tertiary Objective. A battlegroup with this objective earns 5 Victory points at the end of the game if their Princeps Seniores' Titan was not destroyed or Structurally Compromised."
+            }
+        ],
+        "stratagems":[]
     }
 ]
