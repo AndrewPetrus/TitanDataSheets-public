@@ -260,5 +260,54 @@
                 "description":"This Stratagem can be purchased by any Legio Vulcanum player. Play this Stratagem in the Strategy phase after successfully issuing an Order to a Legio Vulcanum Titan. The player may, if they choose, immediately issue this same Order to any or all of the Legio Vulcanum Titans in their battlegroup without the need to make further Command checks."
             }
         ]
+    },
+    {
+        "name":"Legio Interfector",
+        "ref":"Legio Interfector",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Creeping Madness",
+                "ref":"Creeping Madness",
+                "description":"When a Legio Interfector Titan is activated in the Movement phase, its player may choose to allow the madness ofits Princeps to take over. When this madness takes over, roll D3:\n1. Dark Embrace: The Titan gains the Charge order. It must move towards the nearest enemy Titan or Knight Banner by the shortest route possible, stopping if it reaches base contact with another model, and then make a Smash attack, or an attack with a weapon with the Melee trait.\n2. Weapon Overload: The Titan gains the First Fire order. When the Titan would fire in the Movement phase, randomly choose one of the Titan's weapons and make an attack with this weapon against the nearest enemy Titan or Knight Banner, counting the weapon's Strength as 2 higher than normal and its Dice as 1 higher than normal. After the attack has been resolved, disable the chosen weapon.\n3. Static Scream: All Titans and Knight Banners, both friend and foe, within 12\" of the Titan must remove their Orders, unless they are on Shutdown orders or Emergency Repair orders. Titans who lost their Orders before they activated are not subject to any of the lost Order's restrictions."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Static Rounds",
+                "ref":"Static Rounds",
+                "description":"Any Legio Interfector Reaver or Warhound Titan armed with a Vulcan mega-bolter may rake static rounds for +15 points. A Titan equipped with static rounds uses a modified version of the Rapid trait when firing its mega-bolter. Against a target with active void shields, each Hit roll of 5 or 6 causes 2 hits, rather than 1. If a roll of 6 To Hit was required, this rule has no effect. Static rounds have no additional effects against targets without active void shields, although the weapon will retain the normal effects of the Rapid trait."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Dark Fanatic",
+                "ref":"Dark Fanatic",
+                "description":"The first time the Princeps Titan suffers Catastrophic Damage, roll a D10. On a 6, 7, 8 or 9, it is ignored and has no effect. On any other result, count the Catastrophic Damage roll as a Catastrophic Meltdown."
+            },
+            {
+                "name":"Raving Madman",
+                "ref":"Raving Madman",
+                "description":"When rolling a D10, such as to determine the First Player or when making a Command check, the Princeps' battlegroup can count any roll of 9 as a 6, or any roll of 6 as a 9."
+            },
+            {
+                "name":"Hollowed Out",
+                "ref":"Hollowed Out",
+                "description":"The Princeps' Titan does not add 2 to its Command checks for being a Princeps Seniores. However, the Princeps' Titan also ignores all damage effects resulting from Critical Damage to the Titan's Head."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Portents of Doom (2)",
+                "ref":"Portents of Doom",
+                "description":"This Stratagem can be purchased by any Legio Interfector player. Reveal this Stratagem during the Strategy phase. Any enemy Titan or Knight Banner within 12\" of a Legio Interfector Titan may not be issued Orders this round."
+            },
+            {
+                "name":"Tormented Machine Spirit (1)",
+                "ref":"Tormented Machine Spirit",
+                "description":"This Stratagem can be purchased by any Legio lnterfector player. Reveal this Stratagem when a Legio lnterfector Titan would roll on the Awakened Machine Spirit table (see page 44 of the Adeptus Titanicus rulebook). Instead of rolling on the table, make an attack with each of the Titan's weapons. These attacks must be made against the closest model, whether it is friend or foe."
+            }
+        ]
     }
 ]
