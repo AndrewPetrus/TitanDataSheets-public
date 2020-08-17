@@ -206,5 +206,59 @@
                 "description":"This Stratagem can be purchased by any Legio Fortidus player. The Dauntless player may reveal this Stratagem when one of their Titans suffers a Magazine Detonation or Catastrophic Meltdown result on the Catastrophic Damage table (see page 36 of the Adeptus Titanicus rulebook). When resolving the Catastrophic Damage effects, add 5 to the Titan's Scale."
             }
         ]
+    },
+    {
+        "name":"Legio Vulcanum",
+        "ref":"Legio Vulcanum",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Two-faced God",
+                "ref":"Children of Mars",
+                "description":"When fielding a Legio Vulcanum battlegroup, a player may nominate two Legio Vulcanum Titans to be commanded by a Princeps Seniores (see page 55 of the Adeptus Titanicus rulebook). These Titans may not be part of the same maniple. If one of the Princeps Seniores' Titans is destroyed, for the remainder of the game count the other Princeps Seniores' Titan as having suffered an unrepairable Princeps Wounded damage effect."
+            },
+            {
+                "name":"For the Fallen",
+                "ref":"For the Fallen",
+                "description":"For each Legio Vulcanum Titan in the battlegroup that has been destroyed, the Legio Vulcanum player gains a single re-roll that may be used once each round. This re-roll may be used to re-roll the result of any single dice roll made by a Legio Vulcanum Titan."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Twinned Machine Spirits",
+                "ref":"Twinned Machine Spirits",
+                "description":"Any two Legio Vulcanum Titans may take twinned machine spirits for +20 points each. Legion Vulcanum Titans with twinned machine spirits count as being part of a squadron with each other (see page 45 of the Adeptus Titanicus rulebook). However, should a Titan with a twinned machine spirit roll the Machine Spirit symbol on the Reactor dice, both it and its paired Titan must make a Command check to see if their Titan's machine spirit awakens. Note that multiple pairs of Titans in a Legio Vulcanum Battlegroup may be equipped to have twinned machine spirits, each forming their own squadron of two."
+            },
+            {
+                "name":"Janus Pattern Missiles",
+                "ref":"Janus Pattern Missiles",
+                "description":"Any Legio Vulcanum Titan armed with an apocalypse missile launcher or paired apocalypse missile launchers may take Janus pattern missiles for +20 points. Legio Vulcanum Titans with Janus pattern missiles may split the dice of their missile launchers between more than one target as the Janus warheads disperse in flight. The Titan chooses a main target for its missiles, which will either be the same target as the rest of its weapons or one of its targets if it has the Split Fire order. At least one dice must then be allocated to the Titan's main target. The rest of the missile launcher's dice can then either be applied to the main target or any other target within 12\" of the main target, provided that they are in range and line of sight of the weapon."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"True Born",
+                "ref":"True Born",
+                "description":"The Princeps adds 3 to Command checks when issuing Orders to their own Titan, rather than 2. If you roll a 1 when making a Command check, no further Command checks can be made for their Battlegroup, regardless of re-rolls or other special rules."
+            },
+            {
+                "name":"Divided of Mind",
+                "ref":"Divided of Mind",
+                "description":"If the Princeps fails a Command check when issuing an Order to their Titan, roll the Order dice. The rolled Order is then applied to the Princeps' Titan, unless it is a Shutdown order, in which case it may either be applied or ignored."
+            },
+            {
+                "name":"Soldier of the Crusade",
+                "ref":"Soldier of the Crusade",
+                "description":"The presence of the Princeps adds one additional Stratagem point co their battlegroup that may be used before the battle co purchase Stratagems."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Symbiotic Commands (1)",
+                "ref":"Symbiotic Commands",
+                "description":"This Stratagem can be purchased by any Legio Vulcanum player. Play this Stratagem in the Strategy phase after successfully issuing an Order to a Legio Vulcanum Titan. The player may, if they choose, immediately issue this same Order to any or all of the Legio Vulcanum Titans in their battlegroup without the need to make further Command checks."
+            }
+        ]
     }
 ]
