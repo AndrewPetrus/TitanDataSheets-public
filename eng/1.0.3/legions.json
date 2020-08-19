@@ -357,5 +357,59 @@
                 "description":"This Stratagem can be purchased by any Legio Astorum player. Play this Stratagem when a Titan's void shields collapse. Immediately roll a number of D6 equal to the Titan's Servitor Clades characteristic. For each roll of 5 or 6, restore the Titan's Void Shield level by 1. Note, this is not a Repair roll and does not benefit from any effects which influence or modify Repair rolls."
             }
         ]
+    },
+    {
+        "name":"Legio Defensor",
+        "ref":"Legio Defensor",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Righteous Fire",
+                "ref":"Righteous Fire",
+                "description":"In the first round of the game, a Legio Defensor Titan may fire one of its weapons twice during its activation. If they do so, advance the Titan's Plasma Reactor Status track by two places, in addition to any advances associated with firing the weapon."
+            },
+            {
+                "name":"Indomitable Resolve",
+                "ref":"Indomitable Resolve",
+                "description":"Titans in a Nova Guard maniple may add 1 to the dice roll when making Command checks, provided that at least one of the units in their battlegroup has been destroyed."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Devotional War Sirens",
+                "ref":"Devotional War Sirens",
+                "description":"Any Legio Defensor Warlord Titan may rake Devotional War Sirens for +20 points. Legio Defensor Titans within 8\" of a Legio Defensor Warlord Titan equipped with Devotional War Sirens may roll two dice when making a Command check and choose the higher result."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Enduring Hatred",
+                "ref":"Enduring Hatred",
+                "description":"The Princeps Titan may re-roll Hit rolls of 1 once their Titan has suffered Critical Damage. However, during the Damage Control phase, they must spend any Repair dice to repair disabled weapons before repairing any other kind of damage."
+            },
+            {
+                "name":"Crusade Veteran",
+                "ref":"Crusade Veteran",
+                "description":"Once per game, when the Princeps successfully issues an Emergency Repairs order, they may immediately issue a second order after its effects have been resolved. This second order may be another Emergency Repairs order. Note that the Titan must adhere to the restrictions to movement and activation of both orders."
+            },
+            {
+                "name":"Icon of the True",
+                "ref":"Icon of the True",
+                "description":"While the Princeps Titan is on the board, all Knight Banners and Titans from other friendly Legios add 1 to the dice roll when making Command checks."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"A Day of Retribution (2)",
+                "ref":"A Day of Retribution",
+                "description":"This Stratagem can be purchased by any Legio Defensor player. Play this Stratagem in the Strategy phase of the first round. Choose one of your opponent's Titans. Immediately conduct a round of shooting against the Titan with one of your own Titans' weapons, counting the weapon as having double its normal range. Note that this does not increase the weapon's Short Range. Then, advance your Titan's Plasma Reactor Status track three places. Once the effects of the attack have been worked out, begin the first game round."
+            },
+            {
+                "name":"Blessings of the Emperor (3)",
+                "ref":"Blessings of the Emperor",
+                "description":"This Stratagem can be purchased by any Legio Defensor player. Reveal this Stratagem when a hit would result in one of your Titans rolling on the Catastrophic Damage table. The hit is ignored and this Stratagem has no further effect."
+            }
+        ]
     }
 ]
