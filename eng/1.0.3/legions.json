@@ -309,5 +309,53 @@
                 "description":"This Stratagem can be purchased by any Legio lnterfector player. Reveal this Stratagem when a Legio lnterfector Titan would roll on the Awakened Machine Spirit table (see page 44 of the Adeptus Titanicus rulebook). Instead of rolling on the table, make an attack with each of the Titan's weapons. These attacks must be made against the closest model, whether it is friend or foe."
             }
         ]
+    },
+    {
+        "name":"Legio Astorum",
+        "ref":"Legio Astorum",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"War March",
+                "ref":"War March",
+                "description":"In the first and second round of the game, a Legio Astorum Titan can choose to add 2\" to its boosted Movement characteristic. If a Titan uses this boosted speed, then whenever it is required to roll the Reactor dice, it must roll twice and choose the least favourable result (i.e., the result which increases the Titan's Plasma Reactor Status track by the largest amount or awakens its machine spirit)."
+            },
+            {
+                "name":"Veteran Princeps",
+                "ref":"Veteran Princeps",
+                "description":"During the Damage Control phase, or when enacting an Emergency Repairs order, a Legio Astorum Titan may re-roll one of its Repair Action dice. If it'is a Warlord Titan, it may instead re-roll two of its Repair Action dice."
+            }
+        ],
+        "wargear":[],
+        "personalTraits":[
+            {
+                "name":"Hero of the Crusade",
+                "ref":"Hero of the Crusade",
+                "description":"As long as the Princeps' Titan is closer to the nearest enemy unit than any of the other Titans in their maniple, then all Titans in their maniple can add 1 to any Command checks they are required to take."
+            },
+            {
+                "name":"Reckless Hubris",
+                "ref":"Reckless Hubris",
+                "description":"Once each round, the Princeps' Titan can ignore the negative effects of a critically damaged system or a disabled weapon, firing the weapon as if it were functional. After the system or weapon is used, work out a single Strength 12 hit against the Titan's Body, ignoring the Titan's void shields."
+            },
+            {
+                "name":"Ancient MIU",
+                "ref":"Ancient MIU",
+                "description":"Instead of making a Command check during the Strategy phase, the Princeps' Titan may be given a random Order. Roll the Order dice and apply the result to the Princeps' Titan."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Bounty of Mars (2)",
+                "ref":"Bounty of Mars",
+                "description":"This Stratagem can be purchased by any Legio Astorum player. Play this Stratagem at the beginning of the Damage Control phase of any round. Choose one type of critically damaged system or disabled weapon, i.e., Head, Body, Weapon, etc. For the duration of this Damage Control phase, the dice score required to repair this system is reduced by 1, i.e., if a dice result of 5 or 6 is normally required then for this phase, the player can use a dice result of 4, 5, or 6."
+            },
+            {
+                "name":"Machine Defiance (2)",
+                "ref":"Machine Defiance",
+                "description":"This Stratagem can be purchased by any Legio Astorum player. Play this Stratagem when a Titan's void shields collapse. Immediately roll a number of D6 equal to the Titan's Servitor Clades characteristic. For each roll of 5 or 6, restore the Titan's Void Shield level by 1. Note, this is not a Repair roll and does not benefit from any effects which influence or modify Repair rolls."
+            }
+        ]
     }
 ]
