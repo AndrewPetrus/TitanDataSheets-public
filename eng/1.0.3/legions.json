@@ -411,5 +411,59 @@
                 "description":"This Stratagem can be purchased by any Legio Defensor player. Reveal this Stratagem when a hit would result in one of your Titans rolling on the Catastrophic Damage table. The hit is ignored and this Stratagem has no further effect."
             }
         ]
+    },
+    {
+        "name":"Legio Atarus",
+        "ref":"Legio Atarus",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Seizing the Initiative",
+                "ref":"Seizing the Initiative",
+                "description":"ln the first round of the battle, a force that contains at least one Firebrands' maniple may re-roll the dice roll to determine who will choose the First Player, but only if they rolled lower than their opponent. If they win this roll-off then they must nominate themselves as the First Player."
+            },
+            {
+                "name":"Indomitable Resolve",
+                "ref":"Indomitable Resolve",
+                "description":"Titans in a Nova Guard maniple may add 1 to the dice roll when making Command checks, provided that at least one of the units in their battlegroup has been destroyed."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Infernus Missiles",
+                "ref":"Infernus Missiles",
+                "description":"Any Legio Atarus Titan may take Infernus missiles as an upgrade to their Apocalypse missile launchers for +15 points. If a unit takes at least one hit from an Apocalypse missile launcher equipped with Infernus missiles, place a 5\" Blast marker under the unit. In the End phase, any model with at least part of its base on the marker takes a Strength 4 hit, ignoring void shields and ion shields. Titans suffer this hit to their Legs. In addition, Blocking terrain touched by the template takes a Strength 4 hit (see page 52 of the Adeptus Titanicus rulebook for details on damaging and destroying terrain) and, if not destroyed, is set alight. In the End phase, burning terrain suffers a Strength 4 Hit, and deals a Strength 4 Hit to any models in it, as detailed above, until the terrain is destroyed and the fire goes out."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Headstrong",
+                "ref":"Headstrong",
+                "description":"In the End phase, the Princeps Seniores may choose not to discard any orders issued to their Titan - in effect carrying forward the order into the following round without the need to make a new Command check. Note, Shutdown orders and other effects that change a Titan's current order are still applied as normal."
+            },
+            {
+                "name":"Unconventional Thinker",
+                "ref":"Unconventional Thinker",
+                "description":"Once per battle, after an enemy Titan has declared its action, but before it moves or fires, the Princeps' Titan can be moved D6\" in any direction and its facing changed by up to 90°. This movement may not take the Titan through impassable terrain or other models."
+            },
+            {
+                "name":"Shedim Drift Veteran",
+                "ref":"Shedim Drift Veteran",
+                "description":"During che Combat phase, the Princeps may choose one of their Titan's weapons. Any Armour rolls resulting from hits by the weapon may be re-rolled this round. If the Princeps is targeting a Titan from the Death's Heads or Tiger Eyes Legios, then hits from all of the Princeps' Titan's weapons may re-roll their Armour rolls."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Impetuous Machine Spirit (1)",
+                "ref":"Impetuous Machine Spirit",
+                "description":"This Stratagem can be purchased by any Legio Atarus player. Reveal this Stratagem when a Firebrands Titan would be required to make a roll on the Awakened Machine Spirit table (see page 44 of the Adeptus Titanicus rulebook). Rather than rolling, the Firebrands player may instead choose to automatically apply the Impetuous result, rolling D6+2\" rather than D6\" to determine the distance moved."
+            },
+            {
+                "name":"Maniple of One (2)",
+                "ref":"Maniple of One",
+                "description":"This Stratagem can be purchased by any Legio Atarus player. The Firebrands player may reveal this Stratagem at the beginning of any round. For the duration of that round, one Titan in their force may gain the benefits of any Maniple trait normally available to the Firebrands. Note that while this Stratagem is in effect, the chosen Titan loses any other Maniple trait it might have and does not count as being a part of any other maniples."
+            }
+        ]
     }
 ]
