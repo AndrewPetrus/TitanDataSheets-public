@@ -421,7 +421,7 @@
             {
                 "name":"Seizing the Initiative",
                 "ref":"Seizing the Initiative",
-                "description":"ln the first round of the battle, a force that contains at least one Firebrands' maniple may re-roll the dice roll to determine who will choose the First Player, but only if they rolled lower than their opponent. If they win this roll-off then they must nominate themselves as the First Player."
+                "description":"In the first round of the battle, a force that contains at least one Firebrands' maniple may re-roll the dice roll to determine who will choose the First Player, but only if they rolled lower than their opponent. If they win this roll-off then they must nominate themselves as the First Player."
             },
             {
                 "name":"Indomitable Resolve",
@@ -463,6 +463,55 @@
                 "name":"Maniple of One (2)",
                 "ref":"Maniple of One",
                 "description":"This Stratagem can be purchased by any Legio Atarus player. The Firebrands player may reveal this Stratagem at the beginning of any round. For the duration of that round, one Titan in their force may gain the benefits of any Maniple trait normally available to the Firebrands. Note that while this Stratagem is in effect, the chosen Titan loses any other Maniple trait it might have and does not count as being a part of any other maniples."
+            }
+        ]
+    },
+    {
+        "name":"Legio Fureans",
+        "ref":"Legio Fureans",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Machine Rage",
+                "ref":"Machine Rage",
+                "description":"When rolling the Reactor dice (see page 43 of the Adeptus Titanicus rulebook) a Tiger Eyes player counts both the Machine Spirit symbol and blank facing on the dice as a trigger for the awakening of their Titan's machine spirit. However, if a Tiger Eyes player fails the Command check to quell the machine spirit, they may choose the result from the Awakened Machine Spirit table, rather than rolling randomly."
+            },
+            {
+                "name":"Many Faces of the Omnissiah",
+                "ref":"Many Faces of the Omnissiah",
+                "description":"In the first round of the game, any Tiger Eyes Titan may choose to forgo its activation in either the Movement phase or the Combat phase - in essence doing nothing for that phase but counting as one of the Tiger Eyes player's activations. For each phase sacrificed by a Titan, either 1 or 2, that Titan may re-roll any one dice later in the game."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Hunting Auspex",
+                "ref":"Hunting Auspex",
+                "description":"Any Legio Fureans Titan may take a hunting auspex upgrade for +20 points. A Titan equipped with a hunting auspex is better able to pick its enemies out from the tangled wreckage of the battlefield, especially at longer ranges where it can isolate targets. When making ranged attacks at targets over 12\" away, the Titan may reduce any penalty To Hit by 1, to a minimum of 0."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Titan Stalker",
+                "ref":"Titan Stalker",
+                "description":"When targeting a Titan that is within 12\", the Princeps Seniores may add 1 to the Armour rolls of any hits, provided that the targeted Titan has a Scale either equal to or greater than their own."
+            },
+            {
+                "name":"Humardu Savage",
+                "ref":"Humardu Savage",
+                "description":"When the Princeps Seniores Titan makes a Smash Attack (see page 36 of the Adeptus Titanicus rulebook), add 2 to the Strength of the attack."
+            },
+            {
+                "name":"Trophy Taker",
+                "ref":"Trophy Taker",
+                "description":"Any weapon disabled by the Tiger Eyes Princeps using a Smash Attack, or a weapon with the Melee trait, is harder to repair; these require a dice score 1 higher than normal when making Repair actions."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Offensive Surge (3)",
+                "ref":"Offensive Surge",
+                "description":"This Stratagem can be purchased by any Legio Fureans player. Reveal this Stratagem in any Combat phase. The Tiger Eyes player may choose one of their deployed Tiger Eyes maniples; for this Combat phase, each Titan in the chosen maniple may attack twice with one of its weapons but must increase its Reactor level by 1, in addition to any other effects."
             }
         ]
     }
