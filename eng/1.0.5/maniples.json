@@ -118,5 +118,19 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Lupercal Light",
+        "ref":"Lupercal Light",
+        "mandatory":["warhound", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Hunting Pack",
+                "ref":"Hunting Pack",
+                "description":"Working closely together, the Warhound Titans can surround and pick off foes many times their size. At the beginning of each round, any or all of the Warhounds within the maniple may be formed into a Squadron with other members of their maniple. These Squadrons last until the end of the round. In addition, when making Coordinated Strikes (see page 45 of the Adeptus Titanicus rulebook), Warhounds in this maniple add +2 to any Armour rolls they make, rather than +1."
+            }
+        ],
+        "units":[]
     }
 ]
