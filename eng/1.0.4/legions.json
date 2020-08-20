@@ -575,6 +575,60 @@
         ]
     },
     {
+        "name":"Legio Krytos",
+        "ref":"Legio Krytos",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Doom of Worlds",
+                "ref":"Doom of Worlds",
+                "description":"When fielding a Myrmidon maniple (see page 59 of the Adeptus Titanicus rulebook) a Legio Krytos player may take a Warlord Titan in place of a Reaver Titan as part of the maniple's mandatory components."
+            },
+            {
+                "name":"State of Decay",
+                "ref":"State of Decay",
+                "description":"Once per game, any Legio Mortis Titan may ignore the effects of MIU Feedback, Moderati Wounded and Princeps Wounded for a round. In a round that the Titan ignores these Critical Damage effects, it may not allocate any Repair dice to its Head."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Earthbreaker Missiles",
+                "ref":"Earthbreaker Missiles",
+                "description":"Any Legio Krytos Titan that is equipped with Apocalypse missile launchers can take Earthbreaker missiles as an upgrade for +20 points for a Warlord Titan and +10 points for a Reaver Titan. When firing the Titan's Apocalypse missile launchers, the player can choose to either use its normal profile, or reduce its dice to 2 for a Warlord Titan, or 1 for a Reaver Titan, and give it the Quake trait. Earthbreaker missiles increase their Strength by 5 when resolving damage against terrain."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Godlike Contempt",
+                "ref":"Godlike Contempt",
+                "description":"The Princeps thinks little ofthe units chat support their maniple,and even smaller Titans are of only passing concern to them. The Princeps' Titan may still make Command checks if a Knight Banner or a Titan with a smaller Scale than that of the Princeps Titan has failed its Command check."
+            },
+            {
+                "name":"World Bane",
+                "ref":"World Bane",
+                "description":"Any Blocking terrain destroyed by the Princeps' Titan becomes Dangerous terrain (see page 43 of rhe Adeptus Titanicus rulebook) if it was not already."
+            },
+            {
+                "name":"Path of Iron",
+                "ref":"Path of Iron",
+                "description":"The Princeps may make a single Smash Attack (see page 36 of the Adeptus Titanicus rulebook) during the Movement phase, provided it is against an enemy model of Scale 3 or less. Stop the Titan when it comes within range ofits target and resolve the attack, then complete its movement as normal. When making these kinds of Smash Attacks, rhe Titan may move through models of Scale 3 or less, provided chat they can completely cross the enemy model's base. This attack does not prohibit the Titan from making attacks in the following Combat phase."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Scorched Earth (1)",
+                "ref":"Scorched Earth",
+                "description":"This Stratagem can be purchased by any Legio Krytos player. Reveal this Stratagem in any Strategy phase. For the duration of that round, when targeting terrain, Titans of the Legio Krytos add 2 to the Strength of their weapons."
+            },
+            {
+                "name":"Iron Endures (1)",
+                "ref":"Iron Endures",
+                "description":"This Stratagem can be purchased by any Legio Krytos player. Reveal this Stratagem in any Strategy phase. For the duration of that round, all God Breakers Titans reduce the Strength of hits suffered as a result of Dangerous terrain by 2 (to a minimum of 0)."
+            }
+        ]
+    },
+    {
         "name":"Legio Fureans",
         "ref":"Legio Fureans",
         "maniples":[],
