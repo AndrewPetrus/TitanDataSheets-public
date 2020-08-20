@@ -676,5 +676,59 @@
                 "description":"This Stratagem can be purchased by any Legio Fureans player. Reveal this Stratagem in any Combat phase. The Tiger Eyes player may choose one of their deployed Tiger Eyes maniples; for this Combat phase, each Titan in the chosen maniple may attack twice with one of its weapons but must increase its Reactor level by 1, in addition to any other effects."
             }
         ]
+    },
+    {
+        "name":"Legio Vulpa",
+        "ref":"Legio Vulpa",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Honour and Blood",
+                "ref":"Honour and Blood",
+                "description":"A Death Stalkers Titan that is within 3\" of an enemy Titan increases its Weapon Skill by 1 and decreases its Ballistic Skill by 1."
+            },
+            {
+                "name":"Many Faces of the Omnissiah",
+                "ref":"Many Faces of the Omnissiah",
+                "description":"In the first round of the game, any Tiger Eyes Titan may choose to forgo its activation in either the Movement phase or the Combat phase - in essence doing nothing for that phase but counting as one of the Tiger Eyes player's activations. For each phase sacrificed by a Titan, either 1 or 2, that Titan may re-roll any one dice later in the game."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Plasma Gargoyles",
+                "ref":"Plasma Gargoyles",
+                "description":"Any Legio Vulpa Titan may take plasma gargoyles for +15 points. Whenever the Titan uses Repair dice to Vent Plasma, nearby units may take damage. All units (friend or foe) within 3\" take a hit with a Strength equal to 3 plus the number of levels the Titan's reactor is decreased by, i.e., if a Titan vented plasma and reduced its reactor by 3 levels then all units within 3\" would take a Strength 6 hit."
+            },
+            {
+                "name":"Disruption Emitters",
+                "ref":"Disruption Emitters",
+                "description":"Any Legio Vulpa Titan may take disruption emitters for +30 points. The Titan adds 2 to the Strength of any of its weapons l with the Melee trait, and counts its Scale as 2 higher when making Smash Attacks."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Razor Tongue",
+                "ref":"Razor Tongue",
+                "description":"At the start of the round, the Princeps can choose an enemy Titan within 24\" of their own Titan. For the duration of the round, the chosen Titan's Command characteristic is increased by 2, to a maximum of 10."
+            },
+            {
+                "name":"Bloodied but Unbroken",
+                "ref":"Bloodied but Unbroken",
+                "description":"For each point of Critical Damage the Princeps' Titan has suffered (not including Critical Damage inflicted on weapons), increase the Strength of any weapons with the Melee trait and their Smash Attacks by 1, to a maximum of +3."
+            },
+            {
+                "name":"Cruel",
+                "ref":"Cruel",
+                "description":"When making attacks against units with a Scale of 5 or lower, increase the Strength of any hits by 2."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"No Pity for the Vanquished (1)",
+                "ref":"No Pity for the Vanquished",
+                "description":"This Stratagem can be purchased by any Legio Vulpa player. Play this Stratagem when an enemy Titan is destroyed (i.e., makes a roll on the Catastrophic Damage table). The Titan who inflicted the killing attack may immediately make another attack with the same weapon system against afresh target within 12\" ofthe destroyed Titan. For all intents and purposes, this is a new attack requiring a dice roll, any increases to the Titan's reactor level, etc."
+            }
+        ]
     }
 ]
