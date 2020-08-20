@@ -104,5 +104,19 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Regia Battleline",
+        "ref":"Regia Battleline",
+        "mandatory":["warlord", "warlord", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Royal Court",
+                "ref":"Royal Court",
+                "description":"The two Warlord Titans within this maniple represent the King and Queen, whose role it is to support each other in battle. Wwhile the King and Queen are within 12\" of each other, if one successfully gains an order, the other may gain the same order without the need to pass a Command check. The Warhounds are the Courtiers, whose role it is to shield the King and Queen. Courtiers can merge their void shields with the King and Queen as if they were part of the same squadron (see page 45 of the Adeptus Titanicus rulebook). In addition, Courtiers may merge their void shields with either the King's or Queen's while within 3\" of them, rather than only while in base contact."
+            }
+        ],
+        "units":[]
     }
 ]
