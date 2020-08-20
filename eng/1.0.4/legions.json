@@ -467,6 +467,60 @@
         ]
     },
     {
+        "name":"Legio Solaria",
+        "ref":"Legio Solaria",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Wolf Packs",
+                "ref":"Wolf Packs",
+                "description":"Warhound squadrons in a Legio Solaria maniple can contain up to four Warhound Titans. In addition, any Legio Solaria maniple can select a Warhound Titan in place of any Reaver Titans as part of its mandatory components."
+            },
+            {
+                "name":"Many Faces of the Omnissiah",
+                "ref":"Many Faces of the Omnissiah",
+                "description":"In the first round of the game, any Tiger Eyes Titan may choose to forgo its activation in either the Movement phase or the Combat phase - in essence doing nothing for that phase but counting as one of the Tiger Eyes player's activations. For each phase sacrificed by a Titan, either 1 or 2, that Titan may re-roll any one dice later in the game."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Fortis Motivators",
+                "ref":"Fortis Motivators",
+                "description":"A Legio Solaria Warhound Titan can be fitted with Fortis Motivators for a cost of +20 points. In the Damage Control phase, the player may discard any Repair Action dice (regardless of the number rolled) to repair a point of Critical Damage to the Titan's Legs."
+            },
+            {
+                "name":"Cameleoline Shrouding",
+                "ref":"Cameleoline Shrouding",
+                "description":"Any Legio Solaria Titan with a Scale of 6 or less can take Cameleoline Shrouding as an upgrade for +35 points. Titans with this upgrade have their outline blurred at longer distances, and when shooting at them Hit rolls suffer an additional -1 to Hit at Long Range. However, the shrouding was notoriously fragile, and as soon as the Titan suffers 1 point of Structural Damage, this bonus is lost."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Spear of Tigrus",
+                "ref":"Spear of Tigrus",
+                "description":"The Princeps' Titan may go onto Full Stride orders without the need to make a Command check."
+            },
+            {
+                "name":"Agile Minded",
+                "ref":"Agile Minded",
+                "description":"Once per game, when the Princeps' Titan is hit by an attack, their Titan may respond in kind, interrupting the activation of an enemy unit and immediately making a single attack back at the attacker."
+            },
+            {
+                "name":"Swift Displacement",
+                "ref":"Swift Displacement",
+                "description":"Once per game, when an enemy Titan makes a Smash Attack as part of a Charge order against the Princeps' Titan, the Princeps may move their Titan D6\" directly away from the attacker, after the enemy Titan has moved but before any To Hit dice for the attack are rolled. This does not change the facing of the Princeps' Titan."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Fog of War (2)",
+                "ref":"Fog of War",
+                "description":"This Stratagem can be purchased by any Legio Solaria player. Play this Stratagem in the Strategy phase of the first round. The Imperial Hunters player may redeploy a Warhound Titan for every Titan with a Scale of 7 or greater in their force. These redeployed units can be placed anywhere that they would normally be allowed to deploy by the mission being played."
+            }
+        ]
+    },
+    {
         "name":"Legio Fureans",
         "ref":"Legio Fureans",
         "maniples":[],
