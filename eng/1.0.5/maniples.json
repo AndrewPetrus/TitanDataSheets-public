@@ -90,5 +90,19 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Janissary Battleline",
+        "ref":"Janissary Battleline",
+        "mandatory":["reaver", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Close Support",
+                "ref":"Close Support",
+                "description":"Janissary Battleline maniples learn to coordinate their actions with Household Support units, and move to support them when needed. If a Titan in this maniple activates during the Movement phase, choose a Knight Banner within 6\" of the activating Titan. Once the Titan has finished its movement, the chosen Knight Banner may now make its activation."
+            }
+        ],
+        "units":[]
     }
 ]
