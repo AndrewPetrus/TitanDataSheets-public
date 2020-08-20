@@ -521,6 +521,60 @@
         ]
     },
     {
+        "name":"Legio Mortis",
+        "ref":"Legio Mortis",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Reaper's Tally",
+                "ref":"Reaper's Tally",
+                "description":"Each time a Titan of the Legio Mortis destroys an enemy Titan, it gains the abiliry to re-roll a single dice roll of reach time it makes a shooting attack. These effects are cumulative, and for every enemy Titan destroyed, an additional 1 may be re-rolled."
+            },
+            {
+                "name":"State of Decay",
+                "ref":"State of Decay",
+                "description":"Once per game, any Legio Mortis Titan may ignore the effects of MIU Feedback, Moderati Wounded and Princeps Wounded for a round. In a round that the Titan ignores these Critical Damage effects, it may not allocate any Repair dice to its Head."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Remains of the Fallen",
+                "ref":"Remains of the Fallen",
+                "description":"Any Legio Mortis Titan may be upgraded to have the Remains of the Fallen for +20 points. Enemy units within 8\" of a Titan with this upgrade must increase their Command characteristic by 1 to a maximum of 10."
+            },
+            {
+                "name":"The Warmaster's Beneficence",
+                "ref":"The Warmaster's Beneficence",
+                "description":"Any Legio Mortis Titan may be upgraded to have the Warmaster's Beneficence for +20 points. The first time a Titan with this upgrade fires, it adds 1 to the Strength of any of its bolter or missile weapons, and may ignore the effects of the Draining trait."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Rotten Heart",
+                "ref":"Rotten Heart",
+                "description":"When the Princeps awakens the machine spirit of their Titan, they may ignore its effects rather than rolling on the Awakened Machine Spirit table. If they do this then advance their Plasma Reactor track by two places."
+            },
+            {
+                "name":"Pitiless",
+                "ref":"Pitiless",
+                "description":"The Princeps' Titan adds 1 to the Strength of its weapons when targeting an enemy Titan that has suffered Critical Damage to its Head, Body and Legs."
+            },
+            {
+                "name":"Ancient of Terra",
+                "ref":"Ancient of Terra",
+                "description":"When the Princeps Titan must roll on the Reactor Overload table, only ever roll a D6, even if the Reactor Status marker is in a red hole."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"March of the Dead (3)",
+                "ref":"March of the Dead",
+                "description":"This Stratagem can be purchased by any Legio Mortis player. Play this Stratagem in the Strategy phase of the firsr round. The Legio Mortis player may immediately move each of their Titans just as if it was the Movement phase. This special movement cannot be boosted. If the player uses this Stratagem, their opponent automatically becomes the Firsr Player for the remainder of the first game round."
+            }
+        ]
+    },
+    {
         "name":"Legio Fureans",
         "ref":"Legio Fureans",
         "maniples":[],
