@@ -71,8 +71,22 @@
         "traits":[
             {
                 "name":"Knife Fighters",
-                "ref":"Titanic Fortress",
+                "ref":"Knife Fighters",
                 "description":"Titans that are a part of Ferrox Light maniple excel at close quarters combat. When a Titan in a Ferros Light maniple makes attacks against a target that is no further away than its Scale in inches, they add 1 to any Armour rolls they cause. Titans in a Ferrox Light maniple may also choose to use either their Weapon Skill or Ballistic Skill when within 2\" of an Enemy."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Corsair Battleline",
+        "ref":"Corsair Battleline",
+        "mandatory":["reaver", "reaver", "reaver"],
+        "optional":["reaver", "reaver"],
+        "traits":[
+            {
+                "name":"Fighting Withdrawal",
+                "ref":"Fighting Withdrawal",
+                "description":"Titans in this maniple can choose to move outside of their forward arc at their full movement rather than having to use 2\" of movement for every 1\" moved. Titans may not use their boosted speed when moving outside of their Front arc."
             }
         ],
         "units":[]
