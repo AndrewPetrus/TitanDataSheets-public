@@ -826,5 +826,54 @@
                 "description":"This Stratagem can be purchased by any Legio Oberon player. Play this Stratagem when an opponent plays a Stratagem that costs 2 or fewer Stratagem points, before resolving its effects. The Stratagem is discarded and its effects ignored."
             }
         ]
+    },
+    {
+        "name":"Legio Lysanda",
+        "ref":"Legio Lysanda",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Patience Beyond Measure",
+                "ref":"Patience Beyond Measure",
+                "description":"Before any units are deployed, a force that contains at least one D3 Sentinels of the Edge maniple may choose to deploy all their units at once at the start of deployment, before their opponent deploys any unit. If they do so, the Sentinels of the Edge player does not roll to determine the First Player in the first round, instead allowing their opponent to win the roll-off. If they do so, all Legio Lysanda Titans add 1 to the resulc ofany Hit rolls and Command checks made during the first round. Patience Beyond Measure has no effect in Narrative missions unless otherwise stated."
+            },
+            {
+                "name":"Stillness of Mind",
+                "ref":"Stillness of Mind",
+                "description":"Add 2 to the resulc when rolling to see if a Shutdown order is removed from a Legio Lysanda Titan."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Mantle of Responsibility",
+                "ref":"Mantle of Responsibility",
+                "description":"Any Legio Lysanda Titan can be upgraded to have a Mantle of Responsibility for +15 points. A Titan with this upgrade may re-roll results of a 1 or 2 when making a Command check."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Harrowed by Betrayal",
+                "ref":"Harrowed by Betrayal",
+                "description":"If the machine spirit of a Legio Lysanda Titan awakens, the Titan may apply the Wrathful result instead of rolling on the Awakened Machine Spirit table."
+            },
+            {
+                "name":"Serene",
+                "ref":"Serene",
+                "description":"The Princeps' Titan never suffers penalties to their Command checks and may ignore effects that force them to re-roll successful Command checks."
+            },
+            {
+                "name":"Vanguard Leader",
+                "ref":"Vanguard Leader",
+                "description":"Any friendly Legio Lysanda Titan that begins its movement within 3\" of the Princeps' Titan can declare Power to Locomotors without pushing its reactor. This includes the Princeps' Titan."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Frontier Guard (2)",
+                "ref":"Frontier Guard",
+                "description":"This Stratagem can be purchased by any Legio Lysanda player. Play this Stratagem during the Strategy phase of any round. Until the end of the round, the BS and WS of any Legio Lysanda Titan that is within 6\" of an objective marker (for their own victory conditions) when this Stratagem is played is increased by 1, to a maximum of 2+."
+            }
+        ]
     }
 ]
