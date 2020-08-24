@@ -1,0 +1,74 @@
+{
+    "name":"IGNIS FERRUS",
+    "jsonName":"ignis_ferrus",
+    "legion":"Legio Atarus",
+    
+    "scale":10,
+    "scaleName":"MAGNIFICUS",
+    "points":410,
+    
+    "command":3,
+    "ballisticSkill":3,
+    "speedNormal":4,
+    "speedBoosted":6,
+    "weaponSkill":5,
+    "manoeuvreNormal":1,
+    "manoeuvreBoosted":2,
+    "servitorClades":4,
+    
+    "armMountName":"WARLORD ARM",
+    "carapaceMountName":"WARLORD CARAPACE",
+    
+    "plasmaReactorPoints":7,
+    "plasmaReactorPinColors":["green", "green", "yellow", "yellow", "orange", "orange", "red"],
+    "voidShieldPoints":6,
+    "voidShieldModifiers":["3+", "3+", "3+", "4+", "4+", "X"],
+    "voidShieldPinColors":["green", "yellow", "yellow", "orange", "orange", "red"],
+    
+    "headPoints":7,
+    "headHitModifiers":["", "", "", "+1", "+1", "+2", "+3"],
+    "headHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "headDirectHitMin":13,
+    "headDirectHitMax":14,
+    "headDevastatingHitMin":15,
+    "headDevastatingHitMax":15,
+    "headCriticalHit":17,
+    "headCriticalPoints":3,
+    "headCriticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
+    "headCriticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"],
+    
+    "bodyPoints":8,
+    "bodyHitModifiers":["", "", "", "+1", "+1", "+2", "+2", "+3"],
+    "bodyHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "bodyDirectHitMin":12,
+    "bodyDirectHitMax":13,
+    "bodyDevastatingHitMin":14,
+    "bodyDevastatingHitMax":15,
+    "bodyCriticalHit":15,
+    "bodyCriticalPoints":3,
+    "bodyCriticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
+    "bodyCriticalBoonsRefs":["Reactor Leak", "VSG Burnout"],
+    
+    "legsPoints":8,
+    "legsHitModifiers":["", "", "", "+1", "+1", "+2", "+2", "+3"],
+    "legsHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
+    "legsDirectHitMin":13,
+    "legsDirectHitMax":14,
+    "legsDevastatingHitMin":15,
+    "legsDevastatingHitMax":16,
+    "legsCriticalHit":17,
+    "legsCriticalPoints":3,
+    "legsCriticalBoons":["Stabilisers Damaged", "Stabilisers Damaged\nLocomotors Seized", "Immobilised"],
+    "legsCriticalBoonsRefs":["Stabilisers Damaged", "Locomotors Seized", "Immobilised"],
+    
+    "customTraits":"ARDEX-DEFENSOR CANNON: When the Titan is activated in the Combat phase, each enemy unit that is within it's Front or Rear Arc, and within 6', suffers D3 Strength 5 hits.\n\nADVANCED REACTOR: Advance the Reactor marker once when two Reactor symbols are rolled on the Reactor dice. If the Machine Spirit is awakened, \"Wrathful\" automatically applies.",
+    
+    "hasLeftArmWeapon":true,
+    "hasRightArmWeapon":true,
+    "hasCarapaceWeapon":true,
+    
+    "leftWeaponFixed":null,
+    "carapaceWeaponFixed":null,
+    "rightWeaponFixed":null
+}
+
