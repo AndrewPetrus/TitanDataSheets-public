@@ -132,5 +132,47 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Canis Light",
+        "ref":"Canis Light",
+        "mandatory":["warhound", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Pack Ambush",
+                "ref":"Pack Ambush",
+                "description":"Canis Light Maniples can only include Legio Audax Titans. Warhound Titans within this maniple do not deploy as normal. Instead, at the start of the deployment phase, after arranging Titans into squadrons, the controlling player places a number of markers equal to the number of Warhounds in this maniple. These markers can be placed anywhere on the battlefield more than 6\" from the enemy deployment zone. Titans from this maniple count as deployed for the purposes of determining which player finished deploying first. When both players have finished deploying as normal, Warhounds from this maniple can be deployed anywhere within 3\" of a Pack Ambush marker. Any Warhound deployed in this manner outside of the controlling player's deployment zone must be at least 50% obscured from any enemy unit within line of sight of that Warhound. If a Warhound cannot be placed within 3\" of a Pack Ambush marker in this way, they must be deployed in the controlling player's deployment zone, following all of the normal rules. If a player has more than one Canis Light Maniple, each maniple beyond the first gives only one extra Pack Ambush marker. Pack Ambush markers are shared between maniples."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Arcus Battleline",
+        "ref":"Arcus Battleline",
+        "mandatory":["nemesis", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Coordinate Relay",
+                "ref":"Coordinate Relay",
+                "description":"A Warbringer-Nemesis Titan from this maniple can attack enemy units indirectly if they do not have line of sight to that unit, so long as the target is within line of sight of a Warhound Titan from this maniple. Firing indirectly in this manner confers a -2 modifier on the Hit roll. In addition, an attack with a Blast weapon from the Warbringer-Nemesis Titan that misses scatters D6\" instead of D10\" when the target is in line of sight of a Warhour Titan from this maniple."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Ruptura Battleline",
+        "ref":"Ruptura Battleline",
+        "mandatory":["nemesis", "nemesis", "reaver"],
+        "optional":["reaver", "reaver"],
+        "traits":[
+            {
+                "name":"Artillery Bastion",
+                "ref":"Artillery Bastion",
+                "description":"Once per round, a Reaver Titan in this maniple can declare Power to Locomotives without pushing their reactor. In addition, when enemy unit suffers Catastrophic Damage as a result of an attack made by a Warbringer- Nemesis Titan from this maniple, each Reaver Titan from this maniple can immediately make a move as if it was the Movement phase. A Reaver Titan cannot benefit from this ability if it is prevented from moving this turn for example, due to Emergency Repair orders or the Immobilised Damage Effect."
+            }
+        ],
+        "units":[]
     }
 ]
