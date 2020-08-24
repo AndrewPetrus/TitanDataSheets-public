@@ -973,5 +973,59 @@
                 "description":"This Stratagem can be purchased by any Legio Mordaxis player. Play chis Stratagem at the start of the Damage Control phase, before any Repair rolls are made. Until the end of the phase, add 2 to the Servitor Clades of every Legio Mordaxis Titan."
             }
         ]
+    },
+    {
+        "name":"Legio Audax",
+        "ref":"Legio Audax",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Wolves Among Prey",
+                "ref":"Wolves Among Prey",
+                "description":"A Legion Audax maniple can consist only of Titans of Scale 6 or lower; any maniple which has Mandatory or Optional components containing Titans of Scale 7 or higher cannot contain Legio Audax Titans. Any reinforcement Titans declared as Legio Audax must be of Scale 6 or lower. Legio Audax Titans can always form Squadrons with other Legio Audax Titans, even Titans that belong to another Legio Audax Maniple or Legio Audax reinforcement Titans. Legio Audax Squadrons can contain up to five Titans, unless they can normally contain more."
+            },
+            {
+                "name":"Stalk Unseen",
+                "ref":"Stalk Unseen",
+                "description":"For the duration ofthe first round, attacks made against Legion Audax Titans of Scale 6 or lower suffers -2 modifier to the Hit roll if the Titan is at least 25% obscured, rather than the usual -1."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Reinforced Plating",
+                "ref":"Reinforced Plating",
+                "description":"A Legio Audax Titan of Scale 6 or lower can be fitted with Reinforced Plating for +15 points. Subtract 1 from the result of Armour rolls made against a Titan with Reinforced Plating."
+            },
+            {
+                "name":"Ursus Claws",
+                "ref":"Ursus Claws",
+                "description":"An Ursus Claw fitted to a Legio Audax Titan has a Strength value of 4 instead of 3. Rules for Ursus Claws can be found on page 93 (Shadow and Iron)."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Master of Ambush",
+                "ref":"Master of Ambush",
+                "description":"The Stalk Unseen Legio Trait applies to the Princeps' Titan for both the first and second round, instead of just the first."
+            },
+            {
+                "name":"Cull the Weak",
+                "ref":"Cull the Weak",
+                "description":"The Princeps' Titan can re-roll failed Armour rolls against a location that has suffered Critical Damage."
+            },
+            {
+                "name":"Pack Alpha",
+                "ref":"Pack Alpha",
+                "description":"Friendly Legio Audax Titans within 3\" ofthe Princeps' Titan may re-roll rolls of 1 when making Command checks."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Unstoppable (3)",
+                "ref":"Unstoppable",
+                "description":"This Stratagem can be purchased by any Legio Mordaxis player. Play chis Stratagem at the start of the Damage Control phase, before any Repair rolls are made. Until the end of the phase, add 2 to the Servitor Clades of every Legio Mordaxis Titan."
+            }
+        ]
     }
 ]
