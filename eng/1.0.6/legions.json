@@ -778,5 +778,53 @@
                 "description":"This Stratagem can be purchased by any Legio Praesagius player. Play this Stratagem at the start of the Strategy phase, before any orders are issued. Until the start of the next round, add 1 to the Hit rolls of all actacks made by Legio Praesagius Titans when using a weapon's Long range."
             }
         ]
+    },
+    {
+        "name":"Legio Oberon",
+        "ref":"Legio Oberon",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Efficient Planners",
+                "ref":"Efficient Planners",
+                "description":"When issuing an order to any friendly Legio Oberon Titan, add 1 to the result of the Command check for each Legio Oberon Titan that has already been successfully issued with the same order during this round, to a maximum of +3."
+            },
+            {
+                "name":"Armoured Phalanx",
+                "ref":"Armoured Phalanx",
+                "description":"Subtract 1 from the result of any Armour roll made against a Legio Oberon Titan within 2\" of one or more friendly Legio Oberon Titan."
+            }
+        ],
+        "wargear":[],
+        "personalTraits":[
+            {
+                "name":"Unwavering",
+                "ref":"Unwavering",
+                "description":"Once per game, if the Princeps' Titan fails a Command check, it can choose to pass it instead."
+            },
+            {
+                "name":"Peerless Commander",
+                "ref":"Peerless Commander",
+                "description":"Friendly Knight Banners with at least one model within 6\" of the Princeps' Titan automatically pass Command checks when testing to see if they are Shaken or recover from being Shaken."
+            },
+            {
+                "name":"Tactical Genius",
+                "ref":"Tactical Genius",
+                "description":"Before forces are deployed, when choosing Stratagems, the Legio Oberon player gains +1 Stratagem point if one or more Princeps with this Personal Trait is present in the force."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Decisive Action (2)",
+                "ref":"Decisive Action",
+                "description":"This Stratagem can be purchased by any Legio Oberon player. Play this Stratagem at the start of any Strategy phase. If played during the first round, until the end of the phase, Legio Oberon Titans may be issued with Full Stride or First Fire orders without needing a Command check If played during any round after the first, until the end of the phase, Legio Oberon Titans may be issued with Full Stride or Split Fire orders without needing a Command check All Legio Oberon Titans issued orders via this Stratagem must be issued the same order."
+            },
+            {
+                "name":"Strategiser (3)",
+                "ref":"Strategiser",
+                "description":"This Stratagem can be purchased by any Legio Oberon player. Play this Stratagem when an opponent plays a Stratagem that costs 2 or fewer Stratagem points, before resolving its effects. The Stratagem is discarded and its effects ignored."
+            }
+        ]
     }
 ]
