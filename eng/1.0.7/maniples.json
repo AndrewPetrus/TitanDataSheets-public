@@ -174,5 +174,19 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Mandatum Battleline",
+        "ref":"Mandatum Battleline",
+        "mandatory":["warlord", "warhound", "warhound"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Pack Master",
+                "ref":"Pack Master",
+                "description":"As long as a Warlord Titan from this maniple is on the battlefield, Warhound Titans from this maniple add 2 to the result of any Command check made when issuing Orders. In addition, Warhound Titans from this maniple add +1 to the Hit rolls for attacks made against units within 12\" of a Warlord Titan from this maniple."
+            }
+        ],
+        "units":[]
     }
 ]
