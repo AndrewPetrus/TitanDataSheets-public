@@ -730,5 +730,53 @@
                 "description":"This Stratagem can be purchased by any Legio Vulpa player. Play this Stratagem when an enemy Titan is destroyed (i.e., makes a roll on the Catastrophic Damage table). The Titan who inflicted the killing attack may immediately make another attack with the same weapon system against afresh target within 12\" ofthe destroyed Titan. For all intents and purposes, this is a new attack requiring a dice roll, any increases to the Titan's reactor level, etc."
             }
         ]
+    },
+    {
+        "name":"Legio Praesagius",
+        "ref":"Legio Praesagius",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Pinpoint Accuracy",
+                "ref":"Pinpoint Accuracy",
+                "description":"A Legio Praesagius player may re-roll the Location dice for attacks made by Legio Praesagius Titans when using a weapon's Long range - they must accept the second roll. They may not re-roll the Location dice if the attack was made with a Blast weapon that subsequently missed."
+            },
+            {
+                "name":"Fluid Command Structure",
+                "ref":"Fluid Command Structure",
+                "description":"If the Princeps Seniores of a Legio Praesagius maniple is destroyed, the player may choose another Titan from that maniple to designate as the new Princeps Seniores. The new Princeps Seniores follows all the rules for being a Princeps Seniores but has no Personal Trait. Only a Princeps Seniores chosen during battlegroup selection counts for the purpose of determining Victory points and other scenario effects."
+            },
+            {
+                "name":"Against the Impossible",
+                "ref":"Against the Impossible",
+                "description":"Once per battle, when any Legio Praesagius Titan takes Critical Damage from a weapon attack, after the weapon attack has been resolved, it may immediately undergo an Emergency Repair as if it had been issued the Emergency Repairs Order. This cannot be used if the Titan has suffered Catastrophic Damage."
+            }
+        ],
+        "wargear":[],
+        "personalTraits":[
+            {
+                "name":"Noble Legacy",
+                "ref":"Noble Legacy",
+                "description":"If the Princeps' battlegroup does not have a Tertiary Objective (as part of a Stratagem or Mission), it gains the Eternal Bastion Tertiary Objective. A battlegroup with this objective earns 5 Victory points at the end of the game if their Princeps Seniores' Titan was not destroyed or Structurally Compromised."
+            },
+            {
+                "name":"Natural Commander",
+                "ref":"Natural Commander",
+                "description":"If the Princeps' Titan rolls a 9 or 1O for a Command check made when issuing Orders, they may issue the same order to any or all of the Titans in their maniple (provided they do not already have an Order) without the need to make a Command check."
+            },
+            {
+                "name":"Crusader",
+                "ref":"Crusader",
+                "description":"Once per round, when moving in the Combat phase as part of a Full Stride order, the Princeps' Titan may fire one of its weapons after they finished moving. Apply a -2 modifier to the Hit rolls."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Precision Volley (2)",
+                "ref":"Precision Volley",
+                "description":"This Stratagem can be purchased by any Legio Praesagius player. Play this Stratagem at the start of the Strategy phase, before any orders are issued. Until the start of the next round, add 1 to the Hit rolls of all actacks made by Legio Praesagius Titans when using a weapon's Long range."
+            }
+        ]
     }
 ]
