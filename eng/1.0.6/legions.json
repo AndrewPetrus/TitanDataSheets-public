@@ -875,5 +875,54 @@
                 "description":"This Stratagem can be purchased by any Legio Lysanda player. Play this Stratagem during the Strategy phase of any round. Until the end of the round, the BS and WS of any Legio Lysanda Titan that is within 6\" of an objective marker (for their own victory conditions) when this Stratagem is played is increased by 1, to a maximum of 2+."
             }
         ]
+    },
+    {
+        "name":"Legio Infernus",
+        "ref":"Legio Infernus",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Masters of Flame",
+                "ref":"Masters of Flame",
+                "description":"When making an attack with a Firestorm weapon, a Legio Infernus Titan may place the narrowest end of the Flame template within 2\" of the firing weapon instead of just touching it. Both the narrowest end and the centre of the wide end must be within the weapon's firing arc."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Clinging Phosphex",
+                "ref":"Clinging Phosphex",
+                "description":"Any Legio Infernus Titan that is equipped with an Inferno Gun can take Clinging Phosphex for +20 points. When firing the Titan's Inferno Gun, targets other than the one closest to the firing unit take two hits instead of one."
+            },
+            {
+                "name":"Dark Blessing",
+                "ref":"Dark Blessing",
+                "description":"Any Legio Infernus Titan can take Dark Blessing for +5 points. Once per round, a Titan with this upgrade can re-roll a single dice. However, a Titan with this upgrade suffers a -1 modifier to any Command check made when issuing Orders."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Butcher",
+                "ref":"Butcher",
+                "description":"When the Princeps' Titan is activated during the Strategy phase, they can work themselves into a frenzy - this counts as their activation for that phase. If they do so, they can re-roll all Hit rolls of a 1 until the end of the round."
+            },
+            {
+                "name":"World Burner",
+                "ref":"World Burner",
+                "description":"Once per round, during the Combat phase, the Princeps' Titan may fire one of their Inferno Guns or Melta Cannon twice during its activation. If they do so, the weapon gains the Draining trait for the second attack."
+            },
+            {
+                "name":"Methodical",
+                "ref":"Methodical",
+                "description":"Once per game, during the Strategy phase, when the Princeps' Titan is successfully issued a First Fire order, any other Titan in the maniple can be issued the same order without the need for a Command check."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Burned Ones (1)",
+                "ref":"Burned Ones",
+                "description":"This Stratagem can be purchased by any Legio Infernus player. Reveal this Stratagem in any Combat phase. Choose any piece of Blocking terrain within 12\" of a friendly Legio Infernus Titan and remove it, replacing it with an area of Difficult terrain of the same approximate size. This Stratagem can be purchased multiple times."
+            }
+        ]
     }
 ]
