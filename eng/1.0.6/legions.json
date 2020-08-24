@@ -924,5 +924,54 @@
                 "description":"This Stratagem can be purchased by any Legio Infernus player. Reveal this Stratagem in any Combat phase. Choose any piece of Blocking terrain within 12\" of a friendly Legio Infernus Titan and remove it, replacing it with an area of Difficult terrain of the same approximate size. This Stratagem can be purchased multiple times."
             }
         ]
+    },
+    {
+        "name":"Legio Mordaxis",
+        "ref":"Legio Mordaxis",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Techno-toxin",
+                "ref":"Techno-toxin",
+                "description":"During the End phase, any unit (friend or foe) within 2\" of a Legio Mordaxis Titan suffers D3 54 hits. A unit can only be affected by this rule once per round. Legio Mordaxis Titans are not affected by this rule."
+            },
+            {
+                "name":"Inured to Pain",
+                "ref":"Inured to Pain",
+                "description":"Legio Mordaxis Titans do not halve their Speed when they suffer a hit from a Quake weapon that is not deflected by their shields, nor do they pivot (i.e.,on a roll of a 1-2 or a 5-6) when they suffer a Hit from a Concussive weapon that is not deflected by their shields. However, a Legio Mordaxis Titan cannot declare Power to Locomotors or Power to Stabilisers."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Toxin Nodes",
+                "ref":"Toxin Nodes",
+                "description":"Any Legio Mordaxis Titan armed with a Blast (3\") weapon may take Toxin Nodes for +20 points. Decrease the Strength value of the weapon by 1 (to a minimum of 4) and replace the Blast (3\") trait with the Blast (5\") trait."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Dulled Mind",
+                "ref":"Dulled Mind",
+                "description":"The Princeps Titan ignores the MIU Feedback and Princeps Wounded Damage effects."
+            },
+            {
+                "name":"Harbinger of Decay",
+                "ref":"Harbinger of Decay",
+                "description":"Units within 2\" of the Princeps' Titan suffer D3+1 S5 hits from the Techno-toxin trait instead of D3 S4 hits."
+            },
+            {
+                "name":"Proud Protector",
+                "ref":"Proud Protector",
+                "description":"Once per round, when a friendly Legio Mordaxis Titan within 3\" of the Princeps suffers a Direct, Devastating, or Critical Hit, the Princeps may immediately push their reactor to make an attack with one of their weapons."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Unstoppable (3)",
+                "ref":"Unstoppable",
+                "description":"This Stratagem can be purchased by any Legio Mordaxis player. Play chis Stratagem at the start of the Damage Control phase, before any Repair rolls are made. Until the end of the phase, add 2 to the Servitor Clades of every Legio Mordaxis Titan."
+            }
+        ]
     }
 ]
