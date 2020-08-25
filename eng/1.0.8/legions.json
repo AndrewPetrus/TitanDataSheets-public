@@ -561,8 +561,8 @@
                 "description":"The Princeps' Titan adds 1 to the Strength of its weapons when targeting an enemy Titan that has suffered Critical Damage to its Head, Body and Legs."
             },
             {
-                "name":"Ancient of Terra",
-                "ref":"Ancient of Terra",
+                "name":"Ancient of Mars",
+                "ref":"Ancient of Mars",
                 "description":"When the Princeps Titan must roll on the Reactor Overload table, only ever roll a D6, even if the Reactor Status marker is in a red hole."
             }
         ],
