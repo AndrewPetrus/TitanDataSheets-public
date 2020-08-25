@@ -188,5 +188,66 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Perpetua Battleline",
+        "ref":"Perpetua Battleline",
+        "mandatory":["warlord", "reaver", "reaver"],
+        "optional":["reaver", "reaver"],
+        "traits":[
+            {
+                "name":"Stand Firm",
+                "ref":"Stand Firm",
+                "description":"When issuing an Emergency Repairs order to Titans from this maniple, the Command check will always succeed on a roll of 2+, regardless of modifiers. In addition, during the Damage Control phase, Titans from this maniple roll an additional Repair dice if they have not moved yet this round (voluntarily or involuntarily)."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Extergimus Battleline",
+        "ref":"Extergimus Battleline",
+        "mandatory":["warlord", "warlord", "warlord"],
+        "optional":["warlord", "nemesis"],
+        "traits":[
+            {
+                "name":"Scorched Earth",
+                "ref":"Scorched Earth",
+                "description":"During the Combat phase, when a Titan from this maniple makes an attack with a weapon without the Melee trait, it may increase the Strength value of the weapon by 2 for the duration of the attack. This must be declared before rolling to Hit. If it does so, increase the Titan’s Reactor level by 1 (or 2 if the weapon has a Dice value of 5 or greater), in addition to any other advances associated with weapon fire."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Firmus Light",
+        "ref":"Firmus Light",
+        "mandatory":["reaver", "warhound", "warhound"],
+        "optional":["reaver", "reaver"],
+        "traits":[
+            {
+                "name":"Defensive Engagement",
+                "ref":"Defensive Engagement",
+                "description":"When a Titan within a Firmus Light Maniple is chosen as the target of an attack, the controlling player may nominate a different Titan from this maniple to be the target instead. The nominated Titan must be closer to the attacking unit than the original target, and must be at least 50% visible to the attacking unit. If the attacking unit wishes to, they may make a Command check. If they pass, they may attack their original target. If they fail, they must target the nominated Titan, and can only attack the nominated Titan that round even if they could normally attack more than one unit.\n\nA unit can only be forced to take this check once per round, i.e., if they pass, they can target units as normal and are unaffected by this ability for the remainder of the round."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Dominus Battleforce",
+        "ref":"Dominus Battleforce",
+        "mandatory":["warlord", "reaver", "reaver"],
+        "optional":["warhound", "warhound"],
+        "traits":[
+            {
+                "name":"Auspex Bafflers",
+                "ref":"Auspex Bafflers",
+                "description":"Knight Banners included in a Dominus Battleforce maniple cannot benefit from obscuring cover (see the Adeptus Titanicus rulebook). If a Knight Banner from a Dominus Battleforce maniple is wholly within 6\" of a Titan from the same maniple (i.e., all Knights from the Banner are within 6\" of the Titan), and both the Titan and at least one Knight from that Banner is visible to the attacker, attacks made against the Titan from more than 2\" away from the Titan suffer a -1 modifier to the Hit roll."
+            },
+            {
+                "name":"Noble Sacrifice",
+                "ref":"Noble Sacrifice",
+                "description":"When a Titan in a Dominus Battleforce maniple takes a hit from an attack originating from more than 2\" away from the Titan, it may transfer the hit to any Knight model from the same maniple within 6\", as long as that model is visible to the attacker – you must transfer the hit before making any Armour rolls. The chosen Knight suffers the full effects of the hit as if it had been the original target. If the hit was from a weapon with the Blast trait, centre the Blast marker over the Knight. Hits from weapons with the Firestorm or Beam traits may not be transferred in this way."
+            }
+        ],
+        "units":[]
     }
 ]
