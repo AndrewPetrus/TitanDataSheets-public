@@ -1248,5 +1248,59 @@
                 "description":"This Stratagem can be purchased by any Legio Magna player. Play this Stratagem during any Strategy phase. For the remainder of the round, friendly Legio Magna Titans add 1 to all Hit rolls and Armour rolls made as a result of an attack against a target within 8\" of the attacking Titan, in addition to any other modifiers. However, enemy Titans add 1 to all Armour rolls made as a result of an attack against a Legio Magna Titan originating from its Side or Rear arc, in addition to any other modifiers."
             }
         ]
+    },
+    {
+        "name":"Legio Vulturum",
+        "ref":"Legio Vulturum",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Relentless Killers",
+                "ref":"Relentless Killers",
+                "description":"During the Combat phase, friendly Legio Vulturum Titans add 1 to all Hit rolls if, during the same round, an enemy Titan has suffered Catastrophic Damage, regardless of the source."
+            },
+            {
+                "name":"Pride of Ryza",
+                "ref":"Pride of Ryza",
+                "description":"During the Damage Control phase, or when making Repair rolls as part of an Emergency Repairs order, when a Legio Crucius Titan uses a dice result of 6 to Vent Plasma, decrease the Titan’s Reactor level by 2 rather than 1."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Storm Frag Shells",
+                "ref":"Storm Frag Shells",
+                "description":"Any Legio Vulturum Titan that is equipped with a vulcan mega-bolter or vulcan mega-bolter array can be upgraded with Storm Frag shells at a cost of +25 points for a vulcan mega- bolter and +45 points for a vulcan mega-bolter array. Each weapon a Titan is armed with must be upgraded separately. A weapon with this upgrade gains the Maximal Fire trait and increases the negative Acc modifier for the weapon’s Long range by 1 (i.e., a 0 becomes a -1, a -1 becomes a -2)."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Experimental Vessel",
+                "ref":"Experimental Vessel",
+                "description":"Once per game, when the Princeps Seniores’ Titan is activated during the Combat phase, the Titan may immediately repair a single disabled weapon."
+            },
+            {
+                "name":"Enigmatic",
+                "ref":"Enigmatic",
+                "description":"At the start of the Strategy phase of the first round, the Princeps Seniores’ Titan may be redeployed; do this before either player issues any Orders. The Princeps Seniores may be placed anywhere that they would normally be allowed to deploy by the mission being played."
+            },
+            {
+                "name":"Merciless",
+                "ref":"Merciless",
+                "description":"The presence of this Princeps within the battlegroup allows it to purchase the Legio Specific Stratagem Cull the Weak multiple times. Though the Stratagem can be purchased multiple times, it can only be played once per phase."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Cull the Weak (1)",
+                "ref":"Cull the Weak",
+                "description":"This Stratagem can be purchased by any Legio Vulturum player. Play this Stratagem when an enemy Titan moves outside of its Front arc (see Sidestepping and Backing Up in the Adeptus Titanicus rulebook), whether voluntarily or involuntarily. A friendly Legio Vulturum Titan can immediately make an attack with one of their weapon systems against that target, increasing its Reactor Level by 1 to do so. For all intents and purposes, this is a new attack requiring an Attack roll, any additional increases to the Titan’s reactor level, etc."
+            },
+            {
+                "name":"Scent of Blood (2)",
+                "ref":"Scent of Blood",
+                "description":"This Stratagem can be purchased by any Legio Vulturum player. Play this Stratagem when an enemy Titan suffers Critical Damage in the Combat phase as a result of damage from an attack made by a friendly Legio Vulturum Titan. After the attacking Titan’s activation has ended, you can immediately activate another friendly Legio Vulturum Titan that hasn’t yet been activated this Combat phase, increasing the chosen Titan’s reactor level by 2 to do so. This counts as that Titan’s activation this Combat phase."
+            }
+        ]
     }
 ]
