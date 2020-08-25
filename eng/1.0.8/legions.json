@@ -1076,5 +1076,59 @@
                 "description":"This Stratagem can be purchased by any Legio Honorum player. Play this Stratagem during any Strategy phase. For the remainder of the phase, friendly Legio Honorum Titans do not suffer penalties to Command checks. In addition, a single Legio Honorum Titan may re-roll a failed Command check made when issuing Orders."
             }
         ]
+    },
+    {
+        "name":"Legio Osedax",
+        "ref":"Legio Osedax",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Reforged in War",
+                "ref":"Reforged in War",
+                "description":"Legio Osedax Titans never suffer penalties to Command checks and may ignore effects that force them to re-roll successful Command checks."
+            },
+            {
+                "name":"Founding Tenets",
+                "ref":"Founding Tenets",
+                "description":"A Legio Honorum maniple may substitute any mandatory component from an Axiom, Myrmidon or Fortis maniple with a Reaver or Warlord Titan, so long as that new Titan is of equal to or greater Scale than the Titan it is replacing. In addition, a Legio Honorum Titan may replace a single optional component Reaver or Warlord Titan from these maniples with a Warbringer Nemesis Titan. Each maniple can only include a single Warbringer Nemesis in this way."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Plasma Channels",
+                "ref":"Plasma Channels",
+                "description":"Any Legio Osedax Titan may be equipped with Plasma Channels for +20 points. Once per game, during the Movement phase, a Titan equipped with Plasma Channels can activate them. If they do so, decrease the Reactor Level of that Titan by D3+1. This counts as the Titan’s activation for that phase."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Natural General",
+                "ref":"Natural General",
+                "description":"During the Strategy phase, when the Princeps is successfully issued with an Order, a single friendly Legio Osedax Titan within the same maniple may be issued the same Order without the need to make a Command check."
+            },
+            {
+                "name":"Careful Planner",
+                "ref":"Careful Planner",
+                "description":"Once per game, the Legio Osedax player can reuse a Stratagem that cost 1 or fewer Stratagem points and has been used earlier in the battle by the Legio Osedax player. The Princeps must be on the battlefield to use this ability. If the Stratagem is one that can be used more than once (i.e., Artillery Bombardment), it may instead be used twice in one phase by the Legio Osedax player."
+            },
+            {
+                "name":"Lightning Assault",
+                "ref":"Lightning Assault",
+                "description":"After both players have deployed, but before players determine who is the First Player, Titans within the Princeps Seniores’ maniple may immediately make a move. Each Titan may move no more than 6\" when making this move. Any Titan that moves in this way cannot be issued Orders during the first round."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Relentless March (1)",
+                "ref":"Relentless March",
+                "description":"This Stratagem can be purchased by any Legio Osedax player. Play this Stratagem during any Strategy phase. For the remainder of the round, friendly Legio Osedax Titans may be issued Full Stride orders without the need to make a Command check and are not affected by Difficult terrain and Dangerous terrain."
+            },
+            {
+                "name":"Blood Begets Blood (3)",
+                "ref":"Blood Begets Blood",
+                "description":"This Stratagem can be purchased by any Legio Osedax player. Play this Stratagem when a friendly Legio Osedax Titan suffers Catastrophic Damage. After resolving the effects of the Catastrophic Damage, every friendly Legio Osedax Titan may immediately make a single weapon attack. This attack must be made against the closest visible enemy unit. Increase the Plasma Reactor level of any Titan that makes an attack in this way by 2, in addition to any other advances associated with weapon fire."
+            }
+        ]
     }
 ]
