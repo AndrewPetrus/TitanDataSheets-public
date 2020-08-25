@@ -1027,5 +1027,54 @@
                 "description":"This Stratagem can be purchased by any Legio Mordaxis player. Play chis Stratagem at the start of the Damage Control phase, before any Repair rolls are made. Until the end of the phase, add 2 to the Servitor Clades of every Legio Mordaxis Titan."
             }
         ]
+    },
+    {
+        "name":"Legio Honorum",
+        "ref":"Legio Honorum",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Resolute and Unbowed",
+                "ref":"Resolute and Unbowed",
+                "description":"Any Legio Honorum Titan that has voluntarily moved more than 4\" in the Movement phase of any round decreases the bonus to an attacker’s Armour roll as the result of damage already inflicted on a location by 1, as indicated by the Titan’s Command Terminal (see the Adeptus Titanicus rulebook), so long as the attack originates from within the Titan’s Front Arc."
+            },
+            {
+                "name":"Founding Tenets",
+                "ref":"Founding Tenets",
+                "description":"A Legio Honorum maniple may substitute any mandatory component from an Axiom, Myrmidon or Fortis maniple with a Reaver or Warlord Titan, so long as that new Titan is of equal to or greater Scale than the Titan it is replacing. In addition, a Legio Honorum Titan may replace a single optional component Reaver or Warlord Titan from these maniples with a Warbringer Nemesis Titan. Each maniple can only include a single Warbringer Nemesis in this way."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Basilius Throne",
+                "ref":"Basilius Throne",
+                "description":"A Legio Honorum Princeps Seniores’ Titan may take a Basilius Throne for +25 points. A Titan with this upgrade may be issued Orders without the need to make a Command check. In addition, any Legio Honorum Titan adds 1 to the result of any Command check made when being issued an Order previously issued to a Princeps Seniores’ Titan with this upgrade within the same maniple."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Ardent Crusader",
+                "ref":"Ardent Crusader",
+                "description":"The presence of this Princeps within the battlegroup allows it to purchase the Legio Specific Stratagem: Crusading Spirit multiple times."
+            },
+            {
+                "name":"Stubborn",
+                "ref":"Stubborn",
+                "description":"The Princeps may always be issued Orders during the Strategy phase, even if normally unable to do so, e.g., due to Vox Blackout or because a friendly Titan has failed their Command check when being issued an order."
+            },
+            {
+                "name":"Iron Resolve",
+                "ref":"Iron Resolve",
+                "description":"The Princeps Seniores’ Titan always benefits from the Resolute and Unbowed Legio Trait even if it has moved less than 4\" that round, so long as the attack originates from within the Titan’s Front Arc."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Crusading Spirit (1)",
+                "ref":"Crusading Spirit",
+                "description":"This Stratagem can be purchased by any Legio Honorum player. Play this Stratagem during any Strategy phase. For the remainder of the phase, friendly Legio Honorum Titans do not suffer penalties to Command checks. In addition, a single Legio Honorum Titan may re-roll a failed Command check made when issuing Orders."
+            }
+        ]
     }
 ]
