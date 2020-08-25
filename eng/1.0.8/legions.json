@@ -1189,5 +1189,64 @@
                 "description":"This Stratagem can be purchased by any Legio Osedax player. Play this Stratagem when a friendly Legio Osedax Titan suffers Catastrophic Damage. After resolving the effects of the Catastrophic Damage, every friendly Legio Osedax Titan may immediately make a single weapon attack. This attack must be made against the closest visible enemy unit. Increase the Plasma Reactor level of any Titan that makes an attack in this way by 2, in addition to any other advances associated with weapon fire."
             }
         ]
+    },
+    {
+        "name":"Legio Magna",
+        "ref":"Legio Magna",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Howls of the Damned",
+                "ref":"Howls of the Damned",
+                "description":"Subtract 1 from the result of all Command checks made by Titans within 8\" of a Legio Magna Titan. In addition, Titans within 8\" of a Legio Magna Titan can never re-roll failed Command checks. Legio Magna Titans are not affected by this Legio Trait."
+            },
+            {
+                "name":"Pride of Ryza",
+                "ref":"Pride of Ryza",
+                "description":"During the Damage Control phase, or when making Repair rolls as part of an Emergency Repairs order, when a Legio Crucius Titan uses a dice result of 6 to Vent Plasma, decrease the Titan’s Reactor level by 2 rather than 1."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Directed Pressure Outlet",
+                "ref":"Directed Pressure Outlet",
+                "description":"Any Legio Magna Titan armed with a weapon with the Melta trait may be equipped with a Directed Pressure Outlet for +20 points. Each Melta weapon a Titan is armed with must be upgraded separately. A Titan equipped with a Directed Pressure Outlet adds 3\" to the weapon’s Short Range."
+            },
+            {
+                "name":"Bi-folded Power Containment",
+                "ref":"Bi-folded Power Containment",
+                "description":"Any Legio Crucius Titan may be equipped with a Bi- folded Power Containment system for +30 points. When firing a weapon with the Draining trait (see the Adeptus Titanicus rulebook), a Titan equipped with a Bi-folded Power Containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit."
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Messenger of Death",
+                "ref":"Messenger of Death",
+                "description":"The Legio Trait Howls of the Damned affects all units within 15\" of the Princeps Seniores’ Titan instead of 8\"."
+            },
+            {
+                "name":"Slayer of Kings",
+                "ref":"Slayer of Kings",
+                "description":"When targeting a Titan that is within 12\" of the Princeps’ Titan, the Princeps Seniores may add 1 to the Armour rolls of any hits, provided that the target Titan has a Scale equal to or greater than their own."
+            },
+            {
+                "name":"Bloodthirsty",
+                "ref":"Bloodthirsty",
+                "description":"Once per round, the Princeps may make an attack with a disabled weapon, as if the weapon had been repaired. After resolving the effects of the weapon attack, the weapon suffers the Detonation Damage effect, using the highest detonation Strength value to resolve its effects (e.g., a Reaver Arm Laser Blaster would detonate at S9)."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Battle Fervour (3)",
+                "ref":"Battle Fervour",
+                "description":"This Stratagem can be purchased by any Legio Magna player. Play this Stratagem during any Strategy phase. For the remainder of the phase, friendly Legio Magna Titans may be issued Charge orders without the need to make a Command check. In addition, for the remainder of the round, friendly Legio Magna Titans may re-roll Hit rolls of a 1 for attacks made with a weapon with the Melee trait."
+            },
+            {
+                "name":"Spearhead Assault (2)",
+                "ref":"Spearhead Assault",
+                "description":"This Stratagem can be purchased by any Legio Magna player. Play this Stratagem during any Strategy phase. For the remainder of the round, friendly Legio Magna Titans add 1 to all Hit rolls and Armour rolls made as a result of an attack against a target within 8\" of the attacking Titan, in addition to any other modifiers. However, enemy Titans add 1 to all Armour rolls made as a result of an attack against a Legio Magna Titan originating from its Side or Rear arc, in addition to any other modifiers."
+            }
+        ]
     }
 ]
