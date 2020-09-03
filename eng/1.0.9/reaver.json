@@ -4,6 +4,7 @@
     "scale":8,
     "scaleName":"IMMENSUS",
     "points":250,
+    "iconName":"reaver",
     
     "command":4,
     "ballisticSkill":3,

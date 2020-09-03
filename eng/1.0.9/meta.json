@@ -1,6 +1,6 @@
 {
-    "version":"1.0.9",
-    "requiredAppVersion":14,
+    "version":"1.0.10",
+    "requiredAppVersion":15,
     "profiles":"profiles",
     "weapons":"weapons",
     "weaponTraits":"weapon_traits",

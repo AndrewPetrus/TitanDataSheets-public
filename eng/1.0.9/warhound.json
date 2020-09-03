@@ -4,6 +4,7 @@
     "scale":6,
     "scaleName":"GRANDIS",
     "points":180,
+    "iconName":"warhound",
     
     "command":5,
     "ballisticSkill":3,

@@ -4,6 +4,7 @@
     "scale":9,
     "scaleName":"IMMENSUS",
     "points":325,
+    "iconName":"nemesis",
     
     "command":4,
     "ballisticSkill":3,

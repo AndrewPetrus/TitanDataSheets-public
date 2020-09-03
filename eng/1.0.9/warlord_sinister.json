@@ -4,6 +4,7 @@
     "scale":10,
     "scaleName":"MAGNIFICUS",
     "points":685,
+    "iconName":"warlord",
     
     "command":3,
     "ballisticSkill":3,

@@ -1,6 +1,6 @@
 {
-    "version":"1.0.9",
-    "requiredAppVersion":14,
+    "version":"1.0.10",
+    "requiredAppVersion":15,
     "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.0.9/",
     "files":[
         "acastus_knights.json",

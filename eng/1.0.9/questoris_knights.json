@@ -4,6 +4,7 @@
     "scale":3,
     "scaleName":"GRANDIS",
     "points":0,
+    "iconName":"questoris",
     
     "command":6,
     "ballisticSkill":4,
