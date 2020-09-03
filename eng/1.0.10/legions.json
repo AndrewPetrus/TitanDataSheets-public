@@ -30,12 +30,20 @@
             {
                 "name":"Enhanced Auspex Relays",
                 "ref":"Enhanced Auspex Relays",
-                "description":"Any Legio Gryphonicus Warhound can be equipped with enhanced auspex relays at a cost of +10 points. Whenever a Legio Gryphonicus Titan makes an attack, it can measure the distance to any targets that are within 12\" of a friendly Warhound equipped with enhanced auspex relays before declaring its target."
+                "description":"Any Legio Gryphonicus Warhound can be equipped with enhanced auspex relays at a cost of +10 points. Whenever a Legio Gryphonicus Titan makes an attack, it can measure the distance to any targets that are within 12\" of a friendly Warhound equipped with enhanced auspex relays before declaring its target.",
+                "price": {
+                    "value":10,
+                    "condition":"warhound"
+                }
             },
             {
                 "name":"Gravatus Plating",
                 "ref":"Gravatus Plating",
-                "description":"A Legio Gryphonicus Reaver that is chosen as part of a maniple in place of a Warlord Titan (as per the Mainstay of the Titan Legion, rule above) can be fitted with gravatus plating at a cost of +20 points. This increases the Armour value of the Reaver's body and legs by I point each, but subtracts 1 from its default and boosted Speed characteristics"
+                "description":"A Legio Gryphonicus Reaver that is chosen as part of a maniple in place of a Warlord Titan (as per the Mainstay of the Titan Legion, rule above) can be fitted with gravatus plating at a cost of +20 points. This increases the Armour value of the Reaver's body and legs by I point each, but subtracts 1 from its default and boosted Speed characteristics",
+                "price": {
+                    "value":10,
+                    "condition":"reaver"
+                }
             },
             {
                 "name":"Motive Sub-reactors",
