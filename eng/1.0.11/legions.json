@@ -695,11 +695,6 @@
                 "name":"Honour and Blood",
                 "ref":"Honour and Blood",
                 "description":"A Death Stalkers Titan that is within 3\" of an enemy Titan increases its Weapon Skill by 1 and decreases its Ballistic Skill by 1."
-            },
-            {
-                "name":"Many Faces of the Omnissiah",
-                "ref":"Many Faces of the Omnissiah",
-                "description":"In the first round of the game, any Tiger Eyes Titan may choose to forgo its activation in either the Movement phase or the Combat phase - in essence doing nothing for that phase but counting as one of the Tiger Eyes player's activations. For each phase sacrificed by a Titan, either 1 or 2, that Titan may re-roll any one dice later in the game."
             }
         ],
         "wargear":[
