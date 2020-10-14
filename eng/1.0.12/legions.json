@@ -33,7 +33,7 @@
                 "description":"Any Legio Gryphonicus Warhound can be equipped with enhanced auspex relays at a cost of +10 points. Whenever a Legio Gryphonicus Titan makes an attack, it can measure the distance to any targets that are within 12\" of a friendly Warhound equipped with enhanced auspex relays before declaring its target.",
                 "price": {
                     "value":10,
-                    "condition":"warhound"
+                    "condition":["warhound"]
                 }
             },
             {
@@ -42,13 +42,17 @@
                 "description":"A Legio Gryphonicus Reaver that is chosen as part of a maniple in place of a Warlord Titan (as per the Mainstay of the Titan Legion, rule above) can be fitted with gravatus plating at a cost of +20 points. This increases the Armour value of the Reaver's body and legs by I point each, but subtracts 1 from its default and boosted Speed characteristics",
                 "price": {
                     "value":10,
-                    "condition":"reaver"
+                    "condition":["reaver"]
                 }
             },
             {
                 "name":"Motive Sub-reactors",
                 "ref":"Motive Sub-reactors",
-                "description":"A Legio Gryphonicus Reaver which is chosen as part of a maniple in place of a Warhound Titan (as per the Mainstay of the Titan Legion found on rulebook page 89) can be fitted with motive sub-reactors at a cost of +25 points. This allows the Reaver to use its boosted Speed and Manoeuvre characteristics without pushing its reactor. However, each time the Titan suffers a Critical Hit to its Legs, roll a D6. On a result of 3 or less, its Reactor level is increased by 1."
+                "description":"A Legio Gryphonicus Reaver which is chosen as part of a maniple in place of a Warhound Titan (as per the Mainstay of the Titan Legion found on rulebook page 89) can be fitted with motive sub-reactors at a cost of +25 points. This allows the Reaver to use its boosted Speed and Manoeuvre characteristics without pushing its reactor. However, each time the Titan suffers a Critical Hit to its Legs, roll a D6. On a result of 3 or less, its Reactor level is increased by 1.",
+                "price": {
+                    "value":25,
+                    "condition":["reaver"]
+                }
             }
         ],
         "personalTraits":[
@@ -140,12 +144,18 @@
             {
                 "name":"Terminus Override Mechanisms",
                 "ref":"Terminus Override Mechanisms",
-                "description":"Any Legio Crucius Titan may be equipped with a terminus override mechanism for +30 points. The first time a Legio Crucius Titan with a terminus override mechanism would be required to roll on the Reactor Overload table (see page 43 of the Adeptus Titanicus rulebook), instead of rolling, give the Titan a Shutdown order instead. Once triggered in this manner, a terminus override mechanism has no further effect on the game."
+                "description":"Any Legio Crucius Titan may be equipped with a terminus override mechanism for +30 points. The first time a Legio Crucius Titan with a terminus override mechanism would be required to roll on the Reactor Overload table (see page 43 of the Adeptus Titanicus rulebook), instead of rolling, give the Titan a Shutdown order instead. Once triggered in this manner, a terminus override mechanism has no further effect on the game.",
+                "price": {
+                    "value":30
+                }
             },
             {
                 "name":"Bi-folded Power Containment",
                 "ref":"Bi-folded Power Containment",
-                "description":"Any Legio Crucius Titan may be equipped with a bi-folded power containment system for +30 points. When firing a weapon with the Draining trait (see page 39 of the Adeptus Titanicus rulebook), a Titan equipped with a bi-folded power containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit."
+                "description":"Any Legio Crucius Titan may be equipped with a bi-folded power containment system for +30 points. When firing a weapon with the Draining trait (see page 39 of the Adeptus Titanicus rulebook), a Titan equipped with a bi-folded power containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit.",
+                "price": {
+                    "value":30
+                }
             }
         ],
         "personalTraits":[
@@ -236,12 +246,18 @@
             {
                 "name":"Twinned Machine Spirits",
                 "ref":"Twinned Machine Spirits",
-                "description":"Any two Legio Vulcanum Titans may take twinned machine spirits for +20 points each. Legion Vulcanum Titans with twinned machine spirits count as being part of a squadron with each other (see page 45 of the Adeptus Titanicus rulebook). However, should a Titan with a twinned machine spirit roll the Machine Spirit symbol on the Reactor dice, both it and its paired Titan must make a Command check to see if their Titan's machine spirit awakens. Note that multiple pairs of Titans in a Legio Vulcanum Battlegroup may be equipped to have twinned machine spirits, each forming their own squadron of two."
+                "description":"Any two Legio Vulcanum Titans may take twinned machine spirits for +20 points each. Legion Vulcanum Titans with twinned machine spirits count as being part of a squadron with each other (see page 45 of the Adeptus Titanicus rulebook). However, should a Titan with a twinned machine spirit roll the Machine Spirit symbol on the Reactor dice, both it and its paired Titan must make a Command check to see if their Titan's machine spirit awakens. Note that multiple pairs of Titans in a Legio Vulcanum Battlegroup may be equipped to have twinned machine spirits, each forming their own squadron of two.",
+                "price": {
+                    "value":20
+                }
             },
             {
                 "name":"Janus Pattern Missiles",
                 "ref":"Janus Pattern Missiles",
-                "description":"Any Legio Vulcanum Titan armed with an apocalypse missile launcher or paired apocalypse missile launchers may take Janus pattern missiles for +20 points. Legio Vulcanum Titans with Janus pattern missiles may split the dice of their missile launchers between more than one target as the Janus warheads disperse in flight. The Titan chooses a main target for its missiles, which will either be the same target as the rest of its weapons or one of its targets if it has the Split Fire order. At least one dice must then be allocated to the Titan's main target. The rest of the missile launcher's dice can then either be applied to the main target or any other target within 12\" of the main target, provided that they are in range and line of sight of the weapon."
+                "description":"Any Legio Vulcanum Titan armed with an apocalypse missile launcher or paired apocalypse missile launchers may take Janus pattern missiles for +20 points. Legio Vulcanum Titans with Janus pattern missiles may split the dice of their missile launchers between more than one target as the Janus warheads disperse in flight. The Titan chooses a main target for its missiles, which will either be the same target as the rest of its weapons or one of its targets if it has the Split Fire order. At least one dice must then be allocated to the Titan's main target. The rest of the missile launcher's dice can then either be applied to the main target or any other target within 12\" of the main target, provided that they are in range and line of sight of the weapon.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -285,7 +301,11 @@
             {
                 "name":"Static Rounds",
                 "ref":"Static Rounds",
-                "description":"Any Legio Interfector Reaver or Warhound Titan armed with a Vulcan mega-bolter may rake static rounds for +15 points. A Titan equipped with static rounds uses a modified version of the Rapid trait when firing its mega-bolter. Against a target with active void shields, each Hit roll of 5 or 6 causes 2 hits, rather than 1. If a roll of 6 To Hit was required, this rule has no effect. Static rounds have no additional effects against targets without active void shields, although the weapon will retain the normal effects of the Rapid trait."
+                "description":"Any Legio Interfector Reaver or Warhound Titan armed with a Vulcan mega-bolter may rake static rounds for +15 points. A Titan equipped with static rounds uses a modified version of the Rapid trait when firing its mega-bolter. Against a target with active void shields, each Hit roll of 5 or 6 causes 2 hits, rather than 1. If a roll of 6 To Hit was required, this rule has no effect. Static rounds have no additional effects against targets without active void shields, although the weapon will retain the normal effects of the Rapid trait.",
+                "price": {
+                    "value":15,
+                    "condition":["reaver", "warhound"]
+                }
             }
         ],
         "personalTraits":[
@@ -387,7 +407,11 @@
             {
                 "name":"Devotional War Sirens",
                 "ref":"Devotional War Sirens",
-                "description":"Any Legio Defensor Warlord Titan may rake Devotional War Sirens for +20 points. Legio Defensor Titans within 8\" of a Legio Defensor Warlord Titan equipped with Devotional War Sirens may roll two dice when making a Command check and choose the higher result."
+                "description":"Any Legio Defensor Warlord Titan may rake Devotional War Sirens for +20 points. Legio Defensor Titans within 8\" of a Legio Defensor Warlord Titan equipped with Devotional War Sirens may roll two dice when making a Command check and choose the higher result.",
+                "price": {
+                    "value":20,
+                    "condition":["warlord"]
+                }
             }
         ],
         "personalTraits":[
@@ -441,7 +465,10 @@
             {
                 "name":"Infernus Missiles",
                 "ref":"Infernus Missiles",
-                "description":"Any Legio Atarus Titan may take Infernus missiles as an upgrade to their Apocalypse missile launchers for +15 points. If a unit takes at least one hit from an Apocalypse missile launcher equipped with Infernus missiles, place a 5\" Blast marker under the unit. In the End phase, any model with at least part of its base on the marker takes a Strength 4 hit, ignoring void shields and ion shields. Titans suffer this hit to their Legs. In addition, Blocking terrain touched by the template takes a Strength 4 hit (see page 52 of the Adeptus Titanicus rulebook for details on damaging and destroying terrain) and, if not destroyed, is set alight. In the End phase, burning terrain suffers a Strength 4 Hit, and deals a Strength 4 Hit to any models in it, as detailed above, until the terrain is destroyed and the fire goes out."
+                "description":"Any Legio Atarus Titan may take Infernus missiles as an upgrade to their Apocalypse missile launchers for +15 points. If a unit takes at least one hit from an Apocalypse missile launcher equipped with Infernus missiles, place a 5\" Blast marker under the unit. In the End phase, any model with at least part of its base on the marker takes a Strength 4 hit, ignoring void shields and ion shields. Titans suffer this hit to their Legs. In addition, Blocking terrain touched by the template takes a Strength 4 hit (see page 52 of the Adeptus Titanicus rulebook for details on damaging and destroying terrain) and, if not destroyed, is set alight. In the End phase, burning terrain suffers a Strength 4 Hit, and deals a Strength 4 Hit to any models in it, as detailed above, until the terrain is destroyed and the fire goes out.",
+                "price": {
+                    "value":15
+                }
             }
         ],
         "personalTraits":[
@@ -495,12 +522,20 @@
             {
                 "name":"Fortis Motivators",
                 "ref":"Fortis Motivators",
-                "description":"A Legio Solaria Warhound Titan can be fitted with Fortis Motivators for a cost of +20 points. In the Damage Control phase, the player may discard any Repair Action dice (regardless of the number rolled) to repair a point of Critical Damage to the Titan's Legs."
+                "description":"A Legio Solaria Warhound Titan can be fitted with Fortis Motivators for a cost of +20 points. In the Damage Control phase, the player may discard any Repair Action dice (regardless of the number rolled) to repair a point of Critical Damage to the Titan's Legs.",
+                "price": {
+                    "value":20,
+                    "condition":["warhound"]
+                }
             },
             {
                 "name":"Cameleoline Shrouding",
                 "ref":"Cameleoline Shrouding",
-                "description":"Any Legio Solaria Titan with a Scale of 6 or less can take Cameleoline Shrouding as an upgrade for +35 points. Titans with this upgrade have their outline blurred at longer distances, and when shooting at them Hit rolls suffer an additional -1 to Hit at Long Range. However, the shrouding was notoriously fragile, and as soon as the Titan suffers 1 point of Structural Damage, this bonus is lost."
+                "description":"Any Legio Solaria Titan with a Scale of 6 or less can take Cameleoline Shrouding as an upgrade for +35 points. Titans with this upgrade have their outline blurred at longer distances, and when shooting at them Hit rolls suffer an additional -1 to Hit at Long Range. However, the shrouding was notoriously fragile, and as soon as the Titan suffers 1 point of Structural Damage, this bonus is lost.",
+                "price": {
+                    "value":35,
+                    "condition":["warhound"]
+                }
             }
         ],
         "personalTraits":[
@@ -549,12 +584,18 @@
             {
                 "name":"Remains of the Fallen",
                 "ref":"Remains of the Fallen",
-                "description":"Any Legio Mortis Titan may be upgraded to have the Remains of the Fallen for +20 points. Enemy units within 8\" of a Titan with this upgrade must increase their Command characteristic by 1 to a maximum of 10."
+                "description":"Any Legio Mortis Titan may be upgraded to have the Remains of the Fallen for +20 points. Enemy units within 8\" of a Titan with this upgrade must increase their Command characteristic by 1 to a maximum of 10.",
+                "price": {
+                    "value":20
+                }
             },
             {
                 "name":"The Warmaster's Beneficence",
                 "ref":"The Warmaster's Beneficence",
-                "description":"Any Legio Mortis Titan may be upgraded to have the Warmaster's Beneficence for +20 points. The first time a Titan with this upgrade fires, it adds 1 to the Strength of any of its bolter or missile weapons, and may ignore the effects of the Draining trait."
+                "description":"Any Legio Mortis Titan may be upgraded to have the Warmaster's Beneficence for +20 points. The first time a Titan with this upgrade fires, it adds 1 to the Strength of any of its bolter or missile weapons, and may ignore the effects of the Draining trait.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -603,7 +644,10 @@
             {
                 "name":"Earthbreaker Missiles",
                 "ref":"Earthbreaker Missiles",
-                "description":"Any Legio Krytos Titan that is equipped with Apocalypse missile launchers can take Earthbreaker missiles as an upgrade for +20 points for a Warlord Titan and +10 points for a Reaver Titan. When firing the Titan's Apocalypse missile launchers, the player can choose to either use its normal profile, or reduce its dice to 2 for a Warlord Titan, or 1 for a Reaver Titan, and give it the Quake trait. Earthbreaker missiles increase their Strength by 5 when resolving damage against terrain."
+                "description":"Any Legio Krytos Titan that is equipped with Apocalypse missile launchers can take Earthbreaker missiles as an upgrade for +20 points for a Warlord Titan and +10 points for a Reaver Titan. When firing the Titan's Apocalypse missile launchers, the player can choose to either use its normal profile, or reduce its dice to 2 for a Warlord Titan, or 1 for a Reaver Titan, and give it the Quake trait. Earthbreaker missiles increase their Strength by 5 when resolving damage against terrain.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -657,7 +701,10 @@
             {
                 "name":"Hunting Auspex",
                 "ref":"Hunting Auspex",
-                "description":"Any Legio Fureans Titan may take a hunting auspex upgrade for +20 points. A Titan equipped with a hunting auspex is better able to pick its enemies out from the tangled wreckage of the battlefield, especially at longer ranges where it can isolate targets. When making ranged attacks at targets over 12\" away, the Titan may reduce any penalty To Hit by 1, to a minimum of 0."
+                "description":"Any Legio Fureans Titan may take a hunting auspex upgrade for +20 points. A Titan equipped with a hunting auspex is better able to pick its enemies out from the tangled wreckage of the battlefield, especially at longer ranges where it can isolate targets. When making ranged attacks at targets over 12\" away, the Titan may reduce any penalty To Hit by 1, to a minimum of 0.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -701,12 +748,18 @@
             {
                 "name":"Plasma Gargoyles",
                 "ref":"Plasma Gargoyles",
-                "description":"Any Legio Vulpa Titan may take plasma gargoyles for +15 points. Whenever the Titan uses Repair dice to Vent Plasma, nearby units may take damage. All units (friend or foe) within 3\" take a hit with a Strength equal to 3 plus the number of levels the Titan's reactor is decreased by, i.e., if a Titan vented plasma and reduced its reactor by 3 levels then all units within 3\" would take a Strength 6 hit."
+                "description":"Any Legio Vulpa Titan may take plasma gargoyles for +15 points. Whenever the Titan uses Repair dice to Vent Plasma, nearby units may take damage. All units (friend or foe) within 3\" take a hit with a Strength equal to 3 plus the number of levels the Titan's reactor is decreased by, i.e., if a Titan vented plasma and reduced its reactor by 3 levels then all units within 3\" would take a Strength 6 hit.",
+                "price": {
+                    "value":15
+                }
             },
             {
                 "name":"Disruption Emitters",
                 "ref":"Disruption Emitters",
-                "description":"Any Legio Vulpa Titan may take disruption emitters for +30 points. The Titan adds 2 to the Strength of any of its weapons l with the Melee trait, and counts its Scale as 2 higher when making Smash Attacks."
+                "description":"Any Legio Vulpa Titan may take disruption emitters for +30 points. The Titan adds 2 to the Strength of any of its weapons l with the Melee trait, and counts its Scale as 2 higher when making Smash Attacks.",
+                "price": {
+                    "value":30
+                }
             }
         ],
         "personalTraits":[
@@ -851,7 +904,10 @@
             {
                 "name":"Mantle of Responsibility",
                 "ref":"Mantle of Responsibility",
-                "description":"Any Legio Lysanda Titan can be upgraded to have a Mantle of Responsibility for +15 points. A Titan with this upgrade may re-roll results of a 1 or 2 when making a Command check."
+                "description":"Any Legio Lysanda Titan can be upgraded to have a Mantle of Responsibility for +15 points. A Titan with this upgrade may re-roll results of a 1 or 2 when making a Command check.",
+                "price": {
+                    "value":15
+                }
             }
         ],
         "personalTraits":[
@@ -895,12 +951,18 @@
             {
                 "name":"Clinging Phosphex",
                 "ref":"Clinging Phosphex",
-                "description":"Any Legio Infernus Titan that is equipped with an Inferno Gun can take Clinging Phosphex for +20 points. When firing the Titan's Inferno Gun, targets other than the one closest to the firing unit take two hits instead of one."
+                "description":"Any Legio Infernus Titan that is equipped with an Inferno Gun can take Clinging Phosphex for +20 points. When firing the Titan's Inferno Gun, targets other than the one closest to the firing unit take two hits instead of one.",
+                "price": {
+                    "value":20
+                }
             },
             {
                 "name":"Dark Blessing",
                 "ref":"Dark Blessing",
-                "description":"Any Legio Infernus Titan can take Dark Blessing for +5 points. Once per round, a Titan with this upgrade can re-roll a single dice. However, a Titan with this upgrade suffers a -1 modifier to any Command check made when issuing Orders."
+                "description":"Any Legio Infernus Titan can take Dark Blessing for +5 points. Once per round, a Titan with this upgrade can re-roll a single dice. However, a Titan with this upgrade suffers a -1 modifier to any Command check made when issuing Orders.",
+                "price": {
+                    "value":5
+                }
             }
         ],
         "personalTraits":[
@@ -949,7 +1011,10 @@
             {
                 "name":"Toxin Nodes",
                 "ref":"Toxin Nodes",
-                "description":"Any Legio Mordaxis Titan armed with a Blast (3\") weapon may take Toxin Nodes for +20 points. Decrease the Strength value of the weapon by 1 (to a minimum of 4) and replace the Blast (3\") trait with the Blast (5\") trait."
+                "description":"Any Legio Mordaxis Titan armed with a Blast (3\") weapon may take Toxin Nodes for +20 points. Decrease the Strength value of the weapon by 1 (to a minimum of 4) and replace the Blast (3\") trait with the Blast (5\") trait.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -998,12 +1063,20 @@
             {
                 "name":"Reinforced Plating",
                 "ref":"Reinforced Plating",
-                "description":"A Legio Audax Titan of Scale 6 or lower can be fitted with Reinforced Plating for +15 points. Subtract 1 from the result of Armour rolls made against a Titan with Reinforced Plating."
+                "description":"A Legio Audax Titan of Scale 6 or lower can be fitted with Reinforced Plating for +15 points. Subtract 1 from the result of Armour rolls made against a Titan with Reinforced Plating.",
+                "price": {
+                    "value":15,
+                    "condition":["warhound"]
+                }
             },
             {
                 "name":"Ursus Claws",
                 "ref":"Ursus Claws",
-                "description":"An Ursus Claw fitted to a Legio Audax Titan has a Strength value of 4 instead of 3. Rules for Ursus Claws can be found on page 93 (Shadow and Iron)."
+                "description":"An Ursus Claw fitted to a Legio Audax Titan has a Strength value of 4 instead of 3. Rules for Ursus Claws can be found on page 93 (Shadow and Iron).",
+                "price": {
+                    "value":0,
+                    "condition":["warhound"]
+                }
             }
         ],
         "personalTraits":[
@@ -1052,7 +1125,10 @@
             {
                 "name":"Basilius Throne",
                 "ref":"Basilius Throne",
-                "description":"A Legio Honorum Princeps Seniores’ Titan may take a Basilius Throne for +25 points. A Titan with this upgrade may be issued Orders without the need to make a Command check. In addition, any Legio Honorum Titan adds 1 to the result of any Command check made when being issued an Order previously issued to a Princeps Seniores’ Titan with this upgrade within the same maniple."
+                "description":"A Legio Honorum Princeps Seniores’ Titan may take a Basilius Throne for +25 points. A Titan with this upgrade may be issued Orders without the need to make a Command check. In addition, any Legio Honorum Titan adds 1 to the result of any Command check made when being issued an Order previously issued to a Princeps Seniores’ Titan with this upgrade within the same maniple.",
+                "price": {
+                    "value":25
+                }
             }
         ],
         "personalTraits":[
@@ -1101,7 +1177,10 @@
             {
                 "name":"Plasma Channels",
                 "ref":"Plasma Channels",
-                "description":"Any Legio Osedax Titan may be equipped with Plasma Channels for +20 points. Once per game, during the Movement phase, a Titan equipped with Plasma Channels can activate them. If they do so, decrease the Reactor Level of that Titan by D3+1. This counts as the Titan’s activation for that phase."
+                "description":"Any Legio Osedax Titan may be equipped with Plasma Channels for +20 points. Once per game, during the Movement phase, a Titan equipped with Plasma Channels can activate them. If they do so, decrease the Reactor Level of that Titan by D3+1. This counts as the Titan’s activation for that phase.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -1155,12 +1234,18 @@
             {
                 "name":"Terminus Override Mechanisms",
                 "ref":"Terminus Override Mechanisms",
-                "description":"Any Legio Crucius Titan may be equipped with a Terminus Override Mechanism for +30 points. The first time a Legio Crucius Titan with a Terminus Override Mechanism would be required to roll on the Reactor Overload table (see the Adeptus Titanicus rulebook), instead of rolling, give the Titan a Shutdown order instead. Once triggered in this manner, a Terminus Override Mechanism has no further effect on the game."
+                "description":"Any Legio Crucius Titan may be equipped with a Terminus Override Mechanism for +30 points. The first time a Legio Crucius Titan with a Terminus Override Mechanism would be required to roll on the Reactor Overload table (see the Adeptus Titanicus rulebook), instead of rolling, give the Titan a Shutdown order instead. Once triggered in this manner, a Terminus Override Mechanism has no further effect on the game.",
+                "price": {
+                    "value":30
+                }
             },
             {
                 "name":"Bi-folded Power Containment",
                 "ref":"Bi-folded Power Containment",
-                "description":"Any Legio Crucius Titan may be equipped with a Bi- folded Power Containment system for +30 points. When firing a weapon with the Draining trait (see the Adeptus Titanicus rulebook), a Titan equipped with a Bi-folded Power Containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit."
+                "description":"Any Legio Crucius Titan may be equipped with a Bi-folded Power Containment system for +30 points. When firing a weapon with the Draining trait (see the Adeptus Titanicus rulebook), a Titan equipped with a Bi-folded Power Containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit.",
+                "price": {
+                    "value":30
+                }
             }
         ],
         "personalTraits":[
@@ -1214,12 +1299,10 @@
             {
                 "name":"Directed Pressure Outlet",
                 "ref":"Directed Pressure Outlet",
-                "description":"Any Legio Magna Titan armed with a weapon with the Melta trait may be equipped with a Directed Pressure Outlet for +20 points. Each Melta weapon a Titan is armed with must be upgraded separately. A Titan equipped with a Directed Pressure Outlet adds 3\" to the weapon’s Short Range."
-            },
-            {
-                "name":"Bi-folded Power Containment",
-                "ref":"Bi-folded Power Containment",
-                "description":"Any Legio Crucius Titan may be equipped with a Bi- folded Power Containment system for +30 points. When firing a weapon with the Draining trait (see the Adeptus Titanicus rulebook), a Titan equipped with a Bi-folded Power Containment system can roll a D6 to mitigate its effect. On a 4+, the Titan can roll the Reactor dice twice and choose the result they want. On a 1, however, they must roll the Reactor dice twice and choose the result that would advance their Reactor marker by the most or, if both results would advance it by the same amount, the result that would Awaken the Machine Spirit."
+                "description":"Any Legio Magna Titan armed with a weapon with the Melta trait may be equipped with a Directed Pressure Outlet for +20 points. Each Melta weapon a Titan is armed with must be upgraded separately. A Titan equipped with a Directed Pressure Outlet adds 3\" to the weapon’s Short Range.",
+                "price": {
+                    "value":20
+                }
             }
         ],
         "personalTraits":[
@@ -1273,7 +1356,10 @@
             {
                 "name":"Storm Frag Shells",
                 "ref":"Storm Frag Shells",
-                "description":"Any Legio Vulturum Titan that is equipped with a vulcan mega-bolter or vulcan mega-bolter array can be upgraded with Storm Frag shells at a cost of +25 points for a vulcan mega- bolter and +45 points for a vulcan mega-bolter array. Each weapon a Titan is armed with must be upgraded separately. A weapon with this upgrade gains the Maximal Fire trait and increases the negative Acc modifier for the weapon’s Long range by 1 (i.e., a 0 becomes a -1, a -1 becomes a -2)."
+                "description":"Any Legio Vulturum Titan that is equipped with a vulcan mega-bolter or vulcan mega-bolter array can be upgraded with Storm Frag shells at a cost of +25 points for a vulcan mega- bolter and +45 points for a vulcan mega-bolter array. Each weapon a Titan is armed with must be upgraded separately. A weapon with this upgrade gains the Maximal Fire trait and increases the negative Acc modifier for the weapon’s Long range by 1 (i.e., a 0 becomes a -1, a -1 becomes a -2).",
+                "price": {
+                    "value":25
+                }
             }
         ],
         "personalTraits":[
