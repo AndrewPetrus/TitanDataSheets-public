@@ -45,7 +45,7 @@
     "bodyDirectHitMax":13,
     "bodyDevastatingHitMin":14,
     "bodyDevastatingHitMax":15,
-    "bodyCriticalHit":15,
+    "bodyCriticalHit":16,
     "bodyCriticalPoints":3,
     "bodyCriticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
     "bodyCriticalBoonsRefs":["Reactor Leak", "VSG Burnout"],
