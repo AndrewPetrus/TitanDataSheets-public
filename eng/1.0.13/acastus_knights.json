@@ -18,6 +18,38 @@
     "devastatingHitMin":15,
     "devastatingHitMax":16,
     "criticalHit":17,
+    "structure": {
+        "pins": [
+            {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"yellow"
+            }, {
+                "modifier":"",
+                "color":"yellow"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"red"
+            }
+        ],
+        
+        "directHitMin":10,
+        "directHitMax":14,
+        "devastatingHitMin":15,
+        "devastatingHitMax":16,
+        "criticalHit":17
+    },
     
     "customTraits":"ARTILLERY: If an Acastus Knight Banner is issued First Fire or Split Fire orders during the Strategy phase, their BS is increased to 3+ until the End phase.\n\nTWIN AUTOCANNON: When the Banner is activated in the Combat phase, each Knight with twin autocannon can target an enemy unit within 6\". That unit suffers a Strength 4 hit.",
     

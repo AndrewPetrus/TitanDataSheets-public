@@ -18,6 +18,32 @@
     "devastatingHitMin":13,
     "devastatingHitMax":15,
     "criticalHit":16,
+    "structure": {
+        "pins": [
+            {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"red"
+            }
+        ],
+        
+        "directHitMin":9,
+        "directHitMax":12,
+        "devastatingHitMin":13,
+        "devastatingHitMax":15,
+        "criticalHit":16
+    },
     
     "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Cerastus Knights are not affected by Difficult terrain or Dangerous terrain.\n\nKNIGHT-LANCER ION GAUNTLET SHIELD: If the Banner contains one or more Cerastus Knight-Lancer, improve the Banner's Ion Shield save roll by 1.",
     

@@ -234,8 +234,8 @@
     {
         "name":"Dominus Battleforce",
         "ref":"Dominus Battleforce",
-        "mandatory":["warlord", "reaver", "reaver"],
-        "optional":["warhound", "warhound"],
+        "mandatory":["warlord", "reaver", "reaver", "questoris_knights"],
+        "optional":["warhound", "warhound", "questoris_knights"],
         "traits":[
             {
                 "name":"Auspex Bafflers",

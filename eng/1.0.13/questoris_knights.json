@@ -18,6 +18,29 @@
     "devastatingHitMin":13,
     "devastatingHitMax":15,
     "criticalHit":16,
+    "structure": {
+        "pins": [
+            {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"red"
+            }
+        ],
+        
+        "directHitMin":9,
+        "directHitMax":12,
+        "devastatingHitMin":13,
+        "devastatingHitMax":15,
+        "criticalHit":16
+    },
     
     "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Questoris Knights are not affected by Difficult terrain or Dangerous terrain.\n\nMELTAGUN: When the Banner is activated in the Combat phase, each Knight with a meltagun upgrade can target an enemy unit within 3\". That unit suffers a Strength 8 hit.",
     
