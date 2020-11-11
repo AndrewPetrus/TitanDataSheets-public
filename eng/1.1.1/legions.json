@@ -1391,5 +1391,155 @@
                 "description":"This Stratagem can be purchased by any Legio Vulturum player. Play this Stratagem when an enemy Titan suffers Critical Damage in the Combat phase as a result of damage from an attack made by a friendly Legio Vulturum Titan. After the attacking Titan’s activation has ended, you can immediately activate another friendly Legio Vulturum Titan that hasn’t yet been activated this Combat phase, increasing the chosen Titan’s reactor level by 2 to do so. This counts as that Titan’s activation this Combat phase."
             }
         ]
+    },
+    {
+        "name":"Legio Astraman",
+        "ref":"Legio Astraman",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Unyielding",
+                "ref":"Unyielding",
+                "description":"When activated during the Movement phase, a Legio Astraman Titan can choose to voluntarily Awaken their Machine Spirit – this counts as the Titan’s activation. If they do this, advance their Reactor Status marker by 2. The Titan automatically fails their Command check to quell the Machine Spirit and applies the Stalwart result from the Awakened Machine Spirit table instead of rolling. The chosen Titan cannot be activated in the subsequent Combat phase."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Maglock Shells",
+                "ref":"Maglock Shells",
+                "description":"Any Legio Astraman Titan armed with a weapon with the Ordnance trait may take Maglock Shells so long as that Titan does not already have an upgrade affecting that weapon at a cost of +5 points multiplied by each weapon’s Dice value; for example a Reaver Gatling Blaster would have a cost of +30 points. Each weapon a Titan is armed with must be upgraded separately. Add 1 to the result of all Armour rolls made by a weapon with this upgrade when resolving an attack made with an Ordnance weapon. Rolls of a natural 1 are still a Superficial Hit.",
+                "price": {
+                    "value":0
+                }
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Steadfast",
+                "ref":"Steadfast",
+                "description":"When the Princeps’ Titan is required to roll on the Awakened Machine Spirit table, they may instead choose the result from the table instead of rolling. If they do this, increase their Reactor level by 1, in addition to any other effects."
+            },
+            {
+                "name":"Diligent",
+                "ref":"Diligent",
+                "description":"Once per battle, during the Strategy phase, the Princeps’ Titan may be issued an Emergency Repairs order without the need to make a Command check."
+            },
+            {
+                "name":"Immovable Bastion",
+                "ref":"Immovable Bastion",
+                "description":"Once per battle, after resolving the effects of an attack made against the Princeps’ Titan by an enemy Titan as part of a Charge order, the Princeps’ Titan may immediately make a Smash Attack, or an attack with a weapon with the Melee trait, against the attacking unit."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Strength and Resolve (1)",
+                "ref":"Strength and Resolve",
+                "description":"This Stratagem can be purchased by any Legio Astraman player. The Morning Stars player may reveal this Stratagem when activating a Titan during the Strategy phase. Until the beginning of the following round, attacks made against that Titan gain no bonus to Armour rolls as a result of damage already inflicted as indicated by the Command Terminal (see the Adeptus Titanicus rulebook). This counts as the Titan’s activation for that phase."
+            },
+            {
+                "name":"Stand Firm (3)",
+                "ref":"Stand Firm",
+                "description":"This Stratagem can be purchased by any Legio Astraman player. The Morning Stars player may reveal this Stratagem at the beginning of any round. For the duration of that round, any friendly Legio Astraman Titan can merge void shields with any other friendly Legio Astraman Titans as if they were part of the same Squadron, so long as none of the Titans sharing void shields have moved this round (voluntarily or involuntarily)."
+            }
+        ]
+    },
+    {
+        "name":"Legio Ignatum",
+        "ref":"Legio Ignatum",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"We Loyal Few",
+                "ref":"We Loyal Few",
+                "description":"When activated during the Movement phase, a Legio Astraman Titan can choose to voluntarily Awaken their Machine Spirit – this counts as the Titan’s activation. If they do this, advance their Reactor Status marker by 2. The Titan automatically fails their Command check to quell the Machine Spirit and applies the Stalwart result from the Awakened Machine Spirit table instead of rolling. The chosen Titan cannot be activated in the subsequent Combat phase."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Gravitonic Sensor Array",
+                "ref":"Gravitonic Sensor Array",
+                "description":"Any Legio Ignatum Titan may take a Gravitonic Sensor Array for +15 points. Apply a +1 modifier to all Hit rolls made by a Titan with this upgrade against a target that is at least 25% obscured.",
+                "price": {
+                    "value":15
+                }
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Death before Dishonour",
+                "ref":"Death before Dishonour",
+                "description":"The Princeps’ Titan may re-roll failed Hit rolls if their Titan has suffered Critical Damage. However, during the Damage Control phase, they must spend any Repair dice to repair disabled weapons before repairing any other kind of damage if possible."
+            },
+            {
+                "name":"Foe Slayer",
+                "ref":"Foe Slayer",
+                "description":"During the Combat phase, the Princeps may choose one of their Titan’s weapons. Add 1 to the result of all Armour rolls made with the chosen weapon. If the Princeps is targeting a Titan from Legio Mortis or Legio Tempestus, the Princeps may choose two of their Titan’s weapons to add 1 to the result."
+            },
+            {
+                "name":"Eternal Guardian",
+                "ref":"Eternal Guardian",
+                "description":"Once per Combat phase, the Princeps may re-roll a single Armour roll resulting from hits from any of their weapons if they have not moved (voluntarily or involuntarily) in the same round."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Guard the Gates (2)",
+                "ref":"Guard the Gates",
+                "description":"This Stratagem can be purchased by any Legio Ignatum player. Play this Stratagem at the start of the first round’s Strategy phase. Any friendly Legio Ignatum Titans can be issued the First Fire order without the need to make a Command check."
+            }
+        ]
+    },
+    {
+        "name":"Legio Venator",
+        "ref":"Legio Venator",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Loyalty Above All",
+                "ref":"Loyalty Above All",
+                "description":"Legio Venator Titans ignore the Princeps Wounded Critical Damage effect. In addition, friendly Legio Venator Titans add 1 to the result of any Command check they make while within 6\" of a Legio Venator Princeps Seniores’ Titan."
+            },
+            {
+                "name":"One Mind",
+                "ref":"One Mind",
+                "description":"At the beginning of each round, Titans within a friendly Legio Venator maniple may be formed into Squadrons. Each Squadron may contain a maximum of two Titans and cannot include a Titan that is already part of a Squadron. These Squadrons last until the end of the round. Titans formed into a Squadron in this manner cannot Merge Void Shields but follow all other Squadron rules as normal."
+            },
+            {
+                "name":"Mobile Force",
+                "ref":"Mobile Force",
+                "description":"Any Legio Venator maniple may select a Reaver Titan in place of any Warlord Titan as part of its mandatory components."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Blind Launchers",
+                "ref":"Blind Launchers",
+                "description":"Any Legio Venator Titan may be equipped with Blind Launchers for +20 points. Once per game, during the Combat phase, a Titan with this upgrade may activate its Blind Launchers. If it does, until the start of the next Combat phase apply a -1 modifier to all Hit rolls for attacks made against this Titan and a -1 modifier to any Hit rolls for attacks made by this Titan. Blind Launchers can be activated at any point during the Titan’s activation (i.e., after it has made any attacks).",
+                "price": {
+                    "value":20
+                }
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Burning Hatred",
+                "ref":"Burning Hatred",
+                "description":"Once per round, when the Princeps’ Titan causes Critical Damage to an enemy Titan, the Princeps’ Titan may immediately make an attack with one of its weapons, chosen by the controlling player. After resolving the effects of this attack, roll a D6 on the Reactor Overload table for the Princeps’ Titan."
+            },
+            {
+                "name":"Crusade Veteran:",
+                "ref":"Crusade Veteran:",
+                "description":"Once per game, after resolving a Repair roll made as part of an Emergency Repairs order, the Princeps may discard the Order and immediately be issued a second Order. This second Order can be another Emergency Repairs order. Even if an Emergency Repairs order is removed in this manner, the Princeps’ Titan can still only be activated in either the subsequent Movement phase or Combat phase of that round as normal."
+            },
+            {
+                "name":"Superior Tactician",
+                "ref":"Superior Tactician:",
+                "description":"The presence of the Princeps adds one additional Stratagem point to their battlegroup that may be used before the battle to purchase Stratagems."
+            }
+        ],
+        "stratagems":[]
     }
 ]
