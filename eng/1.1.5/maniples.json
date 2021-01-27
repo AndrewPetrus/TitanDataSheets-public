@@ -249,5 +249,33 @@
             }
         ],
         "units":[]
+    },
+    {
+        "name":"Ignis Light",
+        "ref":"Ignis Light",
+        "mandatory":["warhound", "warhound", "warhound", "cerastus_knights"],
+        "optional":["warhound", "warhound", "cerastus_knights", "cerastus_knights"],
+        "traits":[
+            {
+                "name":"Scorched Earth",
+                "ref":"Scorched Earth",
+                "description":"Units within this maniple add 1 to the Dice value of any weapon with the Firestorm trait. In addition, they may re-roll Armour rolls of a 1 for attacks made with a weapon with the Firestorm trait.\n\nCerastus Knight Banners within an Ignus light maniple must be upgraded to Cerastus Knight-Acherons. In addition, Knight Banners included in an Ignus light maniple within 6\" of a Titan from this maniple may be issued a First Fire or Full Stride order without the need to make a Command check if that Titan has been successfully issued the same Order already this round."
+            }
+        ],
+        "units":[]
+    },
+    {
+        "name":"Precept Battleline",
+        "ref":"Precept Battleline",
+        "mandatory":["warlord", "nemesis", "warhound"],
+        "optional":["reaver", "warhound"],
+        "traits":[
+            {
+                "name":"Flexible Tactics",
+                "ref":"Flexible Tactics",
+                "description":"At the start of each Strategy phase, before any Orders are issued, the controlling player may choose a single Order for a Precept maniple – if multiple Precept maniples are present in a battlegroup, each maniple can pick a different Order. Until the end of the round, Titans within this maniple can be issued that Order on a 2+, ignoring any modifiers (positive or negative). Any Titan issued an Order other than the one chosen makes a Command check as normal."
+            }
+        ],
+        "units":[]
     }
 ]

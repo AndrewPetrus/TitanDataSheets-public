@@ -1,0 +1,521 @@
+[
+    {
+        "name":"Noble Sacrifice (1)",
+        "ref":"Noble Sacrifice",
+        "type":"tricksAndTactics",
+        "description":"A player can enact this Stratagem during the Strategy phase. To do so, they pick a Titan from their force whose strucrure has been compromised and roll a D6. Add 1 to the result if its Reactor Status marker is in a hole with an orange indicator, or add 3 to the result if it is in a hole with a red indicator. The Titan suffers a Magazine Detonation on a result of 1-4, or a Catastrophic Meltdown on a result of 5-6 (see the Catastrophic Damage table on page 36). At the end of the battle, the player loses a number of Victory points equal to the Titan's Scale."
+    },
+    {
+        "name":"Outflank (X)",
+        "ref":"Outflank",
+        "type":"tricksAndTactics",
+        "description":"When this Stratagem is chosen, the player secretly writes down one of their units. The cost of the Stratagem is equal to half the unit's Scale, rounding up. Play this Stratagem at the start of deployment to set that unit to one side and state that it is outflanking (it is not deployed with the rest of its battlegroup). Write down which of the battlefield's neutral flanks it will arrive on, but do not reveal this to the opposing player. While the unit is not on the board, it cannot be activated, and so cannot be issued orders.\n\nAt the start bf the Movement phase of the first round, the unit appears on long range auspex - reveal to the opposing player which neutral flank was chosen. During the Movement phase of the second round, the outflanking unit can be activated. When it is, it is set up so that the Rear arc of its base is touching the chosen flank. It cannot move any further during the phase.\n\nIf a player's battlegroup contains any Squadrons (see page 45), they can choose this Stratagem more than once, as long as each outflanking unit is part of the same Squadron."
+    },
+    {
+        "name":"Sabotage (2)",
+        "ref":"Sabotage",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem at the start of any phase. Pick an enemy unit which does not currently have Shutdown orders, remove its current order (if any), then roll an Order dice - the unit immediately takes the order shown. If it cannot be issued that order, re-roll the dice."
+    },
+    {
+        "name":"Thermal Mines (2)",
+        "ref":"Thermal Mines",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem immediately after an enemy unit finishes moving or making a turn. That unit suffers D3 Strength 10 hits to its legs. Shield saves cannot be made against the hits."
+    },
+    {
+        "name":"Voidbreaker Field (2)",
+        "ref":"Voidbreaker Field",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem immediately after an enemy unit with active void shields finishes moving or making a turn. Roll a D6. On a 2 or more, the opposing player must immediately make a number of Shield saves equal to the number rolled on the D6. On a 1, the Stratagem can be used a second time, in a subsequent turn."
+    },
+    {
+        "name":"Artillery Bombardment (2)",
+        "ref":"Artillery Bombardment",
+        "type":"rangedSupport",
+        "description":"Play this during each Strategy phase. Place the 5\" Blast marker anywhere on the battlefield, then scatter it D10\". Any unit touched by the marker where it eventually lands suffers a Strength 8 hit, or two Strength 8 hits if the central hole of the Blast marker is entirely over its base."
+    },
+    {
+        "name":"Orbital Lance Strike (2)",
+        "ref":"Orbital Lance Strike",
+        "type":"rangedSupport",
+        "description":"Once per battle, play this during the Strategy phase. Place the 3\" Blast marker anywhere on the battlefield, then scatter it D6\". Any unit touched by the marker where it eventually lands suffers D3 Strength 10 hits, or 2D3 Strength 10 hits if the central hole of the Blast marker is entirely over its base."
+    },
+    {
+        "name":"Blind Barrage (1)",
+        "ref":"Blind Barrage",
+        "type":"rangedSupport",
+        "description":"Once per battle, play this during the Strategy phase. Pick a unit on the battlefield. Any attacks that target it or are made by it suffer a -2 To Hit penalty for the duration of the round."
+    },
+    {
+        "name":"Cripple the Foe (2)",
+        "ref":"Cripple the Foe",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. Score 2 Victory points for each enemy Titan that has not been destroyed, but which is Structurally Compromised. In addition, score 2 Victory points for each enemy Battlefield Asset (see page 65) that has been destroyed."
+    },
+    {
+        "name":"Decapitating Strike (2)",
+        "ref":"Decapitating Strike",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. If the opposing player's Princeps Seniores' Titan has been destroyed, score Victory points equal to half its Scale (rounding down)."
+    },
+    {
+        "name":"Break Through (1)",
+        "ref":"Break Through",
+        "type":"tertiaryObjectives",
+        "description":"The player can enact this at the end of the battle to score 1 Victory point for each of their units with a Scale of 5 or more that is within 9\" of their opponent's edge of the battlefield."
+    },
+    {
+        "name":"A Score to Settle (1)",
+        "ref":"A Score to Settle",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. Score 1 additional Victory point for each enemy unit that has been destroyed."
+    },
+    {
+        "name":"Command Bastion (1)",
+        "ref":"Command Bastion",
+        "type":"battlefieldAssets",
+        "description":"A command bastion allows the owning player to issue one more order after they fail a Command check when issuing orders in the Strategy phase. The order must be issued to a unit within 18\" of the command bastion. Note that this does not allow more than one order to be issued to a unit."
+    },
+    {
+        "name":"Apocalypse Missile Strongpoint (2)",
+        "ref":"Apocalypse Missile Strongpoint",
+        "type":"battlefieldAssets",
+        "description":"In the Enact Stratagems step of the Strategy phase, the owning player can make an attack with the strongpoint's apocalypse missile launcher, using the profile which follows. The strongpoint has a Ballistic Skill/Weapon Skill of 4+ and a 360° firing arc. Apocalypse Missile Strongpoint stats are available at page 65 of Rulebook."
+    },
+    {
+        "name":"Plasma Generator (1)",
+        "ref":"Plasma Generator",
+        "type":"battlefieldAssets",
+        "description":"When the owning player activates a unit within l\" of the plasma generator in the Movement phase, they can declare that it will draw power instead of moving or making turns (or attacking, if it has First Fire orders). The unit does nothing when it is activated, but its Reactor level is reduced by D3."
+    },
+    {
+        "name":"Communications Relay (2)",
+        "ref":"Communications Relay",
+        "type":"battlefieldAssets",
+        "description":"Subtract 1 from the result of any Command checks for units that are within 18\" of a communications relay that is owned by the enemy."
+    },
+    {
+        "name":"Macro Cannon Battery (2)",
+        "ref":"Macro Cannon Battery",
+        "type":"battlefieldAssets",
+        "description":"In the Enact Stratagems step of the Strategy phase, the owning player can make an attack with the battery's macro cannon, using the profile that follows. The battery has a Ballistic Skill/ Weapon Skill of 4+ and a 360° firing arc. Macro Cannon Battery stats are available at page 65 of Rulebook."
+    },
+    {
+        "name":"Void Shield Relay (2)",
+        "ref":"Void Shield Relay",
+        "type":"battlefieldAssets",
+        "description":"Failed Void Shield saves can be re-rolled for units that are within 2\" of a friendly void shield relay, and which have not moved (voluntarily or involuntarily) this round."
+    },
+    {
+        "name":"Experimental Weapon (2)",
+        "ref":"Experimental Weapon",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in the Strategy phase of the first round. The player chooses one of their Titans and places this card next to its Command Terminal. Then randomly choose one of the Titan's weapons. For the duration of this battle, the selected weapon gains the Maximal Fire trait, though must always declare that it is using this Trait each time it fires. If the weapon already has the Maximal Fire trait, select another weapon."
+    },
+    {
+        "name":"Dawn Attack (3)",
+        "ref":"Dawn Attack",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in the first Strategy phase of the game. For the first two rounds of the game, darkness cloaks the battlefield. Titans must roll D6x10 to determine how many inches they can see - only enemies within this range can be targeted. Titans that shot earlier in the round can be targeted, regardless of the distance an attacker can see."
+    },
+    {
+        "name":"Cursed Earth (1)",
+        "ref":"Cursed Earth",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in the first Strategy phase of the game. The battlefield is heavily irradiated, making shields less effective. Titans must roll an extra dice when making Void Shield saves, while Knight Banners count the Strength of attacks as one higher for the purposes of working out their Ion Shield saves."
+    },
+    {
+        "name":"Vox Blackout (1)",
+        "ref":"Vox Blackout",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in any Strategy phase. The Strategy phase immediately ends and all orders are removed, with the exception of Shutdown orders."
+    },
+    {
+        "name":"Auspex Bafflers (2)",
+        "ref":"Auspex Bafflers",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in any Strategy phase. The player chooses one of their Titans or Knight Banners. For the duration of the round, the chosen unit increases the To Hit roll penalty by 1, i.e, -2 To Hit if at least 25% of the unit is obscured, or -3 To Hit if at least 50% of the unit is obscured."
+    },
+    {
+        "name":"Ablative Armour (1)",
+        "ref":"Ablative Armour",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in any Strategy phase. The player chooses one of their Titans and places this card next to its Command Terminal. The first Direct, Devastating or Critical Hit suffered by the Titan is ignored. Then discard this card."
+    },
+    {
+        "name":"Overcharged Cannon (2)",
+        "ref":"Overcharged Cannon",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in the Strategy phase of the first round. The player chooses one of their Titans armed with a weapon with the Maximal Fire trait. Place this card next to the Titan's Command Terminal and select one of its weapons with the Maximal Fire trait. For the duration of the battle, the Titan can fire this weapon on Super Maximal Fire. This works in exactly the same way as the Maximal Fire trait,except that the weapon's Strength is increased by 4 instead of 2."
+    },
+    {
+        "name":"Secutarii Battalion (3)",
+        "ref":"Secutarii Battalion",
+        "type":"tricksAndTactics",
+        "allegiance": "loyalist",
+        "description":"This Stratagem can be purchased by any Loyalist player. Ply this Stratagem in each Strategy phase. Any enemy units with a Scale of 3 or less immediately suffer D6 Strength 3 Hits if they are within 2\" of one of the player's Titans"
+    },
+    {
+        "name":"Wages of Betrayal (2)",
+        "ref":"Wages of Betrayal",
+        "allegiance": "loyalist",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem in any Strategy phase. For the duration of the round, enemy Titans suffer a -2 penalty to Command checks. The enemy Princeps Seniores suffers a -3 penalty to Command checks instead."
+    },
+    {
+        "name":"Endurance of Terra (2)",
+        "ref":"Endurance of Terra",
+        "allegiance": "loyalist",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem when one of the player's Titans suffers Critical Damage. The player rolls a D6. If the result is equal to or less than the Critical Damage suffered, the damage is ignored. Otherwise, the damage is suffered as normal and the player may retain this card to use in subsequent rounds."
+    },
+    {
+        "name":"Great Crusade Titans (2)",
+        "ref":"Great Crusade Titans",
+        "allegiance": "loyalist",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem in any Strategy phase. For the duration of the round, the player's Titans add 2 to Command checks when issuing Charge orders. In addition, when moving under Charge orders the player's Titans count as moving 6\" further than they actually moved for the purposes of working out additional Attack dice."
+    },
+    {
+        "name":"The Long Retreat (1)",
+        "ref":"Great Crusade Titans",
+        "allegiance": "loyalist",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem in any Strategy phase. For the duration of this round, the player's Titans do not halve their Speed when moving outside of their Front arc."
+    },
+    {
+        "name":"Martian Servitor Clades (3)",
+        "ref":"Martian Servitor Clades",
+        "allegiance": "loyalist",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem at the beginning of any Damage Control phase. Each of the player's Titans adds rwo Repair dice to their Servitor Clades. In addition, if the player's opponent is fielding any Legio Mortis or Legio Tempestus Titans, they may re-roll any results of 1 on the Repair dice."
+    },
+    {
+        "name":"Warmaster's Portion (2)",
+        "ref":"Warmaster's Portion",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in the Strategy phase of the first round. During the Movement and Combat phases of the first round, the player's Titans can re-roll rolls of 1 when making To Hit rolls."
+    },
+    {
+        "name":"Gifts of the Dark Mechanicum (3)",
+        "ref":"Gifts of the Dark Mechanicum",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in the Strategy phase of the first round. The player chooses one of their Titans and places this card next to its Command Terminal. Each time the Titan Pushes its Reactor, the player can choose to place a token on this card instead of rolling the Reactor dice, gaining the benefits of Pushing the Reactor without advancing the Reactor track. Once this card has three tokens placed on it, it is discarded."
+    },
+    {
+        "name":"Bloodthirst (1)",
+        "ref":"Bloodthirst",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any Strategy phase. For the duration of the round, the player's Titans add 2 to any To Hit rolls made against enemies within 2\" of them. In addition, the player's Titans add 2 to their Command checks when attempting to issue the Charge order."
+    },
+    {
+        "name":"Living Armour (3)",
+        "ref":"Living Armour",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any Strategy phase. The player chooses one of their Titans and a location on the chosen Titan that has suffered Structural Damage. The player then rolls a D10. If the result is equal to or higher than the amount of Structural Damage suffered, all damage to the location is repaired. Otherwise there is no effect, but the player may retain this card and play it again next round."
+    },
+    {
+        "name":"War of Fates (1)",
+        "ref":"War of Fates",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any Strategy phase. Before the Movement phase, Damage Control phase and Combat phase, the player rolls a D10. If the result is an odd number, for the duration of that phase any D6 roll of 6 counts as a 1 and any D10 roll of 10 counts as a 1. If the result is an even number, for the duration of that phase any D6 roll of 1 counts as a 6 and any D10 roll of 1 counts as a 10."
+    },
+    {
+        "name":"War Lust (2)",
+        "ref":"War Lust",
+        "allegiance": "traitor",
+        "type":"tricksAndTactics",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any Strategy phase. For the duration of the round, the player's Titans add 2\" to their Boosted Speed characteristic. In addition, the player's Titans add 2 to their Command checks when attempting to issue the Full Stride order."
+    },
+    {
+        "name":"Strafing Run (2)",
+        "ref":"Strafing Run",
+        "type":"rangedSupport",
+        "description":"Play this during each Strategy phase. A squadron of fighter bombers scream across the battlefield, attacking everything in their path. Choose one of the four edges of the battlefield and pick a point on that edge. Then pick a point on any other edge ofthe battlefield and draw an imaginary line between the two. Any unit under this line, or within 2\" of it, takes D3 Strength 5 hits."
+    },
+    {
+        "name":"Scatterable Mines (1)",
+        "ref":"Strafing Run",
+        "type":"rangedSupport",
+        "description":"Play this during each Strategy phase. Place a marker anywhere on the battlefield then scatter it D10\". The area within 12\" of this marker counts as Dangerous terrain until the end of the round."
+    },
+    {
+        "name":"Static Rain (3)",
+        "ref":"Static Rain",
+        "type":"rangedSupport",
+        "description":"Once during the game, play this card during the Strategy phase. Place a marker anywhere on the battlefield. Any Titan within 2D10\" of this marker must make D3 Void Shield saves. Knight Banners within this range cannot make Ion Shield saves for the remainder of the round, even ifthey subsequently move out from the marker's radius of effect."
+    },
+    {
+        "name":"Earthshaker Mines (2)",
+        "ref":"Earthshaker Mines",
+        "type":"rangedSupport",
+        "description":"Play this Stratagem immediately after an enemy unit finishes moving or making a turn. That unit suffers D3 Strength 6 hits to its Legs. Void Shield saves cannot be made against the hits. In addition, the unit is then moved D6\" in a direction determined by the Scatter dice (this may result in a Collision - see page 31 of the Adeptus Titanicus rulebook). This does not change the unit's facing."
+    },
+    {
+        "name":"Quake Shells (2)",
+        "ref":"Quake Shells",
+        "type":"rangedSupport",
+        "description":"Play this during each Strategy phase. Place the 5\" Blast marker anywhere on the battlefield then scatter it D10\". Any unit touched by the marker where it eventually lands suffers D3 Strength 6 hits, or D6 Strength 6 hits if the central hole of the Blast marker is entirely over its base. In addition, the unit is then moved D6\" in a direction determined by the Scatter dice (this may result in a Collision - see page 31 of the Adeptus Titanicus rulebook). This does not change the unit's facing."
+    },
+    {
+        "name":"Haywire Barrage (2)",
+        "ref":"Haywire Barrage",
+        "type":"rangedSupport",
+        "description":"Once during the game, play this card in the Strategy phase. Place a marker anywhere on the battlefield then scatter it D10\". Roll 2D6 for each Titan within 6\" of the marker. If the roll is equal to or greater than their Scale, they take 1 point of Critical Damage to a random location, ignoring shields. If the location is a weapon, it is disabled. If the location is a disabled weapon or already has 3 points of Critical Damage then the barrage has no effect. Knight Banners hit by a Haywire Barrage take D3 Strength 7 hits that ignore ion shields."
+    },
+    {
+        "name":"A Quick Kill (1)",
+        "ref":"Haywire Barrage",
+        "type":"tertiaryObjectives",
+        "description":"Play this in the End phase of the first or second round. If at least one enemy Titan with Scale 8 or greater has been destroyed, score 5 Victory points."
+    },
+    {
+        "name":"No Prisoners (2)",
+        "ref":"No Prisoners",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. Score 5 Victory points if all enemy Titans have been destroyed. If the points total of the game is 2,500 points or more, score 10 Victory points instead."
+    },
+    {
+        "name":"Titanic Decapitation (1)",
+        "ref":"Titanic Decapitation",
+        "type":"tertiaryObjectives",
+        "description":"Play this in the End phase if an enemy Titan was destroyed by suffering Critical Damage to its head. Score 5 Victory points."
+    },
+    {
+        "name":"Hold the Centre (2)",
+        "ref":"Hold the Centre",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. The player scores 2 Victory points for each of their Titans that are within 12\" of the centre of the battlefield. In addition, they score an extra 5 Victory points if there are no enemy units within 12\" of the centre of the battlefield."
+    },
+    {
+        "name":"Penance (2)",
+        "ref":"Penance",
+        "type":"tertiaryObjectives",
+        "description":"Play this at the end of the battle. The player scores 3 Victory points for each of their Titans that has not been destroyed, but which is Structurally Compromised. In addition, they score an extra 3 Victory points if their Princeps Seniores' Titan currently has any Critical Damage."
+    },
+    {
+        "name":"Justice for the Fallen (1)",
+        "ref":"Justice for the Fallen",
+        "allegiance": "loyalist",
+        "type":"tertiaryObjectives",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this at the end of the battle. If the player has destroyed at least as many enemy Titans as they themselves have lost, they score 5 Victory points."
+    },
+    {
+        "name":"Dark Pledge (1)",
+        "ref":"Dark Pledge",
+        "allegiance": "traitor",
+        "type":"tertiaryObjectives",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in the Strategy phase of the first round. The player chooses an enemy Titan or number of Titans with a Scale of 10 or more to mark for destruction. If, at the end of the battle, these marked Titans have been destroyed, the player scores 10 Victory points. If all or some of the marked Titans have not been destroyed by the end of the battle, the player loses IO Victory points."
+    },
+    {
+        "name":"Forward Observers (1)",
+        "ref":"Forward Observers",
+        "type":"battlefieldAssets",
+        "description":"Play this Stratagem before making an attack using a weapon with the Barrage trait. Place a command bastion or communication relay anywhere on the board to represent a forward observer team position that has been camouflaged up until this point. While the Asset is on the board, when friendly units make attacks using weapons with the Barrage trait, they may draw line of sight, though not range, from this model, thus ignoring the normal -2 penalty for firing indirectly."
+    },
+    {
+        "name":"Titan Hunter Infantry (2)",
+        "ref":"Titan Hunter Infantry",
+        "type":"battlefieldAssets",
+        "description":"This Stratagem can be played once in each Strategy phase of the game. When this Stratagem is played, place two markers anywhere on the table wholly within a piece of terrain (this does not need to be the same piece ofterrain). Instead of activating a Titan or Knight Banner, a player may fire with these markers as if they were units, following all ofthe rules for making attacks and using its profile (Doom of Molech, page 80). If more than one player has this Stratagem, players take turns when placing their markers, beginning with the First Player. If two opposing markers are placed in the same piece of terrain, immediately remove both markers."
+    },
+    {
+        "name":"Localised Warp Storm (3)",
+        "ref":"Localised Warp Storm",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any Strategy phase. Place the 3\" Blast marker anywhere on the battlefield, then scatter it D10\". Any unit touched by the marker after it has scattered takes D3 Hits as if attacked by a Warp weapon that has successfully hit."
+    },
+    {
+        "name":"Warp Displacement (2)",
+        "ref":"Warp Displacement",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any phase. The player chooses one of their units and rolls 2D6. Models within the chosen unit move that many inches in a straight line in a direction chosen by the player, ignoring any rules for movement such as Dangerous or Blocking terrain when moving. Ifthe unit would be placed in apiece ofterrain, other than Blocking terrain, the unit suffers D3 S7 hits to its Body, bypassing void shields, and the terrain is destroyed. If the unit would be placed in a piece of Blocking terrain, the unit is destroyed. If the unit would be placed overlapping the base of another unit, the unit stops at its base and suffers a collision. This does not change the unit's facing and a unit cannot move off the battlefield - if it would, place the unit at the battlefield's edge."
+    },
+    {
+        "name":"Wails of the Damned (2)",
+        "ref":"Wails of the Damned",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem during any Strategy phase. For the remainder of that round, subtract 2 from the result of any Command checks made by enemy units when issuing orders."
+    },
+    {
+        "name":"Profane Blessing (1)",
+        "ref":"Profane Blessing",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in the first Strategy phase of the game. The player chooses one of their Titans or Knight Banners and places a marker of some kind next to its Command Terminal. That unit may choose to re-roll one or more dice for a single roll; for example, they may re-roll a Command check or all failed Hit rolls from a single weapon attack. Discard the marker after the re-rolls have been resolved. This Stratagem can be taken multiple times."
+    },
+    {
+        "name":"Unhallowed Ground (2)",
+        "ref":"Unhallowed Ground",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in the first Strategy phase of the game. The battlefield is infused with tainted Warp energies harmful to any who linger upon it. At the end of each Movement phase, any unit that has not moved, voluntarily or involuntarily, in the Movement phase suffers D3 S6 Hits, ignoring void shields and ion shields. Titans suffer these Hits to their Legs."
+    },
+    {
+        "name":"Aetheric Infusion (2)",
+        "ref":"Aetheric Infusion",
+        "allegiance":"traitor",
+        "type":"warpTrickery",
+        "description":"This Stratagem can be purchased by any Traitor player. Play this Stratagem in any phase. The player chooses one of their Titans and rolls a D10. On a 3+, immediately make a Repair roll for the Titan, adding 2 to their Servitor Clades for that roll. On a 2, the Titan takes D3 Devastating Hits to its Body. On a 1, the Titan immediately suffers Catastrophic Damage."
+    },
+    {
+        "name":"Iron Resolve (1)",
+        "ref":"Iron Resolve",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem when a Titan fails a Command check during the Strategy phase or when a Knight Banner fails a Command check to see if they become Shaken in any phase. That check is passed instead. This Stratagem can be purchased multiple times."
+    },
+    {
+        "name":"EMP Discharge (2)",
+        "ref":"EMP Discharge",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem during any Movement phase or Combat phase. Pick a friendly Titan that has active void shields. Every Titan that has active shields within 3\" of that Titan suffers a number of S4 Hits equal to the Void Shield level of the chosen Titan, as if resolving an attack from a Shieldbane weapon. After resolving these Hits, the chosen Titan's Void Shield level is reduced to X."
+    },
+    {
+        "name":"EMP Discharge (2)",
+        "ref":"EMP Discharge",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem during any Movement phase or Combat phase. Pick a friendly Titan that has active void shields. Every Titan that has active shields within 3\" of that Titan suffers a number of S4 Hits equal to the Void Shield level of the chosen Titan, as if resolving an attack from a Shieldbane weapon. After resolving these Hits, the chosen Titan's Void Shield level is reduced to X."
+    },
+    {
+        "name":"Only Forwards (2)",
+        "ref":"Only Forwards",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem at the start of any Strategy phase. For the remainder of that phase, any unit may be issued Full Stride or Charge orders without the need to make a Command check."
+    },
+    {
+        "name":"Even in Death (2)",
+        "ref":"Even in Death",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem when a friendly Titan suffers Catastrophic Damage, before rolling on the Catastrophic Damage table. Instead of rolling on the table, roll a D6. On 1-4, the Tit an suffers the Magazine Detonation result, and on a 5+ the Titan suffers the Catastrophic Meltdown result. Add 1 to the result if the Titan's Reactor Status marker is in a hole with an orange indicator and add 3 if it is in a hole with a red indicator."
+    },
+    {
+        "name":"Weapons to Full (2)",
+        "ref":"Weapons to Full",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this Stratagem during the Combat phase. Select a friendly Titan. That Titan may immediately attack with any/all of its weapons even if it has already been activated in the Combat phase that round. After resolving each weapon attack, the Titan rolls a D10 on the Reactor Overload table."
+    },
+    {
+        "name":"Sacrificial Lock-on (2)",
+        "ref":"Sacrificial Lock-on",
+        "allegiance":"loyalist",
+        "type":"desperateMeasures",
+        "description":"This Stratagem can be purchased by any Loyalist player. Play this at the start of any Combat phase. Place the 5\" Blast marker so that the central hole is entirely over a friendly model's base. Any unit touched by the marker suffers D3 Strength 10 hits, or 2D3 Strength 10 hits if the central hole of the Blast marker is entirely over its base. This attack does not ignore void shields, even if the friendly model the marker is centred over is within 2\" of a Titan with active shields."
+    },
+    {
+        "name":"Concealment Barrage (1)",
+        "ref":"Concealment Barrage",
+        "type":"tacticalSupport",
+        "description":"Play this Stratagem at the start of any phase. Place the 5\" Blast l marker anywhere on the battlefield. Any part of the battlefield underneath the template blocks line ofsight. Remove the Blast marker at the end of the round. This Stratagem can be purchased multiple times, however it can only be played once per round."
+    },
+    {
+        "name":"MIU Link (1)",
+        "ref":"MIU Link",
+        "type":"tacticalSupport",
+        "description":"Play this Stratagem in the first Strategy phase. The player chooses two of their Titans to link MIU. For the remainder of the game, when making a weapon attack, you may measure from either linked Titan for the purposes of determining the Accuracy value for Short or Long range. If either of the linked Titans suffers the MIU Feedback Critical Damage effect, both Titans suffer it and the MIU Link Stratagem is ignored for the remainder of the game, even if the damage is repaired."
+    },
+    {
+        "name":"Augmented Servitor Clades (2)",
+        "ref":"Augmented Servitor Clades",
+        "type":"tacticalSupport",
+        "description":"Play this Stratagem during the first Strategy phase. The player chooses one of their Titans to have a Senior Enginseer aboard. Increase the Servitor Clades of that Titan by 1 during each Damage Control phase for the remainder of the battle. Note, this does not affect Repair rolls made as part of the Emergency Repair order."
+    },
+    {
+        "name":"Veteran Princeps (1)",
+        "ref":"Veteran Princeps",
+        "type":"tacticalSupport",
+        "description":"When this Stratagem is chosen, the player chooses one of their Titans that is not a Princeps Seniores' Titan to be commanded by a Veteran Princeps. Add 1 to the result of any Command checks made when issuing an order to the chosen Titan. This Stratagem can be purchased multiple times, but any Titan can only benefit from this Stratagem once."
+    },
+    {
+        "name":"Shock Mines (3)",
+        "ref":"Shock Mines",
+        "type":"tacticalSupport",
+        "description":"Play this Stratagem immediately after an enemy unit has finished moving or making a turn. That unit suffers D3 S5 hits to its Legs. Shields saves cannot be made against these hits. If that unit suffers any Direct, Devastating or Critical Hits from this Stratagem, the unit discards any order it has and is immediately issued a Shutdown order. This Shutdown order is removed in the End phase of that round."
+    },
+    {
+        "name":"Tracer Cloud (1)",
+        "ref":"Tracer Cloud",
+        "type":"tacticalSupport",
+        "description":"Play this Stratagem at the start of any phase. Place the 5\" Blast marker anywhere on the batrlefield. A player may re-roll Hit rolls for attacks made against any unit underneath the marker. Remove the Blast marker at the end of the round. This Stratagem can be purchased multiple times, however it can only be played once per round."
+    },
+    {
+        "name":"Homing Warheads (2)",
+        "ref":"Homing Warheads",
+        "type":"experimentalWarfare",
+        "description":"Play this Stratagem in the first Strategy phase of the game. The player chooses one of their Titans armed with an Apocalypse missile launcher or paired Apocalypse missile launchers, so long as that Titan does not already have an upgrade affecting that weapon. Subtract 3 from the Dice Value of the weapon (to a minimum of 1). For the remainder of the game, attacks with that weapon do not suffer negative modifiers when attacking an obscured target or when attacking a target out of line of sight via the Barrage trait."
+    },
+    {
+        "name":"Enhanced Coolant (2)",
+        "ref":"Enhanced Coolant",
+        "type":"experimentalWarfare",
+        "description":"Play this Stratagem during any Strategy phase. The player chooses one of their Titans; for the remainder of the game, roll a D6 each time that Titan would increase its Reactor level. On a 5+, increase the Reactor level by one less hole than normal, to a minimum of zero holes (e.g., if two symbols were rolled on the Reactor dice, a 5+ would increase the Reactor level by one, not two). If an effect results in multiple increases, such as rolling multiple 1s while using the Maximal Fire trait, roll individually for each increase."
+    },
+    {
+        "name":"Redundant Systems (2)",
+        "ref":"Redundant Systems",
+        "type":"experimentalWarfare",
+        "description":"Play this Stratagem in any Strategy phase. The player chooses one of their Titans; the first time Critical Damage is suffered by that Titan it is ignored – do not move the marker up the tracker. Any other effect, such as loss of Structure points, still occurs. If a Titan is forced to move the Critical Damage marker more than once for an attack, move it one fewer space. Then, discard this Stratagem."
+    },
+    {
+        "name":"Experimental Locomotors (1)",
+        "ref":"Experimental Locomotors",
+        "type":"experimentalWarfare",
+        "description":"Play this Stratagem in the first Strategy phase of the game. The player chooses one of their Titans; for the remainder of the battle the Titan may use its boosted Speed characteristic without pushing its reactor. During every End phase roll a D10 for this Titan. On a 1, the Titan suffers a Devastating Hit to its Legs and this Stratagem is discarded."
+    },
+    {
+        "name":"Override Signal (1)",
+        "ref":"Override Signal",
+        "type":"experimentalWarfare",
+        "description":"Play this Stratagem when a Titan (friend or foe) within 12\" of a friendly Titan suffers Catastrophic Damage, before rolling on the Catastrophic Damage table. When rolling on the Catastrophic Damage table for the chosen Titan, add 4 to the result."
+    },
+    {
+        "name":"Dusk Attack (2)",
+        "ref":"Dusk Attack",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem in the first Strategy phase of the game. During the End phase of Turn 3, the First Player must roll (D6+1)x5 to determine how many inches every unit on the battlefield can see for the remainder of the battle – only enemies within this range can be targeted by an attack. Units that have made an attack with a weapon without the Melee Trait previously in a round can be targeted, regardless of the distance a unit can see."
+    },
+    {
+        "name":"False Intel (1)",
+        "ref":"False Intel",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem after all objectives have been deployed. Pick any objective on the battlefield. Move that objective D6\" in any direction – this can take it outside its normal deployment area. The objective cannot be moved off the board, nor can it overlap with a piece of Blocking terrain."
+    },
+    {
+        "name":"Reactor Surge (2)",
+        "ref":"Reactor Surge",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem when activating a Titan in the Combat phase. If the chosen Titan has a Shield level of X, this Stratagem is immediately discarded. Otherwise, increase the Titan’s Reactor Status level by any number of holes – you cannot voluntarily advance it further than the end of the Status tracker. For each hole the marker is moved along the Reactor Status level, repair the Titan’s Void Shield level by 1. This counts as the Titan’s activation for this round."
+    },
+    {
+        "name":"Partial Shutdown (1)",
+        "ref":"Partial Shutdown",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem at the start of any Movement phase. Choose a friendly Titan to initiate Partial Shutdown. The chosen Titan is immediately issued Shutdown orders, replacing any Order previously given. The void shields of a Titan that has initiated a Partial Shutdown do not collapse. In addition, a Titan issued Shutdown orders as part of the Partial Shutdown Stratagem reduces its Reactor level by 1 instead of 2 during the Damage Control phase and Reactor rolls can be made for the Titan if forced to do so. Barring these exceptions, a Partially Shutdown Titan follows all other normal rules for the Shutdown order as described in the Adeptus Titanicus rulebook."
+    },
+    {
+        "name":"Tactical Assessment (2)",
+        "ref":"Tactical Assessment",
+        "type":"tricksAndTactics",
+        "description":"Play this at the end of the deployment phase, before rolling to see who is the First Player. The player may immediately discard their current objective and determine a new one by rolling two D6 on the Mission Objective table as described in the Adeptus Titanicus rulebook."
+    },
+    {
+        "name":"Last Ditch Effort (1)",
+        "ref":"Last Ditch Effort",
+        "type":"tricksAndTactics",
+        "description":"Play this Stratagem when a friendly Titan falls due to the Laid Low or Wild Fire Catastrophic Damage effect. The controlling player may choose the direction the Titan falls, rather than determining it by rolling a Scatter dice. If, for whatever reason, both players are allowed to choose the direction the Titan falls, randomly determine the direction as normal and discard this Stratagem."
+    }
+]

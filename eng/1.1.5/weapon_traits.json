@@ -122,6 +122,11 @@
     {
         "name":"Taxing",
         "ref":"Taxing",
-        "description":"After resolving the effects of an attack with a Taxing weapon, roll a Reactor dice for the Titan and apply the result as normal. If the Reactor roll shows the Machine Spirit symbol, the Titan's Machine Spirit is not Awakened. Instead, roll on the Psychic Manifestation table."
+        "description":"After resolving the effects of an attack with a Taxing weapon, roll a Reactor dice for the Titan and apply the result as normal. If the Reactor roll shows the Machine Spirit symbol, the Titan's Machine Spirit is not Awakened. Instead, roll a D6 on the Psychic Manifestation table, or a D10 if the Titan has suffered Critical Damage or is within 6\" of a Corrupted Titan."
+    },
+    {
+        "name":"Bypass",
+        "ref":"Bypass",
+        "description":"When resolving an attack caused by a Bypass weapon, any hits caused will completely bypass Void Shields and Ion Shields (i.e., no Save rolls can be made against these attacks). Some weapons have a Bypass (X) trait, where X is either Void Shield or Ion Shield. These weapons only bypass the shield type named in brackets."
     }
 ]

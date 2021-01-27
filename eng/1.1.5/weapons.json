@@ -123,6 +123,7 @@
         "pointsCost":15,
         "repairCost":4,
         "dice":10,
+        "ref":"apoc_launcher_2",
         "name":"APOCALYPSE MISSILE\nLAUNCHERS"
     },
     {
@@ -159,6 +160,7 @@
         "pointsCost":20,
         "repairCost":3,
         "dice":12,
+        "ref":"vulkan_array",
         "name":"VULCAN\nMEGA-BOLTER ARRAY"
     },
     {
@@ -177,6 +179,7 @@
         "pointsCost":35,
         "repairCost":4,
         "dice":4,
+        "ref":"laser_destructors2",
         "name":"PAIRED TURBO\nLASER DESTRUCTORS"
     },
     {
@@ -231,6 +234,7 @@
         "pointsCost":20,
         "repairCost":4,
         "dice":2,
+        "ref":"laser_destructor",
         "name":"TURBO\nLASER DESTRUCTOR"
     },
     {
@@ -249,7 +253,8 @@
         "pointsCost":20,
         "repairCost":2,
         "dice":3,
-        "name":"INFERNO GUN"
+        "name":"INFERNO GUN",
+        "ref":"inferno_gun"
     },
     {
         "enabled":true,
@@ -267,6 +272,7 @@
         "pointsCost":10,
         "repairCost":3,
         "dice":6,
+        "ref":"vulcan",
         "name":"VULCAN\nMEGA-BOLTER"
     },
     {
@@ -280,7 +286,7 @@
         "misc":"10-13: Detonation {Body, S7}\n14+:Detonation {Body, S9}",
         "arc":"Wide",
         "disabledCost":10,
-        "shortAccuracy":1,
+        "shortAccuracy":0,
         "longRange":60,
         "pointsCost":25,
         "repairCost":5,
@@ -303,6 +309,7 @@
         "pointsCost":20,
         "repairCost":4,
         "dice":2,
+        "ref":"laser_destructor",
         "name":"TURBO\nLASER DESTRUCTOR"
     },
     {
@@ -321,7 +328,8 @@
         "pointsCost":35,
         "repairCost":4,
         "dice":1,
-        "name":"MELTA CANNON"
+        "name":"MELTA CANNON",
+        "ref":"melta_cannon"
     },
     {
         "enabled":true,
@@ -339,6 +347,7 @@
         "pointsCost":10,
         "repairCost":4,
         "dice":5,
+        "ref":"apoc_launcher_1",
         "name":"APOCALYPSE\nMISSILE LAUNCHER"
     },
     {
@@ -375,6 +384,7 @@
         "pointsCost":10,
         "repairCost":3,
         "dice":6,
+        "ref":"vulcan_carapace",
         "name":"VULCAN\nMEGA-BOLTER"
     },
     {
@@ -501,7 +511,8 @@
         "pointsCost":10,
         "repairCost":3,
         "dice":1,
-        "name":"URSUS CLAW"
+        "name":"URSUS CLAW",
+        "ref":"ursus_claw"
     },
     {
         "enabled":true,
@@ -899,6 +910,78 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
+        "repairCost":0,
+    },
+    {
+        "enabled":true,
+        "name":"LIGHTNING\nCANNON",
+        "shortRange":12,
+        "shortAccuracy":1,
+        "longRange":20,
+        "longAccuracy":0,
+        "strength":5,
+        "dice":1,
+        "traits":["Blast {3\"}", "Rending"],
+        "traitsRefs":["Blast", "Rending"],
+        "mount":"MAGAERA WEAPON",
+        "misc":"",
+        "arc":"None",
+        "disabledCost":0,
+        "pointsCost":10,
+        "repairCost":0,
+    },
+    {
+        "enabled":true,
+        "name":"HEKATON\nSIEGE CLAW",
+        "shortRange":2,
+        "shortAccuracy":1,
+        "longRange":0,
+        "longAccuracy":0,
+        "strength":5,
+        "dice":2,
+        "traits":["Melee", "Rending"],
+        "traitsRefs":["Melee", "Rending"],
+        "mount":"MAGAERA WEAPON",
+        "misc":"",
+        "arc":"None",
+        "disabledCost":0,
+        "pointsCost":10,
+        "repairCost":0,
+    },
+    {
+        "enabled":true,
+        "name":"VOLKITE\nCHIEROVILLE",
+        "shortRange":8,
+        "shortAccuracy":0,
+        "longRange":16,
+        "longAccuracy":0,
+        "strength":4,
+        "dice":3,
+        "traits":["Voidbreaker (1)"],
+        "traitsRefs":["Voidbreaker"],
+        "mount":"STYRIX WEAPON",
+        "misc":"",
+        "arc":"None",
+        "disabledCost":0,
+        "pointsCost":15,
+        "repairCost":0,
+    },
+    {
+        "enabled":true,
+        "name":"HEKATON\nSIEGE CLAW",
+        "shortRange":2,
+        "shortAccuracy":1,
+        "longRange":0,
+        "longAccuracy":0,
+        "strength":5,
+        "dice":2,
+        "traits":["Melee", "Rending"],
+        "traitsRefs":["Melee", "Rending"],
+        "mount":"STYRIX WEAPON",
+        "misc":"",
+        "arc":"None",
+        "disabledCost":0,
+        "pointsCost":10,
         "repairCost":0,
     }
 ]

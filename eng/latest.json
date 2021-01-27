@@ -1,7 +1,7 @@
 {
-    "version":"1.1.1",
-    "requiredAppVersion":22,
-    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.0.13/",
+    "version":"1.1.5",
+    "requiredAppVersion":29,
+    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.1.5/",
     "files":[
         "acastus_knights.json",
         "belator_magno.json",
@@ -21,8 +21,11 @@
         "nemesis.json",
         "penumbral_reaper.json",
         "profiles.json",
+        "questoris_knights_magaera.json",
+        "questoris_knights_styrix.json",
         "questoris_knights.json",
         "reaver.json",
+        "stratagems.json",
         "vestiti_ferrus.json",
         "warhound.json",
         "warlord_sinister.json",

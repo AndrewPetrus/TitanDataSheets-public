@@ -1,0 +1,121 @@
+{
+    "name":"QUESTORIS KNIGHT MAGAERA BANNER",
+    "jsonName":"questoris_knights_magaera",
+    "scale":3,
+    "scaleName":"GRANDIS",
+    "points":0,
+    "iconName":"magaera",
+    
+    "command":6,
+    "ballisticSkill":4,
+    "speedNormal":10,
+    "weaponSkill":3,
+    
+    "structure": {
+        "pins": [
+            {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"red"
+            }
+        ],
+        
+        "directHitMin":9,
+        "directHitMax":12,
+        "devastatingHitMin":13,
+        "devastatingHitMax":15,
+        "criticalHit":16
+    },
+    
+    "ionShields": {
+        "cols": ["1-6", "7", "8", "9", "10+"],
+        "rows": [
+            {
+                "name":"1",
+                "values":["5+", "6+", "-", "-", "-"]
+            },
+            {
+                "name":"2-3",
+                "values":["4+", "5+", "6+", "-", "-"]
+            },
+            {
+                "name":"4",
+                "values":["3+", "4+", "5+", "6+", "-"]
+            }
+        ]
+    },
+    
+    "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Questoris Knights are not affected by Difficult terrain or Dangerous terrain.\n\nPHASED PLASMA-FUSIL: When the Banner is activated in the Combat phase, each Knight equipped with a phased plasma-fusil upgrade can target an enemy unit within 3\". That unit suffers two Strength 4 hit.\n\nIONIC FLARE SHIELD: Decrease the Strength of all attacks made by a weapon with the Blast trait against Magaera Banner by 1, to a minimum of 3.\n\nBLESSED AUTOSIMULACRA: During Damage Control phase, roll a D6 for each Knight Magaera within the Banner. For each 5+ that is rolled, the Banner recovers one lost Structure point. This cannot bring back a Knight that has been destroyed.",
+    
+    "weaponsRequirements":"MAGAERA WEAPON",
+    "availableModels":[
+        {
+            "name":"Questoris Knight Magaera Scion Martial",
+            "cost":45,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"PHASED PLASMA-FUSIL",
+                    "enabled":false,
+                    "cost":10
+                }
+            ]
+        }
+    ],
+    "includedModels":[
+        {
+            "name":"Questoris Knight Magaera Lord Scion",
+            "cost":10,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"PHASED PLASMA-FUSIL",
+                    "enabled":false,
+                    "cost":10
+                }
+            ]
+        },
+        {
+            "name":"Questoris Knight Magaera Scion Martial",
+            "cost":45,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"PHASED PLASMA-FUSIL",
+                    "enabled":false,
+                    "cost":10
+                }
+            ]
+        },
+        {
+            "name":"Questoris Knight Magaera Scion Martial",
+            "cost":45,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"MultipleAllowed",
+            "upgrades":[
+                {
+                    "name":"PHASED PLASMA-FUSIL",
+                    "enabled":false,
+                    "cost":10
+                }
+            ]
+        }
+    ]
+}
+
+
