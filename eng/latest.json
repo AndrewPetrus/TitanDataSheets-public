@@ -1,11 +1,12 @@
 {
-    "version":"1.1.5",
-    "requiredAppVersion":29,
-    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.1.5/",
+    "version":"1.2.0",
+    "requiredAppVersion":30,
+    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.2.0/",
     "files":[
         "acastus_knights.json",
         "belator_magno.json",
         "cerastus_knights.json",
+        "cerastus_knights_atrapos.json",
         "damage_effects.json",
         "dawn_of_enlightenment.json",
         "hammer_of_tyrants.json",
@@ -30,6 +31,7 @@
         "warhound.json",
         "warlord_sinister.json",
         "warlord.json",
+        "warmaster.json",
         "weapon_traits.json",
         "weapons.json"
     ]

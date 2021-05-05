@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Dominant Strategist",
+        "ref":"Dominant Strategist",
+        "description":"Once during the battle, at the start of any phase, the controlling player can use this trait to take the Opus Titanica, becoming the First Player. If they do this at the start of the Strategy phase, do not roll off to see who takes the marker."
+    },
+    {
+        "name":"Iron-clad Tyrant",
+        "ref":"Iron-clad Tyrant",
+        "description":"Once per turn, when issuing orders to a Titan in the Princeps Seniores' maniple, the Command check can be re-rolled."
+    },
+    {
+        "name":"Swift Killer",
+        "ref":"Swift Killer",
+        "description":"Once per round, before the Princeps Seniores' Titan makes an atack, it can turn up to 45°. Subtract 1 from the result of any Hit rolls it makes for the rest of the phase."
+    },
+    {
+        "name":"Devoted Servant of the Machine",
+        "ref":"Devoted Servant of the Machine",
+        "description":"When making a Repair roll for the Princeps Seniores' Titan, the controlling player can add 1 to the result of a single D6."
+    },
+    {
+        "name":"Favoured by Fortune",
+        "ref":"Favoured by Fortune",
+        "description":"Once per round, the controlling player can re-roll a single D6 from a Hit roll or Save roll for the Princeps Seniores' Titan."
+    },
+    {
+        "name":"Will of Iron",
+        "ref":"Will of Iron",
+        "description":"The first time a Catastrophic Damage roll is made for the Princeps Seniores' Titan, roll a D10. If the score equals or beats the result of the Catastrophic Damage roll, it is ignored and has no effect."
+    }
+]

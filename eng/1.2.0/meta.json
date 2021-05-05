@@ -1,6 +1,6 @@
 {
-    "version":"1.1.5",
-    "requiredAppVersion":29,
+    "version":"1.2.0",
+    "requiredAppVersion":30,
     "profiles":"profiles",
     "weapons":"weapons",
     "weaponTraits":"weapon_traits",
@@ -8,5 +8,6 @@
     "maniples":"maniples",
     "legions":"legions",
     "stratagems":"stratagems",
-    "damageEffects":"damage_effects"
+    "damageEffects":"damage_effects",
+    "princepsSenioresTraits":"princeps_seniores_traits"
 }

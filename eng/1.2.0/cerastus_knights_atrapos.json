@@ -1,0 +1,91 @@
+{
+    "name":"CERASTUS KNIGHT-ATRAPOS BANNER",
+    "jsonName":"cerastus_knights_atrapos",
+    "scale":4,
+    "scaleName":"GRANDIS",
+    "points":0,
+    "iconName":"cerastus",
+    
+    "command":5,
+    "ballisticSkill":4,
+    "speedNormal":12,
+    "weaponSkill":3,
+    
+    "structure": {
+        "pins": [
+            {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"green"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"orange"
+            }, {
+                "modifier":"",
+                "color":"red"
+            }
+        ],
+        
+        "directHitMin":9,
+        "directHitMax":12,
+        "devastatingHitMin":13,
+        "devastatingHitMax":15,
+        "criticalHit":16
+    },
+    
+    "ionShields": {
+        "cols": ["1-6", "7", "8", "9", "10+"],
+        "rows": [
+            {
+                "name":"1",
+                "values":["5+", "6+", "-", "-", "-"]
+            },
+            {
+                "name":"2",
+                "values":["4+", "5+", "6+", "-", "-"]
+            },
+            {
+                "name":"3",
+                "values":["3+", "4+", "5+", "6+", "-"]
+            }
+        ]
+    },
+    
+    "customTraits":"LORD SCION: While the Lord Scion is part of the Banner, add 2 to the result of any Command checks for it.\n\nAGILE: Cerastus Knights are not affected by Difficult terrain or Dangerous terrain.\n\nMACRO-EXTINCTION PROTOCOLS: A Knight-Atrapos may re-roll Hit rolls of a 1 when targeting units with a Scale 7 or higher.",
+    
+    "weaponsRequirements":"CERASTUS ATRAPOS WEAPON",
+    "availableModels":[
+        {
+            "name":"Cerastus Knight-Atrapos Scion Martial",
+            "cost":95,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[]
+        }
+    ],
+    "includedModels":[
+        {
+            "name":"Cerastus Knight-Atrapos Lord Scion",
+            "cost":105,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[]
+        },
+        {
+            "name":"Cerastus Knight-Atrapos Scion Martial",
+            "cost":95,
+            "weaponNames":[],
+            "maxWeaponsForModel":2,
+            "upgradeAllowance":"SingleAllowed",
+            "upgrades":[]
+        }
+    ]
+}
+

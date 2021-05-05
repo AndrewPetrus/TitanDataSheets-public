@@ -2,14 +2,14 @@
     {
         "categoryName":"Titans",
         "unitType":"titans",
-        "jsonFileNames":["warlord", "reaver", "warhound", "nemesis", "warlord_sinister"],
-        "profileNames":["Warlord", "Reaver", "Warhound", "Nemesis Warbringer", "Warlord-Sinister"]
+        "jsonFileNames":["warlord", "reaver", "warhound", "nemesis", "warlord_sinister", "warmaster"],
+        "profileNames":["Warlord", "Reaver", "Warhound", "Nemesis Warbringer", "Warlord-Sinister", "Warmaster"]
     },
     {
         "categoryName":"Knight banners",
         "unitType":"knights",
-        "jsonFileNames":["acastus_knights", "cerastus_knights", "questoris_knights", "questoris_knights_magaera", "questoris_knights_styrix"],
-        "profileNames":["Acastus Knights", "Cerastus Knights", "Questoris Knights", "Questoris Knights Magaera", "Questoris Knights Styrix"]
+        "jsonFileNames":["acastus_knights", "cerastus_knights", "questoris_knights", "questoris_knights_magaera", "questoris_knights_styrix", "cerastus_knights_atrapos"],
+        "profileNames":["Acastus Knights", "Cerastus Knights", "Questoris Knights", "Questoris Knights Magaera", "Questoris Knights Styrix", "Cerastus Knights-Atrapos"]
     },
     {
         "categoryName":"Titans of Legend (loyalists)",

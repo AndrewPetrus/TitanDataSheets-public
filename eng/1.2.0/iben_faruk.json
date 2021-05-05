@@ -1,64 +1,30 @@
 {
-    "name":"REAVER TITAN",
-    "jsonName":"reaver",
-    "scale":8,
-    "scaleName":"IMMENSUS",
-    "points":250,
-    "iconName":"reaver",
+    "name":"IBEN FARUK",
+    "jsonName":"iben_faruk",
+    "legion":"Legio Fureans",
+    "iconName":"warhound",
     
-    "command":4,
+    "scale":6,
+    "scaleName":"GRANDIS",
+    "points":200,
+    
+    "command":5,
     "ballisticSkill":3,
-    "speedNormal":6,
-    "speedBoosted":9,
+    "speedNormal":8,
+    "speedBoosted":12,
     "weaponSkill":4,
-    "manoeuvreNormal":2,
-    "manoeuvreBoosted":3,
-    "servitorClades":3,
+    "manoeuvreNormal":3,
+    "manoeuvreBoosted":5,
+    "servitorClades":2,
     
-    "armMountName":"REAVER ARM",
-    "carapaceMountName":"REAVER CARAPACE",
-    
-    "plasmaReactorPoints":6,
-    "plasmaReactorPinColors":["green", "green", "yellow", "yellow", "orange", "red"],
-    "voidShieldPoints":5,
-    "voidShieldModifiers":["3+", "3+", "4+", "4+", "X"],
-    "voidShieldPinColors":["green", "yellow", "yellow", "orange", "red"],
-    
-    "headPoints":6,
-    "headHitModifiers":["", "", "", "+1", "+2", "+3"],
-    "headHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
-    "headDirectHitMin":11,
-    "headDirectHitMax":13,
-    "headDevastatingHitMin":14,
-    "headDevastatingHitMax":16,
-    "headCriticalHit":17,
-    "headCriticalPoints":3,
-    "headCriticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
-    "headCriticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"],
-    
-    "bodyPoints":7,
-    "bodyHitModifiers":["", "", "", "+1", "+1", "+2", "+3"],
-    "bodyHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
-    "bodyDirectHitMin":10,
-    "bodyDirectHitMax":12,
-    "bodyDevastatingHitMin":13,
-    "bodyDevastatingHitMax":14,
-    "bodyCriticalHit":15,
-    "bodyCriticalPoints":3,
-    "bodyCriticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
-    "bodyCriticalBoonsRefs":["Reactor Leak", "VSG Burnout"],
-    
-    "legsPoints":7,
-    "legsHitModifiers":["", "", "", "+1", "+2", "+3", "+3"],
-    "legsHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
-    "legsDirectHitMin":11,
-    "legsDirectHitMax":12,
-    "legsDevastatingHitMin":13,
-    "legsDevastatingHitMax":14,
-    "legsCriticalHit":15,
-    "legsCriticalPoints":3,
-    "legsCriticalBoons":["Stabilisers Damaged", "Stabilisers Damaged\nLocomotors Seized", "Immobilised"],
-    "legsCriticalBoonsRefs":["Stabilisers Damaged", "Locomotors Seized", "Immobilised"],
+    "weapons": [
+        {
+            "mountName":"WARHOUND ARM"
+        },
+        {
+            "mountName":"WARHOUND ARM"
+        }
+    ],
     
     "plasmaReactorPins": [
         {
@@ -66,13 +32,10 @@
             "color":"green"
         }, {
             "modifier":"",
-            "color":"green"
-        }, {
-            "modifier":"",
             "color":"yellow"
         }, {
             "modifier":"",
-            "color":"yellow"
+            "color":"orange"
         }, {
             "modifier":"",
             "color":"orange"
@@ -84,13 +47,10 @@
     "voidShieldPins": [
         {
             "modifier":"3+",
-            "color":"green"
-        }, {
-            "modifier":"3+",
             "color":"yellow"
         }, {
-            "modifier":"4+" ,
-            "color":"yellow"
+            "modifier":"4+",
+            "color":"orange"
         }, {
             "modifier":"4+",
             "color":"orange"
@@ -109,9 +69,6 @@
                     "modifier":"",
                     "color":"lightblue"
                 }, {
-                    "modifier":"",
-                    "color":"lightblue"
-                }, {
                     "modifier":"+1",
                     "color":"lightblue"
                 }, {
@@ -125,27 +82,21 @@
             "directHitMin":11,
             "directHitMax":13,
             "devastatingHitMin":14,
-            "devastatingHitMax":16,
-            "criticalHit":17,
+            "devastatingHitMax":15,
+            "criticalHit":16,
             "criticalPoints":3,
             "criticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
             "criticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"]
         },
         "body": {
-            "pins": [
+             "pins": [
                 {
                     "modifier":"",
                     "color":"green"
                 }, {
                     "modifier":"",
                     "color":"lightblue"
-                }, {
-                    "modifier":"",
-                    "color":"lightblue"
-                }, {
-                    "modifier":"+1",
-                    "color":"lightblue"
-                }, {
+                },{
                     "modifier":"+1",
                     "color":"lightblue"
                 }, {
@@ -153,14 +104,17 @@
                     "color":"lightblue"
                 }, {
                     "modifier":"+3",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+3",
                     "color":"red"
                 }
             ],
             "directHitMin":10,
-            "directHitMax":12,
-            "devastatingHitMin":13,
-            "devastatingHitMax":14,
-            "criticalHit":15,
+            "directHitMax":11,
+            "devastatingHitMin":12,
+            "devastatingHitMax":13,
+            "criticalHit":14,
             "criticalPoints":3,
             "criticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
             "criticalBoonsRefs":["Reactor Leak", "VSG Burnout"]
@@ -174,9 +128,6 @@
                     "modifier":"",
                     "color":"lightblue"
                 }, {
-                    "modifier":"",
-                    "color":"lightblue"
-                }, {
                     "modifier":"+1",
                     "color":"lightblue"
                 }, {
@@ -190,7 +141,7 @@
                     "color":"red"
                 }
             ],
-            "directHitMin":11,
+            "directHitMin":10,
             "directHitMax":12,
             "devastatingHitMin":13,
             "devastatingHitMax":14,
@@ -201,14 +152,7 @@
         }
     },
     
-    "customTraits":"",
-    
-    "hasLeftArmWeapon":true,
-    "hasRightArmWeapon":true,
-    "hasCarapaceWeapon":true,
-    
-    "leftWeaponFixed":null,
-    "carapaceWeaponFixed":null,
-    "rightWeaponFixed":null
+    "customTraits":"SQUADRON: Warhound Titans can be formed into Squadrons of 2-3 Titans.\n\nKINGSLAYER: The Titan has the hunting auspex upgrade at no extra cost (Titandeath, p. 20). Add 2 to Armour rolls for attacks made against Titans Scale 10 or larger."
 }
+
 

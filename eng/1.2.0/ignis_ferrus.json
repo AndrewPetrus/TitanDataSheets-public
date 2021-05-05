@@ -1,0 +1,190 @@
+{
+    "name":"IGNIS FERRUS",
+    "jsonName":"ignis_ferrus",
+    "legion":"Legio Atarus",
+    "iconName":"warlord",
+    
+    "scale":10,
+    "scaleName":"MAGNIFICUS",
+    "points":410,
+    
+    "command":3,
+    "ballisticSkill":3,
+    "speedNormal":4,
+    "speedBoosted":6,
+    "weaponSkill":5,
+    "manoeuvreNormal":1,
+    "manoeuvreBoosted":2,
+    "servitorClades":4,
+    
+    "weapons": [
+        {
+            "mountName":"WARLORD ARM"
+        },
+        {
+            "mountName":"WARLORD CARAPACE"
+        },
+        {
+            "mountName":"WARLORD ARM"
+        }
+    ],
+    
+    "plasmaReactorPins": [
+        {
+            "modifier":"",
+            "color":"green"
+        }, {
+            "modifier":"",
+            "color":"green"
+        }, {
+            "modifier":"",
+            "color":"yellow"
+        }, {
+            "modifier":"",
+            "color":"yellow"
+        }, {
+            "modifier":"",
+            "color":"orange"
+        }, {
+            "modifier":"",
+            "color":"orange"
+        }, {
+            "modifier":"",
+            "color":"red"
+        }
+    ],
+    "voidShieldPins": [
+        {
+            "modifier":"3+",
+            "color":"green"
+        }, {
+            "modifier":"3+",
+            "color":"yellow"
+        }, {
+            "modifier":"3+",
+            "color":"yellow"
+        }, {
+            "modifier":"4+",
+            "color":"orange"
+        }, {
+            "modifier":"4+",
+            "color":"orange"
+        }, {
+            "modifier":"X",
+            "color":"red"
+        }
+    ],
+    "structure": {
+        "head": {
+            "pins": [
+                {
+                    "modifier":"",
+                    "color":"green"
+                }, {
+                    "modifier":"",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+2",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+3",
+                    "color":"red"
+                }
+            ],
+            "directHitMin":13,
+            "directHitMax":14,
+            "devastatingHitMin":15,
+            "devastatingHitMax":16,
+            "criticalHit":17,
+            "criticalPoints":3,
+            "criticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
+            "criticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"]
+        },
+        "body": {
+            "pins": [
+                {
+                    "modifier":"",
+                    "color":"green"
+                }, {
+                    "modifier":"",
+                    "color":"lightblue"
+                },{
+                    "modifier":"",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+2",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+2",
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+3",
+                    "color":"red"
+                }
+            ],
+            "directHitMin":12,
+            "directHitMax":13,
+            "devastatingHitMin":14,
+            "devastatingHitMax":15,
+            "criticalHit":16,
+            "criticalPoints":3,
+            "criticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
+            "criticalBoonsRefs":["Reactor Leak", "VSG Burnout"]
+        },
+        "legs": {
+            "pins": [
+                {
+                    "modifier":"" ,
+                    "color":"green"
+                }, {
+                    "modifier":"" ,
+                    "color":"lightblue"
+                },{
+                    "modifier":"" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+1" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+2" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+2" ,
+                    "color":"lightblue"
+                }, {
+                    "modifier":"+3" ,
+                    "color":"red"
+                }
+            ],
+            "directHitMin":13,
+            "directHitMax":14,
+            "devastatingHitMin":15,
+            "devastatingHitMax":16,
+            "criticalHit":17,
+            "criticalPoints":3,
+            "criticalBoons":["Stabilisers Damaged", "Stabilisers Damaged\nLocomotors Seized", "Immobilised"],
+            "criticalBoonsRefs":["Stabilisers Damaged", "Locomotors Seized", "Immobilised"]
+        }
+    },
+    
+    "customTraits":"ARDEX-DEFENSOR CANNON: When the Titan is activated in the Combat phase, each enemy unit that is within it's Front or Rear Arc, and within 6', suffers D3 Strength 5 hits.\n\nADVANCED REACTOR: Advance the Reactor marker once when two Reactor symbols are rolled on the Reactor dice. If the Machine Spirit is awakened, \"Wrathful\" automatically applies."
+}
+

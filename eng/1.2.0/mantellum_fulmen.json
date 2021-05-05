@@ -1,10 +1,12 @@
 {
-    "name":"WARHOUND TITAN",
-    "jsonName":"warhound",
+    "name":"MANTELLUM FULMEN",
+    "jsonName":"mantellum_fulmen",
+    "legion":"Legio Tempestus",
+    "iconName":"warhound",
+    
     "scale":6,
     "scaleName":"GRANDIS",
-    "points":180,
-    "iconName":"warhound",
+    "points":205,
     
     "command":5,
     "ballisticSkill":3,
@@ -15,50 +17,20 @@
     "manoeuvreBoosted":5,
     "servitorClades":2,
     
-    "armMountName":"WARHOUND ARM",
-    "carapaceMountName":"",
+    "weapons": [
+        {
+            "mountName":"WARHOUND ARM"
+        },
+        {
+            "mountName":"WARHOUND ARM"
+        }
+    ],
     
     "plasmaReactorPoints":5,
     "plasmaReactorPinColors":["green", "yellow", "orange", "orange", "red"],
     "voidShieldPoints":4,
     "voidShieldModifiers":["3+", "4+", "4+", "X"],
     "voidShieldPinColors":["yellow", "orange", "orange", "red"],
-    
-    "headPoints":5,
-    "headHitModifiers":["", "", "+1", "+2", "+3"],
-    "headHitPinColors":["green", "lightblue", "lightblue", "lightblue", "red"],
-    "headDirectHitMin":11,
-    "headDirectHitMax":13,
-    "headDevastatingHitMin":14,
-    "headDevastatingHitMax":15,
-    "headCriticalHit":16,
-    "headCriticalPoints":3,
-    "headCriticalBoons":["MIU Feedback", "MIU Feedback\nModerati wounded", "Moderati wounded\nPrinceps wounded"],
-    "headCriticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"],
-    
-    "bodyPoints":6,
-    "bodyHitModifiers":["", "", "+1", "+2", "+3", "+3"],
-    "bodyHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
-    "bodyDirectHitMin":10,
-    "bodyDirectHitMax":11,
-    "bodyDevastatingHitMin":12,
-    "bodyDevastatingHitMax":13,
-    "bodyCriticalHit":14,
-    "bodyCriticalPoints":3,
-    "bodyCriticalBoons":["Reactor Leak (1)", "Reactor Leak (1)\nVSG Burnout", "Reactor Leak (2)\nVSG Burnout"],
-    "bodyCriticalBoonsRefs":["Reactor Leak", "VSG Burnout"],
-    
-    "legsPoints":6,
-    "legsHitModifiers":["", "", "+1", "+2", "+3", "+3"],
-    "legsHitPinColors":["green", "lightblue", "lightblue", "lightblue", "lightblue", "red"],
-    "legsDirectHitMin":10,
-    "legsDirectHitMax":12,
-    "legsDevastatingHitMin":13,
-    "legsDevastatingHitMax":14,
-    "legsCriticalHit":15,
-    "legsCriticalPoints":3,
-    "legsCriticalBoons":["Stabilisers Damaged", "Stabilisers Damaged\nLocomotors Seized", "Immobilised"],
-    "legsCriticalBoonsRefs":["Stabilisers Damaged", "Locomotors Seized", "Immobilised"],
     
     "plasmaReactorPins": [
         {
@@ -123,7 +95,7 @@
             "criticalBoonsRefs":["MIU Feedback", "Moderati wounded", "Princeps wounded"]
         },
         "body": {
-            "pins": [
+             "pins": [
                 {
                     "modifier":"",
                     "color":"green"
@@ -186,14 +158,6 @@
         }
     },
     
-    "customTraits":"SQUADRON: Warhound Titans can be formed into Squadrons of 2-3 Titans.",
-    
-    "hasLeftArmWeapon":true,
-    "hasRightArmWeapon":true,
-    "hasCarapaceWeapon":false,
-    
-    "leftWeaponFixed":null,
-    "carapaceWeaponFixed":null,
-    "rightWeaponFixed":null
+    "customTraits":"SOLITARY HUNTER: Cannot be part of a squdron. When issued a First Fire order, it may fire all weapons."
 }
 

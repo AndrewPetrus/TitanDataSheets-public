@@ -2,6 +2,7 @@
     {
         "name":"Detached units",
         "ref":"None",
+        "maximumAllowedPrincepsSeniores":0,
         "maniples":[],
         "units":[],
         "traits":[],
@@ -13,6 +14,8 @@
         "name":"Legio Gryphonicus",
         "allegiance": "loyalist",
         "ref":"Legio Gryphonicus",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "maniples":[],
         "units":[],
         "traits":[
@@ -82,6 +85,7 @@
     {
         "name":"Legio Tempestus",
         "ref":"Legio Tempestus",
+        "maximumAllowedPrincepsSeniores":1,
         "maniples":[],
         "units":[],
         "traits":[
@@ -134,7 +138,8 @@
     {
         "name":"Legio Crucius",
         "ref":"Legio Crucius",
-        "allegiance": "loyalist",
+        "maximumAllowedPrincepsSeniores":1,
+        "allegiance":"loyalist",
         "maniples":[],
         "units":[],
         "traits":[
@@ -191,6 +196,8 @@
     {
         "name":"Legio Fortidus",
         "allegiance": "loyalist",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "ref":"Legio Fortidus",
         "maniples":[],
         "units":[],
@@ -240,6 +247,7 @@
     {
         "name":"Legio Vulcanum",
         "ref":"Legio Vulcanum",
+        "maximumAllowedPrincepsSeniores":2,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -304,6 +312,7 @@
     {
         "name":"Legio Interfector",
         "ref":"Legio Interfector",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -311,7 +320,7 @@
             {
                 "name":"Creeping Madness",
                 "ref":"Creeping Madness",
-                "description":"When a Legio Interfector Titan is activated in the Movement phase, its player may choose to allow the madness ofits Princeps to take over. When this madness takes over, roll D3:\n1. Dark Embrace: The Titan gains the Charge order. It must move towards the nearest enemy Titan or Knight Banner by the shortest route possible, stopping if it reaches base contact with another model, and then make a Smash attack, or an attack with a weapon with the Melee trait.\n2. Weapon Overload: The Titan gains the First Fire order. When the Titan would fire in the Movement phase, randomly choose one of the Titan's weapons and make an attack with this weapon against the nearest enemy Titan or Knight Banner, counting the weapon's Strength as 2 higher than normal and its Dice as 1 higher than normal. After the attack has been resolved, disable the chosen weapon.\n3. Static Scream: All Titans and Knight Banners, both friend and foe, within 12\" of the Titan must remove their Orders, unless they are on Shutdown orders or Emergency Repair orders. Titans who lost their Orders before they activated are not subject to any of the lost Order's restrictions."
+                "description":"When a Legio Interfector Titan is activated in the Movement phase, its player may choose to allow the madness of its Princeps to take over. When this madness takes over, roll D3:\n1. Dark Embrace: The Titan gains the Charge order. It must move towards the nearest enemy Titan or Knight Banner by the shortest route possible, stopping if it reaches base contact with another model, and then make a Smash attack, or an attack with a weapon with the Melee trait.\n2. Weapon Overload: The Titan gains the First Fire order. When the Titan would fire in the Movement phase, randomly choose one of the Titan's weapons and make an attack with this weapon against the nearest enemy Titan or Knight Banner, counting the weapon's Strength as 2 higher than normal and its Dice as 1 higher than normal. After the attack has been resolved, disable the chosen weapon.\n3. Static Scream: All Titans and Knight Banners, both friend and foe, within 12\" of the Titan must remove their Orders, unless they are on Shutdown orders or Emergency Repair orders. Titans who lost their Orders before they activated are not subject to any of the lost Order's restrictions."
             }
         ],
         "wargear":[
@@ -360,6 +369,7 @@
     {
         "name":"Legio Astorum",
         "ref":"Legio Astorum",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -409,6 +419,7 @@
     {
         "name":"Legio Defensor",
         "ref":"Legio Defensor",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -468,6 +479,7 @@
     {
         "name":"Legio Atarus",
         "ref":"Legio Atarus",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -528,6 +540,8 @@
     {
         "name":"Legio Solaria",
         "ref":"Legio Solaria",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -536,11 +550,6 @@
                 "name":"Wolf Packs",
                 "ref":"Wolf Packs",
                 "description":"Warhound squadrons in a Legio Solaria maniple can contain up to four Warhound Titans. In addition, any Legio Solaria maniple can select a Warhound Titan in place of any Reaver Titans as part of its mandatory components."
-            },
-            {
-                "name":"Many Faces of the Omnissiah",
-                "ref":"Many Faces of the Omnissiah",
-                "description":"In the first round of the game, any Tiger Eyes Titan may choose to forgo its activation in either the Movement phase or the Combat phase - in essence doing nothing for that phase but counting as one of the Tiger Eyes player's activations. For each phase sacrificed by a Titan, either 1 or 2, that Titan may re-roll any one dice later in the game."
             }
         ],
         "wargear":[
@@ -593,6 +602,7 @@
     {
         "name":"Legio Mortis",
         "ref":"Legio Mortis",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -656,6 +666,8 @@
     {
         "name":"Legio Krytos",
         "ref":"Legio Krytos",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -717,6 +729,7 @@
     {
         "name":"Legio Fureans",
         "ref":"Legio Fureans",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -771,6 +784,7 @@
     {
         "name":"Legio Vulpa",
         "ref":"Legio Vulpa",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -829,6 +843,7 @@
     {
         "name":"Legio Praesagius",
         "ref":"Legio Praesagius",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -878,6 +893,7 @@
     {
         "name":"Legio Oberon",
         "ref":"Legio Oberon",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -927,6 +943,7 @@
     {
         "name":"Legio Lysanda",
         "ref":"Legio Lysanda",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -981,6 +998,7 @@
     {
         "name":"Legio Infernus",
         "ref":"Legio Infernus",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1040,6 +1058,7 @@
     {
         "name":"Legio Mordaxis",
         "ref":"Legio Mordaxis",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1096,6 +1115,8 @@
     {
         "name":"Legio Audax",
         "ref":"Legio Audax",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1108,7 +1129,7 @@
             {
                 "name":"Stalk Unseen",
                 "ref":"Stalk Unseen",
-                "description":"For the duration ofthe first round, attacks made against Legion Audax Titans of Scale 6 or lower suffers -2 modifier to the Hit roll if the Titan is at least 25% obscured, rather than the usual -1."
+                "description":"For the duration of the first round, attacks made against Legion Audax Titans of Scale 6 or lower suffers -2 modifier to the Hit roll if the Titan is at least 25% obscured, rather than the usual -1."
             }
         ],
         "wargear":[
@@ -1163,6 +1184,8 @@
     {
         "name":"Legio Honorum",
         "ref":"Legio Honorum",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1217,6 +1240,7 @@
     {
         "name":"Legio Osedax",
         "ref":"Legio Osedax",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1225,11 +1249,6 @@
                 "name":"Reforged in War",
                 "ref":"Reforged in War",
                 "description":"Legio Osedax Titans never suffer penalties to Command checks and may ignore effects that force them to re-roll successful Command checks."
-            },
-            {
-                "name":"Founding Tenets",
-                "ref":"Founding Tenets",
-                "description":"A Legio Honorum maniple may substitute any mandatory component from an Axiom, Myrmidon or Fortis maniple with a Reaver or Warlord Titan, so long as that new Titan is of equal to or greater Scale than the Titan it is replacing. In addition, a Legio Honorum Titan may replace a single optional component Reaver or Warlord Titan from these maniples with a Warbringer Nemesis Titan. Each maniple can only include a single Warbringer Nemesis in this way."
             }
         ],
         "wargear":[
@@ -1276,6 +1295,7 @@
     {
         "name":"Legio Crucius",
         "ref":"Legio Crucius",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1344,6 +1364,7 @@
     {
         "name":"Legio Magna",
         "ref":"Legio Magna",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1405,6 +1426,7 @@
     {
         "name":"Legio Vulturum",
         "ref":"Legio Vulturum",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1467,6 +1489,7 @@
     {
         "name":"Legio Astraman",
         "ref":"Legio Astraman",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1523,6 +1546,7 @@
     {
         "name":"Legio Ignatum",
         "ref":"Legio Ignatum",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1572,6 +1596,8 @@
     {
         "name":"Legio Venator",
         "ref":"Legio Venator",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "loyalist",
         "maniples":[],
         "units":[],
@@ -1625,6 +1651,8 @@
     {
         "name":"Legio Laniaskara",
         "ref":"Legio Laniaskara",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1684,6 +1712,7 @@
     {
         "name":"Legio Kulisaetai",
         "ref":"Legio Kulisaetai",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1739,6 +1768,8 @@
     {
         "name":"Legio Tritonis",
         "ref":"Legio Tritonis",
+        "maximumAllowedPrincepsSeniores":1,
+        "allowsCustomManipleContent":true,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
@@ -1794,6 +1825,7 @@
     {
         "name":"Legio Damicium",
         "ref":"Legio Damicium",
+        "maximumAllowedPrincepsSeniores":1,
         "allegiance": "traitor",
         "maniples":[],
         "units":[],
