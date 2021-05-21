@@ -1,7 +1,7 @@
 {
-    "version":"1.2.0.1",
+    "version":"1.2.1",
     "requiredAppVersion":30,
-    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.2.0/",
+    "baseUri":"https://raw.githubusercontent.com/AndrewPetrus/TitanDataSheets-public/master/eng/1.2.1/",
     "files":[
         "acastus_knights.json",
         "belator_magno.json",
