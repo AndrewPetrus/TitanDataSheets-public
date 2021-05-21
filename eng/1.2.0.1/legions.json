@@ -1554,7 +1554,7 @@
             {
                 "name":"We Loyal Few",
                 "ref":"We Loyal Few",
-                "description":"When activated during the Movement phase, a Legio Astraman Titan can choose to voluntarily Awaken their Machine Spirit – this counts as the Titan’s activation. If they do this, advance their Reactor Status marker by 2. The Titan automatically fails their Command check to quell the Machine Spirit and applies the Stalwart result from the Awakened Machine Spirit table instead of rolling. The chosen Titan cannot be activated in the subsequent Combat phase."
+                "description":"Legio Ignatum Titans may re-roll Hit rolls of a 1 when making attacks against an enemy Titan within 12\" of them during the Combat phase."
             }
         ],
         "wargear":[
