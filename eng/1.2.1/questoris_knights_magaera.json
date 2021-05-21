@@ -4,7 +4,7 @@
     "scale":3,
     "scaleName":"GRANDIS",
     "points":0,
-    "iconName":"magaera",
+    "iconName":"questoris_styrix",
     
     "command":6,
     "ballisticSkill":4,
@@ -58,6 +58,7 @@
     "weaponsRequirements":"MAGAERA WEAPON",
     "availableModels":[
         {
+            "id":"questoris_magaera_scion_martial",
             "name":"Questoris Knight Magaera Scion Martial",
             "cost":45,
             "weaponNames":[],
@@ -74,6 +75,7 @@
     ],
     "includedModels":[
         {
+            "id":"questoris_magaera_lord_scion",
             "name":"Questoris Knight Magaera Lord Scion",
             "cost":10,
             "weaponNames":[],
@@ -88,6 +90,7 @@
             ]
         },
         {
+            "id":"questoris_magaera_scion_martial",
             "name":"Questoris Knight Magaera Scion Martial",
             "cost":45,
             "weaponNames":[],
@@ -102,6 +105,7 @@
             ]
         },
         {
+            "id":"questoris_magaera_scion_martial",
             "name":"Questoris Knight Magaera Scion Martial",
             "cost":45,
             "weaponNames":[],

@@ -464,7 +464,7 @@
         "strength":9,
         "shortRange":24,
         "traits":["Blast {5\"}", "Concussive", "Quake", "Carapace"],
-        "traitsRef":["Blast", "Concussive", "Quake", "Carapace"],
+        "traitsRefs":["Blast", "Concussive", "Quake", "Carapace"],
         "longAccuracy":0,
         "mount":"WARBRINGER CARAPACE",
         "misc":"11-14: Detonation {Body, S7}\n15+:Detonation {Body, S9}",

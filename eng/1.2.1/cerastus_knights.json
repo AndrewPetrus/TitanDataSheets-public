@@ -61,6 +61,7 @@
     "weaponsRequirements":"CERASTUS WEAPON",
     "availableModels":[
         {
+            "id":"cerastus_scion_martial",
             "name":"Cerastus Knight Scion Martial",
             "cost":60,
             "weaponNames":[],
@@ -87,6 +88,7 @@
     ],
     "includedModels":[
         {
+            "id":"cerastus_lord_scion",
             "name":"Cerastus Knight Lord Scion",
             "cost":70,
             "weaponNames":[],
@@ -111,6 +113,7 @@
             ]
         },
         {
+            "id":"cerastus_scion_martial",
             "name":"Cerastus Knight Scion Martial",
             "cost":60,
             "weaponNames":[],

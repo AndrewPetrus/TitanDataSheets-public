@@ -58,6 +58,7 @@
     "weaponsRequirements":"QUESTORIS WEAPON",
     "availableModels":[
         {
+            "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
             "weaponNames":[],
@@ -79,6 +80,7 @@
     ],
     "includedModels":[
         {
+            "id":"questoris_lord_scion",
             "name":"Questoris Knight Lord Scion",
             "cost":50,
             "weaponNames":[],
@@ -98,6 +100,7 @@
             ]
         },
         {
+            "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
             "weaponNames":[],
@@ -117,6 +120,7 @@
             ]
         },
         {
+            "id":"questoris_scion_martial",
             "name":"Questoris Knight Scion Martial",
             "cost":35,
             "weaponNames":[],

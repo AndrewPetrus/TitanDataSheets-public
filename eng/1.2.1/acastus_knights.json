@@ -67,6 +67,7 @@
     "weaponsRequirements":"ACASTUS WEAPON",
     "availableModels":[
         {
+            "id":"acastus_scion_martial",
             "name":"Acastus Knight Scion Martial",
             "cost":130,
             "weaponNames":[],
@@ -88,6 +89,7 @@
     ],
     "includedModels":[
         {
+            "id":"acastus_lord_scion",
             "name":"Acastus Knight Lord Scion",
             "cost":150,
             "weaponNames":[],

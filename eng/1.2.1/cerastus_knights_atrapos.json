@@ -4,7 +4,7 @@
     "scale":4,
     "scaleName":"GRANDIS",
     "points":0,
-    "iconName":"cerastus",
+    "iconName":"cerastus_atrapos",
     
     "command":5,
     "ballisticSkill":4,
@@ -61,6 +61,7 @@
     "weaponsRequirements":"CERASTUS ATRAPOS WEAPON",
     "availableModels":[
         {
+            "id":"cerastus_atrapos_scion_martial",
             "name":"Cerastus Knight-Atrapos Scion Martial",
             "cost":95,
             "weaponNames":[],
@@ -71,6 +72,7 @@
     ],
     "includedModels":[
         {
+            "id":"cerastus_atrapos_lord_scion",
             "name":"Cerastus Knight-Atrapos Lord Scion",
             "cost":105,
             "weaponNames":[],
@@ -79,6 +81,7 @@
             "upgrades":[]
         },
         {
+            "id":"cerastus_atrapos_scion_martial",
             "name":"Cerastus Knight-Atrapos Scion Martial",
             "cost":95,
             "weaponNames":[],

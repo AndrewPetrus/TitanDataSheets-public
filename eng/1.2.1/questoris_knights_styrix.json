@@ -4,7 +4,7 @@
     "scale":3,
     "scaleName":"GRANDIS",
     "points":0,
-    "iconName":"styrix",
+    "iconName":"questoris_styrix",
     
     "command":6,
     "ballisticSkill":4,
@@ -58,6 +58,7 @@
     "weaponsRequirements":"STYRIX WEAPON",
     "availableModels":[
         {
+            "id":"questoris_styrix_scion_martial",
             "name":"Questoris Knight Styrix Scion Martial",
             "cost":45,
             "weaponNames":[],
@@ -68,6 +69,7 @@
     ],
     "includedModels":[
         {
+            "id":"questoris_styrix_lord_scion",
             "name":"Questoris Knight Styrix Lord Scion",
             "cost":10,
             "weaponNames":[],
@@ -76,6 +78,7 @@
             "upgrades":[]
         },
         {
+            "id":"questoris_styrix_scion_martial",
             "name":"Questoris Knight Styrix Scion Martial",
             "cost":45,
             "weaponNames":[],
@@ -84,6 +87,7 @@
             "upgrades":[]
         },
         {
+            "id":"questoris_styrix_scion_martial",
             "name":"Questoris Knight Styrix Scion Martial",
             "cost":45,
             "weaponNames":[],
