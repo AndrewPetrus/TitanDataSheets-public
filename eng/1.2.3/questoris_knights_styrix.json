@@ -71,16 +71,7 @@
         {
             "id":"questoris_styrix_lord_scion",
             "name":"Questoris Knight Styrix Lord Scion",
-            "cost":10,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
-            "upgradeAllowance":"MultipleAllowed",
-            "upgrades":[]
-        },
-        {
-            "id":"questoris_styrix_scion_martial",
-            "name":"Questoris Knight Styrix Scion Martial",
-            "cost":45,
+            "cost":55,
             "weaponNames":[],
             "maxWeaponsForModel":2,
             "upgradeAllowance":"MultipleAllowed",

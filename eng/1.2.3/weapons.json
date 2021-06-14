@@ -973,7 +973,7 @@
         "shortAccuracy":1,
         "longRange":0,
         "longAccuracy":0,
-        "strength":5,
+        "strength":6,
         "dice":2,
         "traits":["Melee", "Rending"],
         "traitsRefs":["Melee", "Rending"],

@@ -1876,5 +1876,64 @@
                 "description":"This Stratagem can be purchased by any Legio Damicium player. Play this Stratagem at the start of the Combat phase, before any units are activated. The Legio Damicium player may immediately make a Repair roll for each Titan, rolling a number of D6 equal to half its Servitor Clades characteristic (rounding up)."
             }
         ]
+    },
+    {
+        "name":"Legio Metallica",
+        "ref":"Legio Metallica",
+        "maximumAllowedPrincepsSeniores":1,
+        "allegiance": "loyalist",
+        "maniples":[],
+        "units":[],
+        "traits":[
+            {
+                "name":"Victories Beyond Measure",
+                "ref":"Victories Beyond Measure",
+                "description":"Once per round, after completing the activation of a friendly Legio Metalica Titan, the Legio Metalica player may immediately activate another friendly Legio Metalica Titan. After resolving the second Titan’s activation, increase its Reactor Level by 2. A Titan cannot be activated in this way if the Titan activated first was part of a Squadron, nor can a Titan that is part of a Squadron be chosen as the second activation."
+            }
+        ],
+        "wargear":[
+            {
+                "name":"Bastion Armour",
+                "ref":"Bastion Armour",
+                "upgradeType":"model",
+                "description":"Any Legio Metalica Titan may take Reinforced Armour for +15 points. Weapons with the Fusion trait that target a Titan with this upgrade always roll a D6 regardless of range and weapons with the Rending trait add 1 to the Armour roll rather than D3 for each Armour roll of a 6.",
+                "price": {
+                    "value":15
+                }
+            },
+            {
+                "name":"Auditory Barrage",
+                "ref":"Auditory Barrage",
+                "upgradeType":"model",
+                "description":"Any Legio Metalica Titan can be upgraded with an Auditory Barrage for +10 points. When a Titan with this upgrade makes an attack with any weapon that does not have the Melee trait, enemy Knight Banners within 8\" of the Titan must make a Command check; if the Banner fails its Command check they become Shaken. A Banner can only be affected by this rule upgrade once per round.",
+                "price": {
+                    "value":10
+                }
+            }
+        ],
+        "personalTraits":[
+            {
+                "name":"Paragon of Conquest",
+                "ref":"Paragon of Conquest",
+                "description":"If the Princeps’ battlegroup does not have a Tertiary Objective (as part of a Stratagem or Mission), it gains the Paragon of Conquest Objective. A battlegroup with this objective earns 5 Victory points at the end of the game if their Princeps Seniores’ Titan is in the opponent’s deployment zone."
+            },
+            {
+                "name":"Diligent Commander",
+                "ref":"Diligent Commander",
+                "description":"Once per round, at the end of the Strategy phase, the Legio Metalica player may choose a friendly Legio Metalica Titan within 6\" of the Princeps Seniores’ Titan. Make a Command check for that Titan. If the check is passed, the Titan may immediately be issued an Order, which replaces any Order it is currently issued with, of the player’s choice. The Strategy phase then ends. Emergency Repairs orders cannot be replaced in this manner."
+            },
+            {
+                "name":"Godlike Benevolence",
+                "ref":"Godlike Benevolence",
+                "description":"Once per round, during the End phase, the player can choose a Knight Banner that is Shaken and make a Command check using this Princeps’ Command value. If the test is passed, the Banner is no longer Shaken."
+            }
+        ],
+        "stratagems":[
+            {
+                "name":"Harmony and Order (1)",
+                "ref":"Harmony and Order",
+                "description":"This Stratagem can be purchased by a Legio Metalica player. Play this Stratagem when a Titan’s Machine Spirit awakens as a result of pushing its Reactor. The Machine Spirit is not awakened, in the same manner as if the Titan has passed its Command check."
+            }
+        ]
     }
 ]

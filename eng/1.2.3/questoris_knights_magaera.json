@@ -77,22 +77,7 @@
         {
             "id":"questoris_magaera_lord_scion",
             "name":"Questoris Knight Magaera Lord Scion",
-            "cost":10,
-            "weaponNames":[],
-            "maxWeaponsForModel":2,
-            "upgradeAllowance":"MultipleAllowed",
-            "upgrades":[
-                {
-                    "name":"PHASED PLASMA-FUSIL",
-                    "enabled":false,
-                    "cost":10
-                }
-            ]
-        },
-        {
-            "id":"questoris_magaera_scion_martial",
-            "name":"Questoris Knight Magaera Scion Martial",
-            "cost":45,
+            "cost":55,
             "weaponNames":[],
             "maxWeaponsForModel":2,
             "upgradeAllowance":"MultipleAllowed",
