@@ -457,6 +457,7 @@
         "pointsCost":10,
         "repairCost":3,
         "dice":1,
+        "ref":"warp_missile",
         "name":"WARP MISSLE\nSUPPORT RACK"
     },
     {
@@ -640,7 +641,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -658,7 +659,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -676,7 +677,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -694,7 +695,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -712,7 +713,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -730,7 +731,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -748,7 +749,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -766,7 +767,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -784,7 +785,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -802,7 +803,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -820,7 +821,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":5,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -838,7 +839,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -856,7 +857,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -874,7 +875,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -892,7 +893,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":5,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -910,7 +911,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -928,7 +929,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -946,7 +947,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -964,7 +965,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":15,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -982,7 +983,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":10,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1000,7 +1001,7 @@
         "arc":"Straight",
         "disabledCost":12,
         "pointsCost":50,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1018,7 +1019,7 @@
         "arc":"Wide",
         "disabledCost":12,
         "pointsCost":70,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1036,7 +1037,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":10,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1054,7 +1055,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":25,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1072,7 +1073,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":30,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1090,7 +1091,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":20,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1108,7 +1109,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":30,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1126,7 +1127,7 @@
         "arc":"Wide",
         "disabledCost":10,
         "pointsCost":40,
-        "repairCost":4,
+        "repairCost":4
     },
     {
         "enabled":true,
@@ -1145,7 +1146,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1164,7 +1165,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1183,7 +1184,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1202,7 +1203,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1220,7 +1221,7 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
     },
     {
         "enabled":true,
@@ -1238,6 +1239,60 @@
         "arc":"None",
         "disabledCost":0,
         "pointsCost":0,
-        "repairCost":0,
+        "repairCost":0
+    },
+    {
+        "enabled":true,
+        "name":"VOLKITE DESTRUCTOR",
+        "shortRange":16,
+        "shortAccuracy":0,
+        "longRange":24,
+        "longAccuracy":0,
+        "strength":6,
+        "dice":3,
+        "traits":["Beam (1){Draining}", "Voidbreaker (2)"],
+        "traitsRefs":["Beam", "Draining", "Voidbreaker"],
+        "mount":"WARLORD ARM",
+        "misc":"11-14: Detonation {Body, S7}\n15+:Detonation {Body, S9}",
+        "arc":"Wide",
+        "disabledCost":11,
+        "pointsCost":40,
+        "repairCost":4
+    },
+    {
+        "enabled":true,
+        "name":"VOLKITE ERADICATOR",
+        "shortRange":12,
+        "shortAccuracy":0,
+        "longRange":20,
+        "longAccuracy":-1,
+        "strength":5,
+        "dice":3,
+        "traits":["Voidbreaker (2)"],
+        "traitsRefs":["Voidbreaker"],
+        "mount":"REAVER CARAPACE",
+        "misc":"10-13: Detonation {Body, S7}\n14+:Detonation {Body, S9}",
+        "arc":"AllOver",
+        "disabledCost":10,
+        "pointsCost":20,
+        "repairCost":2
+    },
+    {
+        "enabled":true,
+        "name":"VOLKITE ERADICATOR",
+        "shortRange":12,
+        "shortAccuracy":0,
+        "longRange":20,
+        "longAccuracy":-1,
+        "strength":5,
+        "dice":3,
+        "traits":["Voidbreaker (2)"],
+        "traitsRefs":["Voidbreaker"],
+        "mount":"WARHOUND ARM",
+        "misc":"9-12: Detonation {Body, S7}\n13+:Detonation {Body, S9}",
+        "arc":"Wide",
+        "disabledCost":9,
+        "pointsCost":20,
+        "repairCost":4
     }
 ]

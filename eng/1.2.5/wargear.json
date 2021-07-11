@@ -1,0 +1,84 @@
+[
+    {
+        "name":"Tracking Gyroscopes",
+        "ref":"Tracking Gyroscopes",
+        "upgradeType":"weapon",
+        "validationRule":"function validate(weapon) { return weapon.traits.includes(\"Carapace\"); }",
+        "mutationRule":"function mutate(weapon) { weapon.arc = \"Wide\"; return weapon; }",
+        "description":"Any Titan of Scale 10 or lower can be upgraded with Tracking Gyroscopes for +25 points. A Titan with this upgrade changes the Fire arc of all their carapace weapons to include the entire Front arc of the Titan.",
+        "price": {
+            "value":25,
+            "condition":["warhound", "reaver", "nemesis", "warlord", "warlord_sinister"]
+        }
+    },
+    {
+        "name":"Ranging Auspexes",
+        "ref":"Ranging Auspexes",
+        "upgradeType":"model",
+        "description":"Any Titan can be upgraded with Ranging Auspexes for +15 points. In the Combat phase, a Titan with this upgrade can pre-measure the range and check weapon arcs between itself and potential targets before selecting a target.",
+        "price": {
+            "value":15
+        }
+    },
+    {
+        "name":"Hardened Casing",
+        "ref":"Hardened Casing",
+        "upgradeType":"weapon",
+        "description":"Any Titan’s weapon can be upgraded with Hardened Casing for +5 points. Each of the Titan’s weapons must be upgraded separately. A weapon with this upgrade increases the Armour roll needed to achieve a Weapon Disabled Damage effect by 1 (e.g., a Reaver Arm Melta Cannon with this upgrade would need a 11+ instead of a 10+). After this weapon suffers a Detonation (X) damage effect, this upgrade has no effect for the remainder of the battle.",
+        "validationRule":"function validate(weapon) { return true; }",
+        "mutationRule":"function mutate(weapon) { weapon.disabledCost += 1; return weapon; }",
+        "price": {
+            "value":5
+        }
+    },
+    {
+        "name":"Bastion Shielding",
+        "ref":"Bastion Shielding",
+        "upgradeType":"model",
+        "description":"Any Titan can be upgraded with Bastion Shielding for +10 points. Once per game, a Titan with this upgrade can declare Voids to Full! without pushing its reactor.",
+        "price": {
+            "value":10
+        }
+    },
+    {
+        "name":"Oath Banner",
+        "ref":"Oath Banner",
+        "upgradeType":"model",
+        "description":"Any Titan can be upgraded with an Oath Banner for +5 points. Friendly Knight Banners within 6\" of a Titan with an Oath Banner can re-roll Command checks to see if they become Shaken.",
+        "price": {
+            "value":5
+        }
+    },
+    {
+        "name":"Spark of Vengeance",
+        "ref":"Spark of Vengeance",
+        "upgradeType":"model",
+        "allegiance":"loyalist",
+        "description":"Any Loyalist Titan may be upgraded with a Spark of Vengeance for +10 points. When a Titan with this upgrade is required to roll on the Awakened Machine Spirit table, they apply the Wrathful result instead.",
+        "price": {
+            "value":10
+        }
+    },
+    {
+        "name":"Vortex Payload",
+        "ref":"Vortex Payload",
+        "upgradeType":"weapon",
+        "allegiance":"loyalist",
+        "description":"Any Loyalist Titan equipped with a Warp Missile can be upgraded with a Vortex Payload for +20 points. Each of the Titan’s weapons must be upgraded separately. A Warp Missile upgraded with a Vortex Payload loses the Warp trait and gains the Vortex trait. However, the X value of the Limited trait cannot be changed in any way, i.e., it will always be Limited (1).",
+        "validationRule":"function validate(weapon) { return weapon.ref == \"warp_missile\"; }",
+        "mutationRule":"function mutate(weapon) { weapon.traitsRefs = [\"Limited\", \"Vortex\", \"Carapace\"]; weapon.traits = [\"Limited {1}\", \"Vortex\", \"Carapace\"]; return weapon; }",
+        "price": {
+            "value":20
+        }
+    },
+    {
+        "name":"Aquila Benedictus",
+        "ref":"Aquila Benedictus",
+        "upgradeType":"weapon",
+        "allegiance":"loyalist",
+        "description":"A maximum of one Loyalist Titan within a battlegroup can be upgraded with an Aquila Benedictus for +15 points. A friendly Loyalist Titan within 6\" of a Titan with this upgrade, including the upgraded Titan itself, suffers no penalties to Command checks. If the Titan is destroyed, all friendly Loyalist Titans within 6\" of the upgraded Titan immediately roll on the Awakened Machine Spirit table, as if they had failed to quell the Machine Spirit.",
+        "price": {
+            "value":15
+        }
+    }
+]

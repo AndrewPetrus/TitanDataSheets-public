@@ -1587,6 +1587,11 @@
         ],
         "stratagems":[
             {
+                "name":"Punish their Folly (1)",
+                "ref":"Punish their Folly",
+                "description":"This Stratagem can be purchased by any Legio Ignatum player. Play this Stratagem when an enemy Titan ends its move within 3\" of a Legio Ignatum Titan as part of a Charge order. Before any attacks are resolved, that Legio Ignatum Titan can immediately make an attack using their Ballistic Skill with a weapon without the Melee trait."
+            },
+            {
                 "name":"Guard the Gates (2)",
                 "ref":"Guard the Gates",
                 "description":"This Stratagem can be purchased by any Legio Ignatum player. Play this Stratagem at the start of the first round’s Strategy phase. Any friendly Legio Ignatum Titans can be issued the First Fire order without the need to make a Command check."

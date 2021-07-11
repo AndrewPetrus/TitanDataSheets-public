@@ -1,5 +1,5 @@
 {
-    "version":"1.2.3",
+    "version":"1.2.5",
     "requiredAppVersion":37,
     "profiles":"profiles",
     "weapons":"weapons",
@@ -9,5 +9,6 @@
     "legions":"legions",
     "stratagems":"stratagems",
     "damageEffects":"damage_effects",
+    "wargear":"wargear",
     "princepsSenioresTraits":"princeps_seniores_traits"
 }
