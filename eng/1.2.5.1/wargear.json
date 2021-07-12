@@ -74,7 +74,7 @@
     {
         "name":"Aquila Benedictus",
         "ref":"Aquila Benedictus",
-        "upgradeType":"weapon",
+        "upgradeType":"model",
         "allegiance":"loyalist",
         "description":"A maximum of one Loyalist Titan within a battlegroup can be upgraded with an Aquila Benedictus for +15 points. A friendly Loyalist Titan within 6\" of a Titan with this upgrade, including the upgraded Titan itself, suffers no penalties to Command checks. If the Titan is destroyed, all friendly Loyalist Titans within 6\" of the upgraded Titan immediately roll on the Awakened Machine Spirit table, as if they had failed to quell the Machine Spirit.",
         "price": {
